@@ -39,6 +39,11 @@ pov21<-read_excel("Raw datasets/2021_department_poverty_rate.xlsx")
 pov23<-read_excel("Raw datasets/2023_department_poverty_rate.xlsx")
 ```
 
+```{r}
+#| message: false
+# Unemployement rate (quarterly for now)
+unemp_quart<-read_excel("Raw datasets/Unemployment_rate_quarter.xlsx",skip=3)
+```
 
 
 # Data cleaning
@@ -48,6 +53,7 @@ Now that we have our datasets loaded, we proceed to clean them so we have usable
 Because the poverty rate files are different from one year to another, we have to proceed case by case
 
 ```{r}
+# Poverty rates
 pov15 <- pov15 |> 
   select("CODGEO","TP6015" ) |> 
   slice(-97,-98) |> 
@@ -105,6 +111,15 @@ pov_tot <- pov_tot |>
   mutate(across(-dpt_id, as.double))
 ```
 
+```{r}
+# Unemployment rate
+unemp_quart <- unemp_quart |>
+  slice(-(97:104)) |>
+  select(-"Libellé") |>
+  rename(dpt_id = 1)
+
+# We now want an annual unemployement rate instead of a quarterly one
+```
 
 
 
