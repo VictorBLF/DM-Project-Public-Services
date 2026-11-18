@@ -12,7 +12,9 @@ We start by importing the packages we will need to load and clean our datasets.
 ```{r}
 library(here)
 library(readxl)
+library(dplyr)
 ```
+
 
 
 # Data import
@@ -24,6 +26,81 @@ here::i_am("Data Analysis Public Services.Rproj")
 ```
 
 ```{r}
-
+#| message: false
+# Poverty rates, where we don't import the first lines when they are not necessary
+pov15<-read_excel("Raw datasets/2015_department_poverty_rate.xlsx",skip=5)
+pov16<-read_excel("Raw datasets/2016_department_poverty_rate.xlsx",skip=5)
+pov17<-read_excel("Raw datasets/2017_department_poverty_rate.xlsx")
+pov18<-read_excel("Raw datasets/2018_department_poverty_rate.xlsx")
+pov19<-read_excel("Raw datasets/2019_department_poverty_rate.xlsx",skip=5)
+pov20<-read_excel("Raw datasets/2020_department_poverty_rate.xlsx",skip=5)
+pov21<-read_excel("Raw datasets/2021_department_poverty_rate.xlsx")
+pov23<-read_excel("Raw datasets/2023_department_poverty_rate.xlsx")
 ```
+
+
+
+# Data cleaning
+
+Now that we have our datasets loaded, we proceed to clean them so we have usable dataframes.
+
+Because the poverty rate files are different from one year to another, we have to proceed case by case
+
+```{r}
+pov15 <- pov15 |> 
+  select("CODGEO","TP6015" ) |> 
+  slice(-97,-98) |> 
+  rename(dpt_id = 1, taux_pauv = 2)
+```
+
+
+```{r}
+pov16 <- pov16 |> 
+  select("CODGEO","TP6016" ) |> 
+  slice(-97,-98) |> 
+  rename(dpt_id = 1, taux_pauv = 2)
+```
+
+```{r}
+pov17 <- pov17 |> 
+  select("2. Taux de pauvreté en 2017","...3") |> 
+  slice(-1,-(98:106)) |> 
+  rename(dpt_id = 1, taux_pauv = 2)
+```
+
+```{r}
+pov18 <- pov18 |> 
+  select("2. Taux de pauvreté par département en 2018","...3") |> 
+  slice(-1,-2,-(99:106)) |> 
+  rename(dpt_id = 1, taux_pauv = 2)
+```
+
+```{r}
+pov19 <- pov19 |> 
+  select("CODGEO","TP6019" ) |> 
+  slice(-(97:105)) |> 
+  rename(dpt_id = 1, taux_pauv = 2)
+```
+
+```{r}
+pov20 <- pov20 |> 
+  select("CODGEO","TP6020" ) |>
+  slice(-(97:105)) |> 
+  rename(dpt_id = 1, taux_pauv = 2)
+```
+
+```{r}
+pov21 <- pov21 |> 
+  select("Figure 2 – Taux de pauvreté par département en 2021","...3") |> 
+  slice(-1,-2,-(99:107)) |> 
+  rename(dpt_id = 1, taux_pauv = 2)
+```
+
+```{r}
+pov23 <- pov23 |> 
+  select(-"...2") |> 
+  slice(-(1:3),-100) |> 
+  rename(dpt_id = 1, taux_pauv = 2)
+```
+
 
