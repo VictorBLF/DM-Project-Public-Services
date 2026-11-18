@@ -10,9 +10,11 @@ editor: visual
 We start by importing the packages we will need to load and clean our datasets.
 
 ```{r}
+#| message: false
 library(here)
 library(readxl)
 library(dplyr)
+library(tidyr)
 library(purrr)
 ```
 
@@ -23,6 +25,7 @@ library(purrr)
 We can now proceed to the loading of our datasets.
 
 ```{r}
+#| message: false
 here::i_am("Data Analysis Public Services.Rproj")
 ```
 
@@ -119,6 +122,16 @@ unemp_quart <- unemp_quart |>
   rename(dpt_id = 1)
 
 # We now want an annual unemployement rate instead of a quarterly one
+unemp_tot <- unemp_quart |> 
+  pivot_longer(
+    cols = -dpt_id,
+    names_to = c("trimestre", "annee"),
+    names_sep = "_",
+    values_to = "taux") |> 
+  group_by(dpt_id, annee) |>
+  summarise(taux = mean(taux), .groups = "drop") |>
+  pivot_wider(names_from = annee, values_from = taux)
+
 ```
 
 
