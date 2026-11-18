@@ -1,0 +1,29 @@
+---
+title: "Data import and cleaning"
+author: "Paul R, Victor B"
+format: html
+editor: visual
+---
+
+# Package loading
+
+We start by importing the packages we will need to load and clean our datasets.
+
+```{r}
+library(here)
+library(readxl)
+```
+
+
+# Data import
+
+We can now proceed to the loading of our datasets.
+
+```{r}
+here::i_am("Data Analysis Public Services.Rproj")
+```
+
+```{r}
+
+```
+
