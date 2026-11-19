@@ -272,6 +272,10 @@ We now implement a table for each dataframe, which contains its number of rows a
 |-------------------------------|----------------------------------|
 | `r nrow(france_serv)`         | `r ncol(france_serv)`            |
 
+We notice that the number of rows and columns are always the same, because:
+- we always study the 96 departments of metropolitan France, so the number of rows is always 96
+- we always study the period 2015-2023 so there are 9 years and a column with the department number
+
 ## Description of the key variables
 
 The outcome variables that we are going to study are the unemployment rate and the poverty rate in each department.
