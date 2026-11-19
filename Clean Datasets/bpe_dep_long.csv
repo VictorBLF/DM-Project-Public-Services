@@ -1,4 +1,4 @@
-DPT_ID;FACILITY_TYPE;year;nb;facility_name
+DPT_ID;Facility Code;year;nb;Facility Name
 01;A104;2015;46;National Gendarmerie
 01;A104;2020;42;National Gendarmerie
 01;A104;2021;42;National Gendarmerie
