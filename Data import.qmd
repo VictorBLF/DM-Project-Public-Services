@@ -70,6 +70,7 @@ ASPA <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "ASPA"
 ```
 
 ```{r}
+#| message: false
 #BPE files 
 bpe_evol_raw <- read_csv2("Raw Datasets/DS_BPE_EVOLUTION_2025_data.csv",
                           col_types = cols(.default = col_character()))
