@@ -52,6 +52,22 @@ unemp_quart<-read_excel("Raw datasets/Unemployment_rate_quarter.xlsx",skip=3)
 housing<-read_excel("Raw datasets/Social_housing.xlsx")
 ```
 
+```{r}
+#| message: false
+# Number of France services houses
+france_serv<-read_excel("Clean datasets/clean_france_service_dataset.xlsx")
+```
+
+```{r}
+#| message: false
+# social minima
+RSA  <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "RSA")
+PPA  <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "Prime d'activité")
+AAH  <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "AAH")
+ASS  <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "ASS")
+ASPA <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "ASPA")
+```
+
 
 # Data cleaning
 
@@ -116,6 +132,9 @@ pov_tot <- pov_tot |>
 # Then we convert all the dataframe to doubles
 pov_tot <- pov_tot |>
   mutate(across(-dpt_id, as.double))
+
+# Now that we have pov_tot, we don't need the annual dataframes
+rm(pov15,pov16,pov17,pov18,pov19,pov20,pov21,pov23)
 ```
 
 ```{r}
@@ -136,6 +155,9 @@ unemp_tot <- unemp_quart |>
   summarise(taux = mean(taux), .groups = "drop") |>
   pivot_wider(names_from = annee, values_from = taux)
 
+# Now that we have unemp_tot, we don't need the quarterly dataframe
+rm(unemp_quart)
+
 ```
 
 ```{r}
@@ -151,11 +173,38 @@ housing<-housing |>
 
 ```
 
+```{r}
+# France services houses
+france_serv<-france_serv |>
+  rename(dpt_id=1)
+```
+
+```{r}
+# Social minima
+RSA<-RSA |>
+  rename(dpt_id=1)|>
+  select(-2)
+PPA<-PPA |>
+  rename(dpt_id=1)|>
+  select(-2)
+AAH<-AAH |>
+  rename(dpt_id=1)|>
+  select(-2)
+ASS<-ASS |>
+  rename(dpt_id=1)|>
+  select(-2)
+ASPA<-ASPA |>
+  rename(dpt_id=1)|>
+  select(-2)
+
+```
+
 
 # Description of the files and other informations
 
 ## Link to our GitHub project:
 
+The GitHub page of the project can be found at:
 https://github.com/VictorBLF/DM-Project-Public-Services
 
 ## Links to the sources used
@@ -185,10 +234,32 @@ https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/336_minima-
 
 ## Description of the sources
 
+
+
 ## Information about each data file
+
+The dataframes obtained after the import and the cleaning are the ones we are going to use for our study. They are the following
+- `pov_tot`: Poverty rate per department and per year (2015-2023 but without 2022, because the data was not available for this year.)
+- `unemp_tot`: Unemployment rate per department and per year (2015-2023)
+- `housing`: Number of social housing units per department and per year (2015-2023)
+- `AAH`, `ASPA`, `ASS`, `PPA`, `RSA`: Number of beneficiaries of each social minima, per department and per year (2015-2023 except for `RSA` and `PPA` that are 2016-2023 because they were combined in a single social minima before 2016)
+- `france_serv`: Number of France services houses per department and per year (2016-2023). Notice that they were implemented in 2020, so the values before 2020 are all zeros.
 
 ## Description of the key variables
 
+The outcome variables that we are going to study are the unemployment rate and the poverty rate in each department.
+
+The explanatory variables that we are going to use to understand the variations in these two outcome variables are: the number of social housing units, the number of beneficiaries of social minima, and the number of France services houses.
+
 ## Description of the data cleaning done
+
+We started by importing the datasets that we had in our folders `Clean datasets` or `Raw datasets`. This step is done in the `Data import` section. We sometimes skipped some rows of the datasets that were empty rows of our Excel files.
+
+Then we proceeded to the cleaning of the dataframes, in the `Data cleaning` section.
+Each dataframe had a unique structure, so the cleaning part really was specific to each of them.
+The usual actions we did were to `select` only the columns that were interesting for our study, `slice` out the rows that were not, and then `rename` the columns so they had coherent names.
+
+For the poverty rates, we had to join all the annual dataframes so we could obtain a longitudinal one, where each row was a department and each column a year. The primary key we used to join was the department number (`dpt_id`).
+
 
 ## Research question
