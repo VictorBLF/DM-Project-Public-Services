@@ -46,6 +46,16 @@ pov23<-read_excel("Raw datasets/2023_department_poverty_rate.xlsx")
 unemp_quart<-read_excel("Raw datasets/Unemployment_rate_quarter.xlsx",skip=3)
 ```
 
+<<<<<<< HEAD
+=======
+```{r}
+#| message: false
+# Number of social housing units
+housing<-read_excel("Raw datasets/Social_housing.xlsx")
+```
+
+
+>>>>>>> bc01f4a5b48ba4008511c29cc89222353fce84e7
 # Data cleaning
 
 Now that we have our datasets loaded, we proceed to clean them so we have usable dataframes.
@@ -131,6 +141,23 @@ unemp_tot <- unemp_quart |>
 
 ```
 
+<<<<<<< HEAD
+=======
+```{r}
+# Social housing
+housing <- housing |>
+  slice(-(1:4)) |>
+  select(-2) |>
+  rename(dpt_id = 1) 
+
+housing<-housing |>
+  select(dpt_id, rev(setdiff(names(housing), "dpt_id"))) |>
+  rename(`2015`=2,`2016`=3,`2017`=4,`2018`=5,`2019`=6,`2020`=7,`2021`=8,`2022`=9,`2023`=10,)
+
+```
+
+
+>>>>>>> bc01f4a5b48ba4008511c29cc89222353fce84e7
 # Description of the files and other informations
 
 ## Link to our GitHub project:
@@ -139,6 +166,7 @@ https://github.com/VictorBLF/DM-Project-Public-Services
 
 ## Links to the sources used
 
+<<<<<<< HEAD
 https://www.insee.fr/fr/information/7671867
 
 https://www.data.gouv.fr/datasets/liste-des-structures-labellisees-france-services
@@ -161,6 +189,8 @@ https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/336_minima-
 
 https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/336_minima-sociaux-rsa-et-prime-d-activite/attachments/rsa_et_prime_d_activite_donnees_departementales_xlsx
 
+=======
+>>>>>>> bc01f4a5b48ba4008511c29cc89222353fce84e7
 ## Description of the sources
 
 ## Information about each data file
