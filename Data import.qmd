@@ -19,7 +19,6 @@ library(purrr)
 library(readr)
 ```
 
-
 # Data import
 
 We can now proceed to the loading of our datasets.
@@ -70,7 +69,6 @@ ASS  <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "ASS")
 ASPA <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "ASPA")
 ```
 
-
 ```{r}
 #BPE files 
 bpe_evol_raw <- read_csv2("Raw Datasets/DS_BPE_EVOLUTION_2025_data.csv",
@@ -79,7 +77,6 @@ bpe_evol_raw <- read_csv2("Raw Datasets/DS_BPE_EVOLUTION_2025_data.csv",
 bpe_2021_raw <- read_csv2("Raw Datasets/BPE_2021_complete.csv",
                           col_types = cols(.default = col_character()))
 ```
-
 
 # Data cleaning
 
@@ -187,18 +184,19 @@ housing<-housing |>
 ```
 
 ```{r}
+#| output: false
 
 #codes of the facilities we keep
 codes_ok <- c("A10G", "A104", "A206", "A207", "A208")
 
-#names of the different codes 
+#names of the different codes
 labels <- tibble(
   FACILITY_TYPE = c("A10G", "A104", "A206", "A207", "A208"),
   facility_name = c("Public Finances", "National Gendarmerie", "Post Office",
                     "Post Office Relay", "Municipal Post Office")
 )
 
-#evolution dataset, departments 
+#evolution dataset, departments
 bpe_evol <- bpe_evol_raw |>
   filter(GEO_OBJECT == "DEP",
          !startsWith(GEO, "97"),
@@ -208,7 +206,7 @@ bpe_evol <- bpe_evol_raw |>
             year = as.integer(TIME_PERIOD),
             nb = as.numeric(OBS_VALUE))
 
-#We sum to have our data at department level, A120+A121=A10G
+#we sum to have our data at department level, A120+A121=A10G
 bpe_2021 <- bpe_2021_raw |>
   filter(!startsWith(DEP, "97")) |>
   mutate(NB_EQUIP = as.numeric(NB_EQUIP),
@@ -218,34 +216,24 @@ bpe_2021 <- bpe_2021_raw |>
   summarise(nb = sum(NB_EQUIP), .groups = "drop") |>
   mutate(year = 2021L)
 
-#Puting both data together 
+#putting both data together
 bpe_long <- bind_rows(bpe_evol, bpe_2021) |>
   complete(DPT_ID, FACILITY_TYPE, year, fill = list(nb = 0)) |>
   left_join(labels, by = "FACILITY_TYPE") |>
-  arrange(FACILITY_TYPE, DPT_ID, year)
+  arrange(FACILITY_TYPE, DPT_ID, year) |>
+  rename(`Facility Code` = FACILITY_TYPE,
+         `Facility Name` = facility_name)
 
-#Arranging to have 1 column per year
+#arranging to have 1 column per year
 bpe_clean <- bpe_long |>
   pivot_wider(names_from = year, values_from = nb, names_sort = TRUE) |>
-  select(DPT_ID, FACILITY_TYPE, facility_name, everything())
-nrow(bpe_clean)
-n_distinct(bpe_clean$DPT_ID)
-sort(unique(bpe_long$year))
-bpe_clean |> filter(if_any(where(is.numeric), is.na))
+  select(DPT_ID, `Facility Code`, `Facility Name`, everything())
 
-#We check the national totals 
-bpe_long |>
-  group_by(FACILITY_TYPE, facility_name, year) |>
-  summarise(total = sum(nb), .groups = "drop") |>
-  pivot_wider(names_from = year, values_from = total, names_sort = TRUE)
-
-#Saving
+#saving
 write_csv2(bpe_clean, "Clean Datasets/bpe_dep_wide.csv")
 write_csv2(bpe_long, "Clean Datasets/bpe_dep_long.csv")
-rm(bpe_evol, bpe_2021)
-
+rm(bpe_evol, bpe_2021, labels)
 ```
-
 
 ```{r}
 # France services houses
@@ -272,7 +260,6 @@ ASPA<-ASPA |>
   select(-2)
 
 ```
-
 
 # Description of the files and other informations
 
@@ -312,10 +299,10 @@ The sources used are mainly INSEE
 
 The dataframes obtained after the import and the cleaning are the ones we are going to use for our study. They are the following:
 
-- `pov_tot`: Poverty rate per department and per year (2015-2023 but without 2022, because the data was not available for this year.) 
-- `unemp_tot`: Unemployment rate per department and per year (2015-2023) 
-- `housing`: Number of social housing units per department and per year (2015-2023) 
-- `AAH`, `ASPA`, `ASS`, `PPA`, `RSA`: Number of beneficiaries of each social minima (respectively Allocation aux adultes handicapés, Allocation de solidarité aux personnes âgées, Allocation de solidarité spécifique, Prime d’activité and Revenu de solidarité active), per department and per year (2015-2023 except for `RSA` and `PPA` that are 2016-2023 because they were combined in a single social minima before 2016.) 
+- `pov_tot`: Poverty rate per department and per year (2015-2023 but without 2022, because the data was not available for this year.)
+- `unemp_tot`: Unemployment rate per department and per year (2015-2023)
+- `housing`: Number of social housing units per department and per year (2015-2023)
+- `AAH`, `ASPA`, `ASS`, `PPA`, `RSA`: Number of beneficiaries of each social minima (respectively Allocation aux adultes handicapés, Allocation de solidarité aux personnes âgées, Allocation de solidarité spécifique, Prime d’activité and Revenu de solidarité active), per department and per year (2015-2023 except for `RSA` and `PPA` that are 2016-2023 because they were combined in a single social minima before 2016.)
 - `france_serv`: Number of France services houses per department and per year (2016-2023). Notice that they were implemented in 2020, so the values before 2020 are all zeros.
 
 We now implement a table for each dataframe, which contains its number of rows and number of columns:
@@ -360,6 +347,18 @@ We notice that the number of rows and columns are always the same, because:
 
 - we always study the 96 departments of metropolitan France, so the number of rows is always 96
 - we always study the period 2015-2023 so there are 9 years and a column with the department number
+
+```{r}
+#| echo: false 
+#| label: tbl-bpe-totals
+#| tbl-cap: "Number of facilities in metropolitan France, by year"
+
+bpe_long |>
+  group_by(`Facility Code`, `Facility Name`, year) |>
+  summarise(total = sum(nb), .groups = "drop") |>
+  pivot_wider(names_from = year, values_from = total, names_sort = TRUE) |>
+  knitr::kable()
+```
 
 ## Description of the key variables
 
