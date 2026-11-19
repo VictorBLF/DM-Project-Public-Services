@@ -68,6 +68,15 @@ ASS  <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "ASS")
 ASPA <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "ASPA")
 ```
 
+```{r}
+#PBE files 
+bpe_evol_raw <- read_csv2("Raw Datasets/DS_BPE_EVOLUTION_2025_data.csv",
+                          col_types = cols(.default = col_character()))
+
+bpe_2021_raw <- read_csv2("Raw Datasets/BPE_2021_complete.csv",
+                          col_types = cols(.default = col_character()))
+```
+
 # Data cleaning
 
 Now that we have our datasets loaded, we proceed to clean them so we have usable dataframes.
@@ -173,14 +182,16 @@ housing<-housing |>
 ```
 
 ```{r}
+#codes of the facilities we keep
 codes_ok <- c("A10G", "A104", "A206", "A207", "A208")
+
+#names of the different codes 
 labels <- tibble(
   FACILITY_TYPE = c("A10G", "A104", "A206", "A207", "A208"),
-  facility_name = c("Finances publiques", "Gendarmerie", "Bureau de poste",
-                    "Relais poste", "Agence postale communale")
+  facility_name = c("Public Finances", "National Gendarmerie", "Post Office",
+                    "Post Office Relay", "Municipal Post Office")
 )
-bpe_evol <- read_csv2("Raw Datasets/DS_BPE_EVOLUTION_2025_data.csv",
-                      col_types = cols(.default = col_character())) |>
+bpe_evol <- bpe_evol_raw |>
   filter(GEO_OBJECT == "DEP",
          !startsWith(GEO, "97"),
          FACILITY_TYPE %in% codes_ok) |>
@@ -188,8 +199,8 @@ bpe_evol <- read_csv2("Raw Datasets/DS_BPE_EVOLUTION_2025_data.csv",
             FACILITY_TYPE,
             year = as.integer(TIME_PERIOD),
             nb = as.numeric(OBS_VALUE))
-bpe_2021 <- read_csv2("Raw Datasets/BPE_2021_complete.csv",
-                      col_types = cols(.default = col_character())) |>
+
+bpe_2021 <- bpe_2021_raw |>
   filter(!startsWith(DEP, "97")) |>
   mutate(NB_EQUIP = as.numeric(NB_EQUIP),
          FACILITY_TYPE = if_else(TYPEQU %in% c("A120", "A121"), "A10G", TYPEQU)) |>
