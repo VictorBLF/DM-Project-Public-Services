@@ -4,3 +4,7 @@
 .Ruserdata
 .DS_Store
 *.gpkg
+Raw Datasets/DS_BPE_EVOLUTION_2025_data.csv
+Raw Datasets/DS_BPE_EVOLUTION_2025_CSV_FR/
+*.html
+*_files/
