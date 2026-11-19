@@ -1,1921 +1,1921 @@
 DPT_ID;FACILITY_TYPE;year;nb;facility_name
-01;A104;2015;46;Gendarmerie
-01;A104;2020;42;Gendarmerie
-01;A104;2021;42;Gendarmerie
-01;A104;2025;45;Gendarmerie
-02;A104;2015;39;Gendarmerie
-02;A104;2020;37;Gendarmerie
-02;A104;2021;37;Gendarmerie
-02;A104;2025;40;Gendarmerie
-03;A104;2015;29;Gendarmerie
-03;A104;2020;26;Gendarmerie
-03;A104;2021;26;Gendarmerie
-03;A104;2025;30;Gendarmerie
-04;A104;2015;29;Gendarmerie
-04;A104;2020;28;Gendarmerie
-04;A104;2021;28;Gendarmerie
-04;A104;2025;33;Gendarmerie
-05;A104;2015;22;Gendarmerie
-05;A104;2020;20;Gendarmerie
-05;A104;2021;20;Gendarmerie
-05;A104;2025;26;Gendarmerie
-06;A104;2015;39;Gendarmerie
-06;A104;2020;37;Gendarmerie
-06;A104;2021;37;Gendarmerie
-06;A104;2025;44;Gendarmerie
-07;A104;2015;35;Gendarmerie
-07;A104;2020;30;Gendarmerie
-07;A104;2021;30;Gendarmerie
-07;A104;2025;31;Gendarmerie
-08;A104;2015;35;Gendarmerie
-08;A104;2020;31;Gendarmerie
-08;A104;2021;31;Gendarmerie
-08;A104;2025;31;Gendarmerie
-09;A104;2015;19;Gendarmerie
-09;A104;2020;19;Gendarmerie
-09;A104;2021;19;Gendarmerie
-09;A104;2025;24;Gendarmerie
-10;A104;2015;27;Gendarmerie
-10;A104;2020;24;Gendarmerie
-10;A104;2021;24;Gendarmerie
-10;A104;2025;25;Gendarmerie
-11;A104;2015;33;Gendarmerie
-11;A104;2020;32;Gendarmerie
-11;A104;2021;31;Gendarmerie
-11;A104;2025;34;Gendarmerie
-12;A104;2015;43;Gendarmerie
-12;A104;2020;40;Gendarmerie
-12;A104;2021;40;Gendarmerie
-12;A104;2025;41;Gendarmerie
-13;A104;2015;33;Gendarmerie
-13;A104;2020;33;Gendarmerie
-13;A104;2021;33;Gendarmerie
-13;A104;2025;40;Gendarmerie
-14;A104;2015;40;Gendarmerie
-14;A104;2020;35;Gendarmerie
-14;A104;2021;35;Gendarmerie
-14;A104;2025;46;Gendarmerie
-15;A104;2015;26;Gendarmerie
-15;A104;2020;26;Gendarmerie
-15;A104;2021;26;Gendarmerie
-15;A104;2025;28;Gendarmerie
-16;A104;2015;28;Gendarmerie
-16;A104;2020;27;Gendarmerie
-16;A104;2021;27;Gendarmerie
-16;A104;2025;27;Gendarmerie
-17;A104;2015;39;Gendarmerie
-17;A104;2020;38;Gendarmerie
-17;A104;2021;38;Gendarmerie
-17;A104;2025;47;Gendarmerie
-18;A104;2015;26;Gendarmerie
-18;A104;2020;26;Gendarmerie
-18;A104;2021;26;Gendarmerie
-18;A104;2025;27;Gendarmerie
-19;A104;2015;29;Gendarmerie
-19;A104;2020;28;Gendarmerie
-19;A104;2021;28;Gendarmerie
-19;A104;2025;31;Gendarmerie
-21;A104;2015;36;Gendarmerie
-21;A104;2020;30;Gendarmerie
-21;A104;2021;30;Gendarmerie
-21;A104;2025;34;Gendarmerie
-22;A104;2015;44;Gendarmerie
-22;A104;2020;38;Gendarmerie
-22;A104;2021;38;Gendarmerie
-22;A104;2025;44;Gendarmerie
-23;A104;2015;25;Gendarmerie
-23;A104;2020;24;Gendarmerie
-23;A104;2021;24;Gendarmerie
-23;A104;2025;25;Gendarmerie
-24;A104;2015;49;Gendarmerie
-24;A104;2020;45;Gendarmerie
-24;A104;2021;45;Gendarmerie
-24;A104;2025;47;Gendarmerie
-25;A104;2015;34;Gendarmerie
-25;A104;2020;33;Gendarmerie
-25;A104;2021;33;Gendarmerie
-25;A104;2025;37;Gendarmerie
-26;A104;2015;36;Gendarmerie
-26;A104;2020;36;Gendarmerie
-26;A104;2021;35;Gendarmerie
-26;A104;2025;39;Gendarmerie
-27;A104;2015;35;Gendarmerie
-27;A104;2020;33;Gendarmerie
-27;A104;2021;33;Gendarmerie
-27;A104;2025;37;Gendarmerie
-28;A104;2015;26;Gendarmerie
-28;A104;2020;26;Gendarmerie
-28;A104;2021;26;Gendarmerie
-28;A104;2025;27;Gendarmerie
-29;A104;2015;45;Gendarmerie
-29;A104;2020;44;Gendarmerie
-29;A104;2021;44;Gendarmerie
-29;A104;2025;53;Gendarmerie
-2A;A104;2015;21;Gendarmerie
-2A;A104;2020;17;Gendarmerie
-2A;A104;2021;17;Gendarmerie
-2A;A104;2025;21;Gendarmerie
-2B;A104;2015;22;Gendarmerie
-2B;A104;2020;20;Gendarmerie
-2B;A104;2021;19;Gendarmerie
-2B;A104;2025;23;Gendarmerie
-30;A104;2015;45;Gendarmerie
-30;A104;2020;42;Gendarmerie
-30;A104;2021;42;Gendarmerie
-30;A104;2025;44;Gendarmerie
-31;A104;2015;52;Gendarmerie
-31;A104;2020;51;Gendarmerie
-31;A104;2021;51;Gendarmerie
-31;A104;2025;54;Gendarmerie
-32;A104;2015;27;Gendarmerie
-32;A104;2020;26;Gendarmerie
-32;A104;2021;26;Gendarmerie
-32;A104;2025;26;Gendarmerie
-33;A104;2015;61;Gendarmerie
-33;A104;2020;57;Gendarmerie
-33;A104;2021;57;Gendarmerie
-33;A104;2025;67;Gendarmerie
-34;A104;2015;42;Gendarmerie
-34;A104;2020;38;Gendarmerie
-34;A104;2021;38;Gendarmerie
-34;A104;2025;46;Gendarmerie
-35;A104;2015;41;Gendarmerie
-35;A104;2020;36;Gendarmerie
-35;A104;2021;35;Gendarmerie
-35;A104;2025;39;Gendarmerie
-36;A104;2015;22;Gendarmerie
-36;A104;2020;22;Gendarmerie
-36;A104;2021;22;Gendarmerie
-36;A104;2025;25;Gendarmerie
-37;A104;2015;30;Gendarmerie
-37;A104;2020;29;Gendarmerie
-37;A104;2021;29;Gendarmerie
-37;A104;2025;32;Gendarmerie
-38;A104;2015;59;Gendarmerie
-38;A104;2020;56;Gendarmerie
-38;A104;2021;56;Gendarmerie
-38;A104;2025;71;Gendarmerie
-39;A104;2015;31;Gendarmerie
-39;A104;2020;28;Gendarmerie
-39;A104;2021;28;Gendarmerie
-39;A104;2025;30;Gendarmerie
-40;A104;2015;36;Gendarmerie
-40;A104;2020;33;Gendarmerie
-40;A104;2021;33;Gendarmerie
-40;A104;2025;36;Gendarmerie
-41;A104;2015;23;Gendarmerie
-41;A104;2020;23;Gendarmerie
-41;A104;2021;23;Gendarmerie
-41;A104;2025;26;Gendarmerie
-42;A104;2015;31;Gendarmerie
-42;A104;2020;30;Gendarmerie
-42;A104;2021;30;Gendarmerie
-42;A104;2025;33;Gendarmerie
-43;A104;2015;33;Gendarmerie
-43;A104;2020;29;Gendarmerie
-43;A104;2021;28;Gendarmerie
-43;A104;2025;30;Gendarmerie
-44;A104;2015;48;Gendarmerie
-44;A104;2020;44;Gendarmerie
-44;A104;2021;44;Gendarmerie
-44;A104;2025;51;Gendarmerie
-45;A104;2015;27;Gendarmerie
-45;A104;2020;27;Gendarmerie
-45;A104;2021;27;Gendarmerie
-45;A104;2025;33;Gendarmerie
-46;A104;2015;26;Gendarmerie
-46;A104;2020;23;Gendarmerie
-46;A104;2021;23;Gendarmerie
-46;A104;2025;27;Gendarmerie
-47;A104;2015;35;Gendarmerie
-47;A104;2020;33;Gendarmerie
-47;A104;2021;33;Gendarmerie
-47;A104;2025;37;Gendarmerie
-48;A104;2015;25;Gendarmerie
-48;A104;2020;24;Gendarmerie
-48;A104;2021;24;Gendarmerie
-48;A104;2025;25;Gendarmerie
-49;A104;2015;38;Gendarmerie
-49;A104;2020;37;Gendarmerie
-49;A104;2021;37;Gendarmerie
-49;A104;2025;41;Gendarmerie
-50;A104;2015;44;Gendarmerie
-50;A104;2020;41;Gendarmerie
-50;A104;2021;40;Gendarmerie
-50;A104;2025;45;Gendarmerie
-51;A104;2015;38;Gendarmerie
-51;A104;2020;36;Gendarmerie
-51;A104;2021;36;Gendarmerie
-51;A104;2025;41;Gendarmerie
-52;A104;2015;25;Gendarmerie
-52;A104;2020;23;Gendarmerie
-52;A104;2021;23;Gendarmerie
-52;A104;2025;27;Gendarmerie
-53;A104;2015;24;Gendarmerie
-53;A104;2020;24;Gendarmerie
-53;A104;2021;24;Gendarmerie
-53;A104;2025;25;Gendarmerie
-54;A104;2015;33;Gendarmerie
-54;A104;2020;30;Gendarmerie
-54;A104;2021;30;Gendarmerie
-54;A104;2025;33;Gendarmerie
-55;A104;2015;25;Gendarmerie
-55;A104;2020;21;Gendarmerie
-55;A104;2021;21;Gendarmerie
-55;A104;2025;23;Gendarmerie
-56;A104;2015;37;Gendarmerie
-56;A104;2020;36;Gendarmerie
-56;A104;2021;36;Gendarmerie
-56;A104;2025;46;Gendarmerie
-57;A104;2015;46;Gendarmerie
-57;A104;2020;44;Gendarmerie
-57;A104;2021;45;Gendarmerie
-57;A104;2025;49;Gendarmerie
-58;A104;2015;28;Gendarmerie
-58;A104;2020;27;Gendarmerie
-58;A104;2021;27;Gendarmerie
-58;A104;2025;30;Gendarmerie
-59;A104;2015;53;Gendarmerie
-59;A104;2020;48;Gendarmerie
-59;A104;2021;48;Gendarmerie
-59;A104;2025;54;Gendarmerie
-60;A104;2015;43;Gendarmerie
-60;A104;2020;42;Gendarmerie
-60;A104;2021;41;Gendarmerie
-60;A104;2025;45;Gendarmerie
-61;A104;2015;35;Gendarmerie
-61;A104;2020;29;Gendarmerie
-61;A104;2021;29;Gendarmerie
-61;A104;2025;31;Gendarmerie
-62;A104;2015;50;Gendarmerie
-62;A104;2020;45;Gendarmerie
-62;A104;2021;45;Gendarmerie
-62;A104;2025;54;Gendarmerie
-63;A104;2015;49;Gendarmerie
-63;A104;2020;47;Gendarmerie
-63;A104;2021;47;Gendarmerie
-63;A104;2025;53;Gendarmerie
-64;A104;2015;42;Gendarmerie
-64;A104;2020;40;Gendarmerie
-64;A104;2021;40;Gendarmerie
-64;A104;2025;46;Gendarmerie
-65;A104;2015;21;Gendarmerie
-65;A104;2020;19;Gendarmerie
-65;A104;2021;19;Gendarmerie
-65;A104;2025;24;Gendarmerie
-66;A104;2015;33;Gendarmerie
-66;A104;2020;31;Gendarmerie
-66;A104;2021;31;Gendarmerie
-66;A104;2025;33;Gendarmerie
-67;A104;2015;40;Gendarmerie
-67;A104;2020;38;Gendarmerie
-67;A104;2021;38;Gendarmerie
-67;A104;2025;46;Gendarmerie
-68;A104;2015;37;Gendarmerie
-68;A104;2020;37;Gendarmerie
-68;A104;2021;36;Gendarmerie
-68;A104;2025;39;Gendarmerie
-69;A104;2015;35;Gendarmerie
-69;A104;2020;34;Gendarmerie
-69;A104;2021;34;Gendarmerie
-69;A104;2025;37;Gendarmerie
-70;A104;2015;27;Gendarmerie
-70;A104;2020;26;Gendarmerie
-70;A104;2021;26;Gendarmerie
-70;A104;2025;27;Gendarmerie
-71;A104;2015;44;Gendarmerie
-71;A104;2020;41;Gendarmerie
-71;A104;2021;41;Gendarmerie
-71;A104;2025;44;Gendarmerie
-72;A104;2015;38;Gendarmerie
-72;A104;2020;36;Gendarmerie
-72;A104;2021;36;Gendarmerie
-72;A104;2025;40;Gendarmerie
-73;A104;2015;31;Gendarmerie
-73;A104;2020;28;Gendarmerie
-73;A104;2021;28;Gendarmerie
-73;A104;2025;41;Gendarmerie
-74;A104;2015;37;Gendarmerie
-74;A104;2020;34;Gendarmerie
-74;A104;2021;34;Gendarmerie
-74;A104;2025;45;Gendarmerie
-75;A104;2015;1;Gendarmerie
-75;A104;2020;0;Gendarmerie
-75;A104;2021;0;Gendarmerie
-75;A104;2025;1;Gendarmerie
-76;A104;2015;47;Gendarmerie
-76;A104;2020;43;Gendarmerie
-76;A104;2021;43;Gendarmerie
-76;A104;2025;45;Gendarmerie
-77;A104;2015;32;Gendarmerie
-77;A104;2020;29;Gendarmerie
-77;A104;2021;29;Gendarmerie
-77;A104;2025;34;Gendarmerie
-78;A104;2015;21;Gendarmerie
-78;A104;2020;21;Gendarmerie
-78;A104;2021;20;Gendarmerie
-78;A104;2025;24;Gendarmerie
-79;A104;2015;28;Gendarmerie
-79;A104;2020;27;Gendarmerie
-79;A104;2021;27;Gendarmerie
-79;A104;2025;29;Gendarmerie
-80;A104;2015;38;Gendarmerie
-80;A104;2020;36;Gendarmerie
-80;A104;2021;36;Gendarmerie
-80;A104;2025;42;Gendarmerie
-81;A104;2015;33;Gendarmerie
-81;A104;2020;31;Gendarmerie
-81;A104;2021;31;Gendarmerie
-81;A104;2025;33;Gendarmerie
-82;A104;2015;23;Gendarmerie
-82;A104;2020;21;Gendarmerie
-82;A104;2021;21;Gendarmerie
-82;A104;2025;23;Gendarmerie
-83;A104;2015;32;Gendarmerie
-83;A104;2020;32;Gendarmerie
-83;A104;2021;32;Gendarmerie
-83;A104;2025;37;Gendarmerie
-84;A104;2015;25;Gendarmerie
-84;A104;2020;22;Gendarmerie
-84;A104;2021;23;Gendarmerie
-84;A104;2025;26;Gendarmerie
-85;A104;2015;30;Gendarmerie
-85;A104;2020;30;Gendarmerie
-85;A104;2021;30;Gendarmerie
-85;A104;2025;37;Gendarmerie
-86;A104;2015;30;Gendarmerie
-86;A104;2020;25;Gendarmerie
-86;A104;2021;25;Gendarmerie
-86;A104;2025;27;Gendarmerie
-87;A104;2015;26;Gendarmerie
-87;A104;2020;24;Gendarmerie
-87;A104;2021;24;Gendarmerie
-87;A104;2025;28;Gendarmerie
-88;A104;2015;33;Gendarmerie
-88;A104;2020;30;Gendarmerie
-88;A104;2021;30;Gendarmerie
-88;A104;2025;32;Gendarmerie
-89;A104;2015;33;Gendarmerie
-89;A104;2020;33;Gendarmerie
-89;A104;2021;33;Gendarmerie
-89;A104;2025;34;Gendarmerie
-90;A104;2015;8;Gendarmerie
-90;A104;2020;8;Gendarmerie
-90;A104;2021;8;Gendarmerie
-90;A104;2025;9;Gendarmerie
-91;A104;2015;25;Gendarmerie
-91;A104;2020;25;Gendarmerie
-91;A104;2021;25;Gendarmerie
-91;A104;2025;24;Gendarmerie
-92;A104;2015;1;Gendarmerie
-92;A104;2020;0;Gendarmerie
-92;A104;2021;0;Gendarmerie
-92;A104;2025;1;Gendarmerie
-93;A104;2015;1;Gendarmerie
-93;A104;2020;0;Gendarmerie
-93;A104;2021;0;Gendarmerie
-93;A104;2025;0;Gendarmerie
-94;A104;2015;1;Gendarmerie
-94;A104;2020;0;Gendarmerie
-94;A104;2021;0;Gendarmerie
-94;A104;2025;0;Gendarmerie
-95;A104;2015;18;Gendarmerie
-95;A104;2020;17;Gendarmerie
-95;A104;2021;17;Gendarmerie
-95;A104;2025;20;Gendarmerie
-01;A10G;2015;35;Finances publiques
-01;A10G;2020;24;Finances publiques
-01;A10G;2021;24;Finances publiques
-01;A10G;2025;16;Finances publiques
-02;A10G;2015;36;Finances publiques
-02;A10G;2020;29;Finances publiques
-02;A10G;2021;28;Finances publiques
-02;A10G;2025;12;Finances publiques
-03;A10G;2015;22;Finances publiques
-03;A10G;2020;16;Finances publiques
-03;A10G;2021;16;Finances publiques
-03;A10G;2025;9;Finances publiques
-04;A10G;2015;18;Finances publiques
-04;A10G;2020;15;Finances publiques
-04;A10G;2021;14;Finances publiques
-04;A10G;2025;10;Finances publiques
-05;A10G;2015;16;Finances publiques
-05;A10G;2020;13;Finances publiques
-05;A10G;2021;12;Finances publiques
-05;A10G;2025;5;Finances publiques
-06;A10G;2015;36;Finances publiques
-06;A10G;2020;31;Finances publiques
-06;A10G;2021;30;Finances publiques
-06;A10G;2025;19;Finances publiques
-07;A10G;2015;29;Finances publiques
-07;A10G;2020;18;Finances publiques
-07;A10G;2021;19;Finances publiques
-07;A10G;2025;9;Finances publiques
-08;A10G;2015;22;Finances publiques
-08;A10G;2020;21;Finances publiques
-08;A10G;2021;21;Finances publiques
-08;A10G;2025;11;Finances publiques
-09;A10G;2015;18;Finances publiques
-09;A10G;2020;14;Finances publiques
-09;A10G;2021;14;Finances publiques
-09;A10G;2025;6;Finances publiques
-10;A10G;2015;19;Finances publiques
-10;A10G;2020;15;Finances publiques
-10;A10G;2021;14;Finances publiques
-10;A10G;2025;8;Finances publiques
-11;A10G;2015;25;Finances publiques
-11;A10G;2020;15;Finances publiques
-11;A10G;2021;15;Finances publiques
-11;A10G;2025;5;Finances publiques
-12;A10G;2015;29;Finances publiques
-12;A10G;2020;25;Finances publiques
-12;A10G;2021;25;Finances publiques
-12;A10G;2025;10;Finances publiques
-13;A10G;2015;46;Finances publiques
-13;A10G;2020;42;Finances publiques
-13;A10G;2021;42;Finances publiques
-13;A10G;2025;27;Finances publiques
-14;A10G;2015;37;Finances publiques
-14;A10G;2020;28;Finances publiques
-14;A10G;2021;27;Finances publiques
-14;A10G;2025;19;Finances publiques
-15;A10G;2015;20;Finances publiques
-15;A10G;2020;16;Finances publiques
-15;A10G;2021;16;Finances publiques
-15;A10G;2025;10;Finances publiques
-16;A10G;2015;28;Finances publiques
-16;A10G;2020;22;Finances publiques
-16;A10G;2021;21;Finances publiques
-16;A10G;2025;11;Finances publiques
-17;A10G;2015;34;Finances publiques
-17;A10G;2020;27;Finances publiques
-17;A10G;2021;25;Finances publiques
-17;A10G;2025;15;Finances publiques
-18;A10G;2015;22;Finances publiques
-18;A10G;2020;18;Finances publiques
-18;A10G;2021;18;Finances publiques
-18;A10G;2025;13;Finances publiques
-19;A10G;2015;30;Finances publiques
-19;A10G;2020;28;Finances publiques
-19;A10G;2021;28;Finances publiques
-19;A10G;2025;13;Finances publiques
-21;A10G;2015;37;Finances publiques
-21;A10G;2020;28;Finances publiques
-21;A10G;2021;29;Finances publiques
-21;A10G;2025;18;Finances publiques
-22;A10G;2015;36;Finances publiques
-22;A10G;2020;30;Finances publiques
-22;A10G;2021;30;Finances publiques
-22;A10G;2025;16;Finances publiques
-23;A10G;2015;19;Finances publiques
-23;A10G;2020;13;Finances publiques
-23;A10G;2021;12;Finances publiques
-23;A10G;2025;4;Finances publiques
-24;A10G;2015;24;Finances publiques
-24;A10G;2020;20;Finances publiques
-24;A10G;2021;20;Finances publiques
-24;A10G;2025;8;Finances publiques
-25;A10G;2015;33;Finances publiques
-25;A10G;2020;23;Finances publiques
-25;A10G;2021;23;Finances publiques
-25;A10G;2025;14;Finances publiques
-26;A10G;2015;31;Finances publiques
-26;A10G;2020;21;Finances publiques
-26;A10G;2021;21;Finances publiques
-26;A10G;2025;11;Finances publiques
-27;A10G;2015;34;Finances publiques
-27;A10G;2020;23;Finances publiques
-27;A10G;2021;23;Finances publiques
-27;A10G;2025;10;Finances publiques
-28;A10G;2015;23;Finances publiques
-28;A10G;2020;13;Finances publiques
-28;A10G;2021;12;Finances publiques
-28;A10G;2025;6;Finances publiques
-29;A10G;2015;41;Finances publiques
-29;A10G;2020;29;Finances publiques
-29;A10G;2021;29;Finances publiques
-29;A10G;2025;14;Finances publiques
-2A;A10G;2015;14;Finances publiques
-2A;A10G;2020;11;Finances publiques
-2A;A10G;2021;11;Finances publiques
-2A;A10G;2025;6;Finances publiques
-2B;A10G;2015;16;Finances publiques
-2B;A10G;2020;16;Finances publiques
-2B;A10G;2021;16;Finances publiques
-2B;A10G;2025;10;Finances publiques
-30;A10G;2015;32;Finances publiques
-30;A10G;2020;26;Finances publiques
-30;A10G;2021;26;Finances publiques
-30;A10G;2025;12;Finances publiques
-31;A10G;2015;44;Finances publiques
-31;A10G;2020;38;Finances publiques
-31;A10G;2021;37;Finances publiques
-31;A10G;2025;24;Finances publiques
-32;A10G;2015;24;Finances publiques
-32;A10G;2020;19;Finances publiques
-32;A10G;2021;18;Finances publiques
-32;A10G;2025;10;Finances publiques
-33;A10G;2015;56;Finances publiques
-33;A10G;2020;43;Finances publiques
-33;A10G;2021;43;Finances publiques
-33;A10G;2025;33;Finances publiques
-34;A10G;2015;35;Finances publiques
-34;A10G;2020;29;Finances publiques
-34;A10G;2021;29;Finances publiques
-34;A10G;2025;19;Finances publiques
-35;A10G;2015;39;Finances publiques
-35;A10G;2020;33;Finances publiques
-35;A10G;2021;32;Finances publiques
-35;A10G;2025;21;Finances publiques
-36;A10G;2015;11;Finances publiques
-36;A10G;2020;9;Finances publiques
-36;A10G;2021;9;Finances publiques
-36;A10G;2025;8;Finances publiques
-37;A10G;2015;28;Finances publiques
-37;A10G;2020;22;Finances publiques
-37;A10G;2021;21;Finances publiques
-37;A10G;2025;8;Finances publiques
-38;A10G;2015;56;Finances publiques
-38;A10G;2020;44;Finances publiques
-38;A10G;2021;46;Finances publiques
-38;A10G;2025;22;Finances publiques
-39;A10G;2015;22;Finances publiques
-39;A10G;2020;18;Finances publiques
-39;A10G;2021;16;Finances publiques
-39;A10G;2025;8;Finances publiques
-40;A10G;2015;25;Finances publiques
-40;A10G;2020;23;Finances publiques
-40;A10G;2021;23;Finances publiques
-40;A10G;2025;9;Finances publiques
-41;A10G;2015;19;Finances publiques
-41;A10G;2020;14;Finances publiques
-41;A10G;2021;12;Finances publiques
-41;A10G;2025;6;Finances publiques
-42;A10G;2015;32;Finances publiques
-42;A10G;2020;18;Finances publiques
-42;A10G;2021;18;Finances publiques
-42;A10G;2025;10;Finances publiques
-43;A10G;2015;23;Finances publiques
-43;A10G;2020;19;Finances publiques
-43;A10G;2021;18;Finances publiques
-43;A10G;2025;9;Finances publiques
-44;A10G;2015;38;Finances publiques
-44;A10G;2020;31;Finances publiques
-44;A10G;2021;31;Finances publiques
-44;A10G;2025;19;Finances publiques
-45;A10G;2015;28;Finances publiques
-45;A10G;2020;20;Finances publiques
-45;A10G;2021;20;Finances publiques
-45;A10G;2025;11;Finances publiques
-46;A10G;2015;21;Finances publiques
-46;A10G;2020;13;Finances publiques
-46;A10G;2021;13;Finances publiques
-46;A10G;2025;5;Finances publiques
-47;A10G;2015;22;Finances publiques
-47;A10G;2020;15;Finances publiques
-47;A10G;2021;15;Finances publiques
-47;A10G;2025;10;Finances publiques
-48;A10G;2015;14;Finances publiques
-48;A10G;2020;9;Finances publiques
-48;A10G;2021;9;Finances publiques
-48;A10G;2025;6;Finances publiques
-49;A10G;2015;35;Finances publiques
-49;A10G;2020;23;Finances publiques
-49;A10G;2021;18;Finances publiques
-49;A10G;2025;12;Finances publiques
-50;A10G;2015;33;Finances publiques
-50;A10G;2020;23;Finances publiques
-50;A10G;2021;22;Finances publiques
-50;A10G;2025;9;Finances publiques
-51;A10G;2015;27;Finances publiques
-51;A10G;2020;19;Finances publiques
-51;A10G;2021;18;Finances publiques
-51;A10G;2025;12;Finances publiques
-52;A10G;2015;20;Finances publiques
-52;A10G;2020;15;Finances publiques
-52;A10G;2021;14;Finances publiques
-52;A10G;2025;4;Finances publiques
-53;A10G;2015;15;Finances publiques
-53;A10G;2020;10;Finances publiques
-53;A10G;2021;10;Finances publiques
-53;A10G;2025;4;Finances publiques
-54;A10G;2015;29;Finances publiques
-54;A10G;2020;24;Finances publiques
-54;A10G;2021;24;Finances publiques
-54;A10G;2025;11;Finances publiques
-55;A10G;2015;21;Finances publiques
-55;A10G;2020;11;Finances publiques
-55;A10G;2021;11;Finances publiques
-55;A10G;2025;6;Finances publiques
-56;A10G;2015;31;Finances publiques
-56;A10G;2020;25;Finances publiques
-56;A10G;2021;25;Finances publiques
-56;A10G;2025;14;Finances publiques
-57;A10G;2015;48;Finances publiques
-57;A10G;2020;36;Finances publiques
-57;A10G;2021;34;Finances publiques
-57;A10G;2025;16;Finances publiques
-58;A10G;2015;27;Finances publiques
-58;A10G;2020;15;Finances publiques
-58;A10G;2021;15;Finances publiques
-58;A10G;2025;8;Finances publiques
-59;A10G;2015;101;Finances publiques
-59;A10G;2020;91;Finances publiques
-59;A10G;2021;90;Finances publiques
-59;A10G;2025;36;Finances publiques
-60;A10G;2015;37;Finances publiques
-60;A10G;2020;27;Finances publiques
-60;A10G;2021;26;Finances publiques
-60;A10G;2025;8;Finances publiques
-61;A10G;2015;22;Finances publiques
-61;A10G;2020;13;Finances publiques
-61;A10G;2021;12;Finances publiques
-61;A10G;2025;7;Finances publiques
-62;A10G;2015;60;Finances publiques
-62;A10G;2020;48;Finances publiques
-62;A10G;2021;49;Finances publiques
-62;A10G;2025;19;Finances publiques
-63;A10G;2015;38;Finances publiques
-63;A10G;2020;31;Finances publiques
-63;A10G;2021;31;Finances publiques
-63;A10G;2025;12;Finances publiques
-64;A10G;2015;39;Finances publiques
-64;A10G;2020;36;Finances publiques
-64;A10G;2021;36;Finances publiques
-64;A10G;2025;26;Finances publiques
-65;A10G;2015;24;Finances publiques
-65;A10G;2020;18;Finances publiques
-65;A10G;2021;17;Finances publiques
-65;A10G;2025;8;Finances publiques
-66;A10G;2015;25;Finances publiques
-66;A10G;2020;22;Finances publiques
-66;A10G;2021;22;Finances publiques
-66;A10G;2025;13;Finances publiques
-67;A10G;2015;49;Finances publiques
-67;A10G;2020;37;Finances publiques
-67;A10G;2021;37;Finances publiques
-67;A10G;2025;20;Finances publiques
-68;A10G;2015;30;Finances publiques
-68;A10G;2020;25;Finances publiques
-68;A10G;2021;26;Finances publiques
-68;A10G;2025;14;Finances publiques
-69;A10G;2015;47;Finances publiques
-69;A10G;2020;36;Finances publiques
-69;A10G;2021;36;Finances publiques
-69;A10G;2025;22;Finances publiques
-70;A10G;2015;18;Finances publiques
-70;A10G;2020;17;Finances publiques
-70;A10G;2021;17;Finances publiques
-70;A10G;2025;11;Finances publiques
-71;A10G;2015;33;Finances publiques
-71;A10G;2020;27;Finances publiques
-71;A10G;2021;27;Finances publiques
-71;A10G;2025;9;Finances publiques
-72;A10G;2015;26;Finances publiques
-72;A10G;2020;17;Finances publiques
-72;A10G;2021;17;Finances publiques
-72;A10G;2025;13;Finances publiques
-73;A10G;2015;32;Finances publiques
-73;A10G;2020;28;Finances publiques
-73;A10G;2021;28;Finances publiques
-73;A10G;2025;12;Finances publiques
-74;A10G;2015;32;Finances publiques
-74;A10G;2020;29;Finances publiques
-74;A10G;2021;29;Finances publiques
-74;A10G;2025;17;Finances publiques
-75;A10G;2015;29;Finances publiques
-75;A10G;2020;29;Finances publiques
-75;A10G;2021;29;Finances publiques
-75;A10G;2025;23;Finances publiques
-76;A10G;2015;63;Finances publiques
-76;A10G;2020;52;Finances publiques
-76;A10G;2021;52;Finances publiques
-76;A10G;2025;27;Finances publiques
-77;A10G;2015;39;Finances publiques
-77;A10G;2020;29;Finances publiques
-77;A10G;2021;28;Finances publiques
-77;A10G;2025;21;Finances publiques
-78;A10G;2015;36;Finances publiques
-78;A10G;2020;27;Finances publiques
-78;A10G;2021;26;Finances publiques
-78;A10G;2025;13;Finances publiques
-79;A10G;2015;29;Finances publiques
-79;A10G;2020;13;Finances publiques
-79;A10G;2021;13;Finances publiques
-79;A10G;2025;9;Finances publiques
-80;A10G;2015;37;Finances publiques
-80;A10G;2020;28;Finances publiques
-80;A10G;2021;28;Finances publiques
-80;A10G;2025;14;Finances publiques
-81;A10G;2015;26;Finances publiques
-81;A10G;2020;20;Finances publiques
-81;A10G;2021;20;Finances publiques
-81;A10G;2025;12;Finances publiques
-82;A10G;2015;22;Finances publiques
-82;A10G;2020;20;Finances publiques
-82;A10G;2021;20;Finances publiques
-82;A10G;2025;13;Finances publiques
-83;A10G;2015;41;Finances publiques
-83;A10G;2020;36;Finances publiques
-83;A10G;2021;34;Finances publiques
-83;A10G;2025;20;Finances publiques
-84;A10G;2015;26;Finances publiques
-84;A10G;2020;20;Finances publiques
-84;A10G;2021;19;Finances publiques
-84;A10G;2025;12;Finances publiques
-85;A10G;2015;29;Finances publiques
-85;A10G;2020;26;Finances publiques
-85;A10G;2021;25;Finances publiques
-85;A10G;2025;13;Finances publiques
-86;A10G;2015;32;Finances publiques
-86;A10G;2020;23;Finances publiques
-86;A10G;2021;22;Finances publiques
-86;A10G;2025;16;Finances publiques
-87;A10G;2015;24;Finances publiques
-87;A10G;2020;20;Finances publiques
-87;A10G;2021;19;Finances publiques
-87;A10G;2025;10;Finances publiques
-88;A10G;2015;32;Finances publiques
-88;A10G;2020;23;Finances publiques
-88;A10G;2021;21;Finances publiques
-88;A10G;2025;14;Finances publiques
-89;A10G;2015;27;Finances publiques
-89;A10G;2020;17;Finances publiques
-89;A10G;2021;17;Finances publiques
-89;A10G;2025;10;Finances publiques
-90;A10G;2015;8;Finances publiques
-90;A10G;2020;5;Finances publiques
-90;A10G;2021;4;Finances publiques
-90;A10G;2025;5;Finances publiques
-91;A10G;2015;40;Finances publiques
-91;A10G;2020;27;Finances publiques
-91;A10G;2021;27;Finances publiques
-91;A10G;2025;21;Finances publiques
-92;A10G;2015;39;Finances publiques
-92;A10G;2020;30;Finances publiques
-92;A10G;2021;30;Finances publiques
-92;A10G;2025;19;Finances publiques
-93;A10G;2015;46;Finances publiques
-93;A10G;2020;45;Finances publiques
-93;A10G;2021;43;Finances publiques
-93;A10G;2025;37;Finances publiques
-94;A10G;2015;30;Finances publiques
-94;A10G;2020;23;Finances publiques
-94;A10G;2021;22;Finances publiques
-94;A10G;2025;18;Finances publiques
-95;A10G;2015;33;Finances publiques
-95;A10G;2020;25;Finances publiques
-95;A10G;2021;24;Finances publiques
-95;A10G;2025;14;Finances publiques
-01;A206;2015;90;Bureau de poste
-01;A206;2020;66;Bureau de poste
-01;A206;2021;65;Bureau de poste
-01;A206;2025;57;Bureau de poste
-02;A206;2015;93;Bureau de poste
-02;A206;2020;84;Bureau de poste
-02;A206;2021;84;Bureau de poste
-02;A206;2025;77;Bureau de poste
-03;A206;2015;88;Bureau de poste
-03;A206;2020;60;Bureau de poste
-03;A206;2021;59;Bureau de poste
-03;A206;2025;54;Bureau de poste
-04;A206;2015;53;Bureau de poste
-04;A206;2020;46;Bureau de poste
-04;A206;2021;45;Bureau de poste
-04;A206;2025;42;Bureau de poste
-05;A206;2015;42;Bureau de poste
-05;A206;2020;31;Bureau de poste
-05;A206;2021;31;Bureau de poste
-05;A206;2025;29;Bureau de poste
-06;A206;2015;134;Bureau de poste
-06;A206;2020;107;Bureau de poste
-06;A206;2021;102;Bureau de poste
-06;A206;2025;87;Bureau de poste
-07;A206;2015;72;Bureau de poste
-07;A206;2020;55;Bureau de poste
-07;A206;2021;49;Bureau de poste
-07;A206;2025;40;Bureau de poste
-08;A206;2015;55;Bureau de poste
-08;A206;2020;43;Bureau de poste
-08;A206;2021;43;Bureau de poste
-08;A206;2025;38;Bureau de poste
-09;A206;2015;57;Bureau de poste
-09;A206;2020;44;Bureau de poste
-09;A206;2021;43;Bureau de poste
-09;A206;2025;39;Bureau de poste
-10;A206;2015;44;Bureau de poste
-10;A206;2020;36;Bureau de poste
-10;A206;2021;36;Bureau de poste
-10;A206;2025;34;Bureau de poste
-11;A206;2015;117;Bureau de poste
-11;A206;2020;96;Bureau de poste
-11;A206;2021;95;Bureau de poste
-11;A206;2025;82;Bureau de poste
-12;A206;2015;70;Bureau de poste
-12;A206;2020;52;Bureau de poste
-12;A206;2021;51;Bureau de poste
-12;A206;2025;50;Bureau de poste
-13;A206;2015;211;Bureau de poste
-13;A206;2020;177;Bureau de poste
-13;A206;2021;175;Bureau de poste
-13;A206;2025;158;Bureau de poste
-14;A206;2015;108;Bureau de poste
-14;A206;2020;90;Bureau de poste
-14;A206;2021;89;Bureau de poste
-14;A206;2025;71;Bureau de poste
-15;A206;2015;37;Bureau de poste
-15;A206;2020;30;Bureau de poste
-15;A206;2021;30;Bureau de poste
-15;A206;2025;27;Bureau de poste
-16;A206;2015;71;Bureau de poste
-16;A206;2020;59;Bureau de poste
-16;A206;2021;59;Bureau de poste
-16;A206;2025;48;Bureau de poste
-17;A206;2015;109;Bureau de poste
-17;A206;2020;96;Bureau de poste
-17;A206;2021;95;Bureau de poste
-17;A206;2025;81;Bureau de poste
-18;A206;2015;66;Bureau de poste
-18;A206;2020;52;Bureau de poste
-18;A206;2021;52;Bureau de poste
-18;A206;2025;46;Bureau de poste
-19;A206;2015;74;Bureau de poste
-19;A206;2020;58;Bureau de poste
-19;A206;2021;58;Bureau de poste
-19;A206;2025;43;Bureau de poste
-21;A206;2015;82;Bureau de poste
-21;A206;2020;53;Bureau de poste
-21;A206;2021;51;Bureau de poste
-21;A206;2025;44;Bureau de poste
-22;A206;2015;122;Bureau de poste
-22;A206;2020;96;Bureau de poste
-22;A206;2021;95;Bureau de poste
-22;A206;2025;79;Bureau de poste
-23;A206;2015;61;Bureau de poste
-23;A206;2020;48;Bureau de poste
-23;A206;2021;48;Bureau de poste
-23;A206;2025;38;Bureau de poste
-24;A206;2015;108;Bureau de poste
-24;A206;2020;86;Bureau de poste
-24;A206;2021;82;Bureau de poste
-24;A206;2025;73;Bureau de poste
-25;A206;2015;87;Bureau de poste
-25;A206;2020;63;Bureau de poste
-25;A206;2021;60;Bureau de poste
-25;A206;2025;51;Bureau de poste
-26;A206;2015;93;Bureau de poste
-26;A206;2020;68;Bureau de poste
-26;A206;2021;64;Bureau de poste
-26;A206;2025;55;Bureau de poste
-27;A206;2015;88;Bureau de poste
-27;A206;2020;78;Bureau de poste
-27;A206;2021;77;Bureau de poste
-27;A206;2025;68;Bureau de poste
-28;A206;2015;54;Bureau de poste
-28;A206;2020;51;Bureau de poste
-28;A206;2021;51;Bureau de poste
-28;A206;2025;41;Bureau de poste
-29;A206;2015;142;Bureau de poste
-29;A206;2020;113;Bureau de poste
-29;A206;2021;111;Bureau de poste
-29;A206;2025;87;Bureau de poste
-2A;A206;2015;55;Bureau de poste
-2A;A206;2020;54;Bureau de poste
-2A;A206;2021;54;Bureau de poste
-2A;A206;2025;54;Bureau de poste
-2B;A206;2015;69;Bureau de poste
-2B;A206;2020;66;Bureau de poste
-2B;A206;2021;63;Bureau de poste
-2B;A206;2025;57;Bureau de poste
-30;A206;2015;135;Bureau de poste
-30;A206;2020;120;Bureau de poste
-30;A206;2021;120;Bureau de poste
-30;A206;2025;98;Bureau de poste
-31;A206;2015;162;Bureau de poste
-31;A206;2020;144;Bureau de poste
-31;A206;2021;141;Bureau de poste
-31;A206;2025;121;Bureau de poste
-32;A206;2015;48;Bureau de poste
-32;A206;2020;39;Bureau de poste
-32;A206;2021;39;Bureau de poste
-32;A206;2025;37;Bureau de poste
-33;A206;2015;228;Bureau de poste
-33;A206;2020;173;Bureau de poste
-33;A206;2021;169;Bureau de poste
-33;A206;2025;145;Bureau de poste
-34;A206;2015;178;Bureau de poste
-34;A206;2020;151;Bureau de poste
-34;A206;2021;149;Bureau de poste
-34;A206;2025;138;Bureau de poste
-35;A206;2015;127;Bureau de poste
-35;A206;2020;97;Bureau de poste
-35;A206;2021;97;Bureau de poste
-35;A206;2025;85;Bureau de poste
-36;A206;2015;56;Bureau de poste
-36;A206;2020;40;Bureau de poste
-36;A206;2021;40;Bureau de poste
-36;A206;2025;36;Bureau de poste
-37;A206;2015;103;Bureau de poste
-37;A206;2020;68;Bureau de poste
-37;A206;2021;68;Bureau de poste
-37;A206;2025;58;Bureau de poste
-38;A206;2015;147;Bureau de poste
-38;A206;2020;117;Bureau de poste
-38;A206;2021;114;Bureau de poste
-38;A206;2025;97;Bureau de poste
-39;A206;2015;46;Bureau de poste
-39;A206;2020;34;Bureau de poste
-39;A206;2021;33;Bureau de poste
-39;A206;2025;29;Bureau de poste
-40;A206;2015;81;Bureau de poste
-40;A206;2020;65;Bureau de poste
-40;A206;2021;64;Bureau de poste
-40;A206;2025;55;Bureau de poste
-41;A206;2015;61;Bureau de poste
-41;A206;2020;54;Bureau de poste
-41;A206;2021;54;Bureau de poste
-41;A206;2025;47;Bureau de poste
-42;A206;2015;107;Bureau de poste
-42;A206;2020;83;Bureau de poste
-42;A206;2021;82;Bureau de poste
-42;A206;2025;71;Bureau de poste
-43;A206;2015;57;Bureau de poste
-43;A206;2020;46;Bureau de poste
-43;A206;2021;46;Bureau de poste
-43;A206;2025;38;Bureau de poste
-44;A206;2015;177;Bureau de poste
-44;A206;2020;139;Bureau de poste
-44;A206;2021;135;Bureau de poste
-44;A206;2025;102;Bureau de poste
-45;A206;2015;82;Bureau de poste
-45;A206;2020;63;Bureau de poste
-45;A206;2021;63;Bureau de poste
-45;A206;2025;51;Bureau de poste
-46;A206;2015;47;Bureau de poste
-46;A206;2020;38;Bureau de poste
-46;A206;2021;37;Bureau de poste
-46;A206;2025;36;Bureau de poste
-47;A206;2015;66;Bureau de poste
-47;A206;2020;54;Bureau de poste
-47;A206;2021;50;Bureau de poste
-47;A206;2025;37;Bureau de poste
-48;A206;2015;42;Bureau de poste
-48;A206;2020;37;Bureau de poste
-48;A206;2021;34;Bureau de poste
-48;A206;2025;25;Bureau de poste
-49;A206;2015;98;Bureau de poste
-49;A206;2020;84;Bureau de poste
-49;A206;2021;82;Bureau de poste
-49;A206;2025;71;Bureau de poste
-50;A206;2015;77;Bureau de poste
-50;A206;2020;67;Bureau de poste
-50;A206;2021;65;Bureau de poste
-50;A206;2025;58;Bureau de poste
-51;A206;2015;73;Bureau de poste
-51;A206;2020;58;Bureau de poste
-51;A206;2021;55;Bureau de poste
-51;A206;2025;48;Bureau de poste
-52;A206;2015;39;Bureau de poste
-52;A206;2020;28;Bureau de poste
-52;A206;2021;28;Bureau de poste
-52;A206;2025;25;Bureau de poste
-53;A206;2015;42;Bureau de poste
-53;A206;2020;35;Bureau de poste
-53;A206;2021;35;Bureau de poste
-53;A206;2025;28;Bureau de poste
-54;A206;2015;119;Bureau de poste
-54;A206;2020;105;Bureau de poste
-54;A206;2021;103;Bureau de poste
-54;A206;2025;83;Bureau de poste
-55;A206;2015;42;Bureau de poste
-55;A206;2020;29;Bureau de poste
-55;A206;2021;29;Bureau de poste
-55;A206;2025;26;Bureau de poste
-56;A206;2015;123;Bureau de poste
-56;A206;2020;102;Bureau de poste
-56;A206;2021;100;Bureau de poste
-56;A206;2025;79;Bureau de poste
-57;A206;2015;125;Bureau de poste
-57;A206;2020;98;Bureau de poste
-57;A206;2021;94;Bureau de poste
-57;A206;2025;73;Bureau de poste
-58;A206;2015;53;Bureau de poste
-58;A206;2020;44;Bureau de poste
-58;A206;2021;42;Bureau de poste
-58;A206;2025;40;Bureau de poste
-59;A206;2015;324;Bureau de poste
-59;A206;2020;285;Bureau de poste
-59;A206;2021;276;Bureau de poste
-59;A206;2025;241;Bureau de poste
-60;A206;2015;125;Bureau de poste
-60;A206;2020;108;Bureau de poste
-60;A206;2021;106;Bureau de poste
-60;A206;2025;100;Bureau de poste
-61;A206;2015;42;Bureau de poste
-61;A206;2020;35;Bureau de poste
-61;A206;2021;35;Bureau de poste
-61;A206;2025;34;Bureau de poste
-62;A206;2015;212;Bureau de poste
-62;A206;2020;158;Bureau de poste
-62;A206;2021;155;Bureau de poste
-62;A206;2025;142;Bureau de poste
-63;A206;2015;129;Bureau de poste
-63;A206;2020;108;Bureau de poste
-63;A206;2021;107;Bureau de poste
-63;A206;2025;104;Bureau de poste
-64;A206;2015;105;Bureau de poste
-64;A206;2020;86;Bureau de poste
-64;A206;2021;82;Bureau de poste
-64;A206;2025;72;Bureau de poste
-65;A206;2015;62;Bureau de poste
-65;A206;2020;44;Bureau de poste
-65;A206;2021;44;Bureau de poste
-65;A206;2025;41;Bureau de poste
-66;A206;2015;102;Bureau de poste
-66;A206;2020;92;Bureau de poste
-66;A206;2021;92;Bureau de poste
-66;A206;2025;79;Bureau de poste
-67;A206;2015;132;Bureau de poste
-67;A206;2020;102;Bureau de poste
-67;A206;2021;98;Bureau de poste
-67;A206;2025;85;Bureau de poste
-68;A206;2015;91;Bureau de poste
-68;A206;2020;71;Bureau de poste
-68;A206;2021;70;Bureau de poste
-68;A206;2025;60;Bureau de poste
-69;A206;2015;183;Bureau de poste
-69;A206;2020;148;Bureau de poste
-69;A206;2021;142;Bureau de poste
-69;A206;2025;123;Bureau de poste
-70;A206;2015;55;Bureau de poste
-70;A206;2020;36;Bureau de poste
-70;A206;2021;34;Bureau de poste
-70;A206;2025;29;Bureau de poste
-71;A206;2015;102;Bureau de poste
-71;A206;2020;80;Bureau de poste
-71;A206;2021;77;Bureau de poste
-71;A206;2025;64;Bureau de poste
-72;A206;2015;73;Bureau de poste
-72;A206;2020;56;Bureau de poste
-72;A206;2021;54;Bureau de poste
-72;A206;2025;42;Bureau de poste
-73;A206;2015;82;Bureau de poste
-73;A206;2020;62;Bureau de poste
-73;A206;2021;60;Bureau de poste
-73;A206;2025;52;Bureau de poste
-74;A206;2015;107;Bureau de poste
-74;A206;2020;82;Bureau de poste
-74;A206;2021;80;Bureau de poste
-74;A206;2025;75;Bureau de poste
-75;A206;2015;187;Bureau de poste
-75;A206;2020;149;Bureau de poste
-75;A206;2021;139;Bureau de poste
-75;A206;2025;128;Bureau de poste
-76;A206;2015;151;Bureau de poste
-76;A206;2020;132;Bureau de poste
-76;A206;2021;132;Bureau de poste
-76;A206;2025;118;Bureau de poste
-77;A206;2015;182;Bureau de poste
-77;A206;2020;158;Bureau de poste
-77;A206;2021;154;Bureau de poste
-77;A206;2025;131;Bureau de poste
-78;A206;2015;134;Bureau de poste
-78;A206;2020;103;Bureau de poste
-78;A206;2021;102;Bureau de poste
-78;A206;2025;87;Bureau de poste
-79;A206;2015;53;Bureau de poste
-79;A206;2020;45;Bureau de poste
-79;A206;2021;45;Bureau de poste
-79;A206;2025;38;Bureau de poste
-80;A206;2015;87;Bureau de poste
-80;A206;2020;78;Bureau de poste
-80;A206;2021;75;Bureau de poste
-80;A206;2025;63;Bureau de poste
-81;A206;2015;62;Bureau de poste
-81;A206;2020;54;Bureau de poste
-81;A206;2021;52;Bureau de poste
-81;A206;2025;45;Bureau de poste
-82;A206;2015;61;Bureau de poste
-82;A206;2020;47;Bureau de poste
-82;A206;2021;47;Bureau de poste
-82;A206;2025;43;Bureau de poste
-83;A206;2015;165;Bureau de poste
-83;A206;2020;128;Bureau de poste
-83;A206;2021;126;Bureau de poste
-83;A206;2025;107;Bureau de poste
-84;A206;2015;102;Bureau de poste
-84;A206;2020;81;Bureau de poste
-84;A206;2021;80;Bureau de poste
-84;A206;2025;70;Bureau de poste
-85;A206;2015;86;Bureau de poste
-85;A206;2020;63;Bureau de poste
-85;A206;2021;62;Bureau de poste
-85;A206;2025;47;Bureau de poste
-86;A206;2015;89;Bureau de poste
-86;A206;2020;68;Bureau de poste
-86;A206;2021;65;Bureau de poste
-86;A206;2025;45;Bureau de poste
-87;A206;2015;75;Bureau de poste
-87;A206;2020;62;Bureau de poste
-87;A206;2021;60;Bureau de poste
-87;A206;2025;53;Bureau de poste
-88;A206;2015;76;Bureau de poste
-88;A206;2020;51;Bureau de poste
-88;A206;2021;49;Bureau de poste
-88;A206;2025;43;Bureau de poste
-89;A206;2015;55;Bureau de poste
-89;A206;2020;37;Bureau de poste
-89;A206;2021;35;Bureau de poste
-89;A206;2025;29;Bureau de poste
-90;A206;2015;21;Bureau de poste
-90;A206;2020;15;Bureau de poste
-90;A206;2021;14;Bureau de poste
-90;A206;2025;12;Bureau de poste
-91;A206;2015;115;Bureau de poste
-91;A206;2020;96;Bureau de poste
-91;A206;2021;95;Bureau de poste
-91;A206;2025;91;Bureau de poste
-92;A206;2015;102;Bureau de poste
-92;A206;2020;81;Bureau de poste
-92;A206;2021;80;Bureau de poste
-92;A206;2025;74;Bureau de poste
-93;A206;2015;98;Bureau de poste
-93;A206;2020;93;Bureau de poste
-93;A206;2021;91;Bureau de poste
-93;A206;2025;91;Bureau de poste
-94;A206;2015;96;Bureau de poste
-94;A206;2020;80;Bureau de poste
-94;A206;2021;81;Bureau de poste
-94;A206;2025;74;Bureau de poste
-95;A206;2015;119;Bureau de poste
-95;A206;2020;95;Bureau de poste
-95;A206;2021;90;Bureau de poste
-95;A206;2025;78;Bureau de poste
-01;A207;2015;53;Relais poste
-01;A207;2020;68;Relais poste
-01;A207;2021;62;Relais poste
-01;A207;2025;66;Relais poste
-02;A207;2015;19;Relais poste
-02;A207;2020;11;Relais poste
-02;A207;2021;12;Relais poste
-02;A207;2025;9;Relais poste
-03;A207;2015;22;Relais poste
-03;A207;2020;27;Relais poste
-03;A207;2021;26;Relais poste
-03;A207;2025;20;Relais poste
-04;A207;2015;2;Relais poste
-04;A207;2020;8;Relais poste
-04;A207;2021;9;Relais poste
-04;A207;2025;9;Relais poste
-05;A207;2015;5;Relais poste
-05;A207;2020;6;Relais poste
-05;A207;2021;4;Relais poste
-05;A207;2025;6;Relais poste
-06;A207;2015;7;Relais poste
-06;A207;2020;39;Relais poste
-06;A207;2021;45;Relais poste
-06;A207;2025;60;Relais poste
-07;A207;2015;12;Relais poste
-07;A207;2020;11;Relais poste
-07;A207;2021;13;Relais poste
-07;A207;2025;25;Relais poste
-08;A207;2015;20;Relais poste
-08;A207;2020;27;Relais poste
-08;A207;2021;25;Relais poste
-08;A207;2025;26;Relais poste
-09;A207;2015;3;Relais poste
-09;A207;2020;3;Relais poste
-09;A207;2021;4;Relais poste
-09;A207;2025;5;Relais poste
-10;A207;2015;32;Relais poste
-10;A207;2020;32;Relais poste
-10;A207;2021;31;Relais poste
-10;A207;2025;35;Relais poste
-11;A207;2015;7;Relais poste
-11;A207;2020;5;Relais poste
-11;A207;2021;5;Relais poste
-11;A207;2025;7;Relais poste
-12;A207;2015;21;Relais poste
-12;A207;2020;26;Relais poste
-12;A207;2021;24;Relais poste
-12;A207;2025;28;Relais poste
-13;A207;2015;12;Relais poste
-13;A207;2020;45;Relais poste
-13;A207;2021;52;Relais poste
-13;A207;2025;69;Relais poste
-14;A207;2015;18;Relais poste
-14;A207;2020;26;Relais poste
-14;A207;2021;26;Relais poste
-14;A207;2025;37;Relais poste
-15;A207;2015;28;Relais poste
-15;A207;2020;23;Relais poste
-15;A207;2021;24;Relais poste
-15;A207;2025;23;Relais poste
-16;A207;2015;22;Relais poste
-16;A207;2020;28;Relais poste
-16;A207;2021;27;Relais poste
-16;A207;2025;30;Relais poste
-17;A207;2015;39;Relais poste
-17;A207;2020;42;Relais poste
-17;A207;2021;42;Relais poste
-17;A207;2025;41;Relais poste
-18;A207;2015;8;Relais poste
-18;A207;2020;9;Relais poste
-18;A207;2021;7;Relais poste
-18;A207;2025;10;Relais poste
-19;A207;2015;7;Relais poste
-19;A207;2020;4;Relais poste
-19;A207;2021;4;Relais poste
-19;A207;2025;13;Relais poste
-21;A207;2015;21;Relais poste
-21;A207;2020;28;Relais poste
-21;A207;2021;28;Relais poste
-21;A207;2025;23;Relais poste
-22;A207;2015;22;Relais poste
-22;A207;2020;27;Relais poste
-22;A207;2021;28;Relais poste
-22;A207;2025;33;Relais poste
-23;A207;2015;11;Relais poste
-23;A207;2020;17;Relais poste
-23;A207;2021;17;Relais poste
-23;A207;2025;14;Relais poste
-24;A207;2015;22;Relais poste
-24;A207;2020;21;Relais poste
-24;A207;2021;19;Relais poste
-24;A207;2025;21;Relais poste
-25;A207;2015;25;Relais poste
-25;A207;2020;35;Relais poste
-25;A207;2021;34;Relais poste
-25;A207;2025;37;Relais poste
-26;A207;2015;18;Relais poste
-26;A207;2020;25;Relais poste
-26;A207;2021;26;Relais poste
-26;A207;2025;37;Relais poste
-27;A207;2015;24;Relais poste
-27;A207;2020;26;Relais poste
-27;A207;2021;26;Relais poste
-27;A207;2025;24;Relais poste
-28;A207;2015;19;Relais poste
-28;A207;2020;18;Relais poste
-28;A207;2021;16;Relais poste
-28;A207;2025;20;Relais poste
-29;A207;2015;18;Relais poste
-29;A207;2020;32;Relais poste
-29;A207;2021;32;Relais poste
-29;A207;2025;38;Relais poste
-2A;A207;2015;1;Relais poste
-2A;A207;2020;1;Relais poste
-2A;A207;2021;2;Relais poste
-2A;A207;2025;4;Relais poste
-2B;A207;2015;1;Relais poste
-2B;A207;2020;1;Relais poste
-2B;A207;2021;1;Relais poste
-2B;A207;2025;2;Relais poste
-30;A207;2015;14;Relais poste
-30;A207;2020;14;Relais poste
-30;A207;2021;14;Relais poste
-30;A207;2025;28;Relais poste
-31;A207;2015;7;Relais poste
-31;A207;2020;31;Relais poste
-31;A207;2021;36;Relais poste
-31;A207;2025;45;Relais poste
-32;A207;2015;22;Relais poste
-32;A207;2020;22;Relais poste
-32;A207;2021;20;Relais poste
-32;A207;2025;20;Relais poste
-33;A207;2015;53;Relais poste
-33;A207;2020;55;Relais poste
-33;A207;2021;55;Relais poste
-33;A207;2025;68;Relais poste
-34;A207;2015;3;Relais poste
-34;A207;2020;11;Relais poste
-34;A207;2021;12;Relais poste
-34;A207;2025;13;Relais poste
-35;A207;2015;43;Relais poste
-35;A207;2020;67;Relais poste
-35;A207;2021;64;Relais poste
-35;A207;2025;70;Relais poste
-36;A207;2015;14;Relais poste
-36;A207;2020;20;Relais poste
-36;A207;2021;19;Relais poste
-36;A207;2025;18;Relais poste
-37;A207;2015;33;Relais poste
-37;A207;2020;54;Relais poste
-37;A207;2021;54;Relais poste
-37;A207;2025;67;Relais poste
-38;A207;2015;39;Relais poste
-38;A207;2020;67;Relais poste
-38;A207;2021;76;Relais poste
-38;A207;2025;98;Relais poste
-39;A207;2015;24;Relais poste
-39;A207;2020;27;Relais poste
-39;A207;2021;27;Relais poste
-39;A207;2025;27;Relais poste
-40;A207;2015;10;Relais poste
-40;A207;2020;15;Relais poste
-40;A207;2021;16;Relais poste
-40;A207;2025;20;Relais poste
-41;A207;2015;42;Relais poste
-41;A207;2020;43;Relais poste
-41;A207;2021;42;Relais poste
-41;A207;2025;38;Relais poste
-42;A207;2015;28;Relais poste
-42;A207;2020;46;Relais poste
-42;A207;2021;41;Relais poste
-42;A207;2025;46;Relais poste
-43;A207;2015;12;Relais poste
-43;A207;2020;17;Relais poste
-43;A207;2021;16;Relais poste
-43;A207;2025;17;Relais poste
-44;A207;2015;32;Relais poste
-44;A207;2020;61;Relais poste
-44;A207;2021;62;Relais poste
-44;A207;2025;91;Relais poste
-45;A207;2015;26;Relais poste
-45;A207;2020;43;Relais poste
-45;A207;2021;40;Relais poste
-45;A207;2025;44;Relais poste
-46;A207;2015;24;Relais poste
-46;A207;2020;21;Relais poste
-46;A207;2021;15;Relais poste
-46;A207;2025;19;Relais poste
-47;A207;2015;14;Relais poste
-47;A207;2020;19;Relais poste
-47;A207;2021;23;Relais poste
-47;A207;2025;25;Relais poste
-48;A207;2015;10;Relais poste
-48;A207;2020;8;Relais poste
-48;A207;2021;6;Relais poste
-48;A207;2025;8;Relais poste
-49;A207;2015;69;Relais poste
-49;A207;2020;76;Relais poste
-49;A207;2021;75;Relais poste
-49;A207;2025;95;Relais poste
-50;A207;2015;39;Relais poste
-50;A207;2020;41;Relais poste
-50;A207;2021;39;Relais poste
-50;A207;2025;41;Relais poste
-51;A207;2015;27;Relais poste
-51;A207;2020;38;Relais poste
-51;A207;2021;39;Relais poste
-51;A207;2025;36;Relais poste
-52;A207;2015;12;Relais poste
-52;A207;2020;13;Relais poste
-52;A207;2021;13;Relais poste
-52;A207;2025;14;Relais poste
-53;A207;2015;39;Relais poste
-53;A207;2020;43;Relais poste
-53;A207;2021;44;Relais poste
-53;A207;2025;36;Relais poste
-54;A207;2015;16;Relais poste
-54;A207;2020;25;Relais poste
-54;A207;2021;23;Relais poste
-54;A207;2025;27;Relais poste
-55;A207;2015;24;Relais poste
-55;A207;2020;21;Relais poste
-55;A207;2021;21;Relais poste
-55;A207;2025;19;Relais poste
-56;A207;2015;21;Relais poste
-56;A207;2020;23;Relais poste
-56;A207;2021;25;Relais poste
-56;A207;2025;33;Relais poste
-57;A207;2015;44;Relais poste
-57;A207;2020;55;Relais poste
-57;A207;2021;56;Relais poste
-57;A207;2025;53;Relais poste
-58;A207;2015;12;Relais poste
-58;A207;2020;13;Relais poste
-58;A207;2021;12;Relais poste
-58;A207;2025;8;Relais poste
-59;A207;2015;20;Relais poste
-59;A207;2020;34;Relais poste
-59;A207;2021;40;Relais poste
-59;A207;2025;47;Relais poste
-60;A207;2015;28;Relais poste
-60;A207;2020;22;Relais poste
-60;A207;2021;22;Relais poste
-60;A207;2025;24;Relais poste
-61;A207;2015;46;Relais poste
-61;A207;2020;45;Relais poste
-61;A207;2021;46;Relais poste
-61;A207;2025;47;Relais poste
-62;A207;2015;16;Relais poste
-62;A207;2020;33;Relais poste
-62;A207;2021;32;Relais poste
-62;A207;2025;39;Relais poste
-63;A207;2015;27;Relais poste
-63;A207;2020;35;Relais poste
-63;A207;2021;34;Relais poste
-63;A207;2025;35;Relais poste
-64;A207;2015;19;Relais poste
-64;A207;2020;26;Relais poste
-64;A207;2021;32;Relais poste
-64;A207;2025;35;Relais poste
-65;A207;2015;8;Relais poste
-65;A207;2020;13;Relais poste
-65;A207;2021;14;Relais poste
-65;A207;2025;13;Relais poste
-66;A207;2015;3;Relais poste
-66;A207;2020;3;Relais poste
-66;A207;2021;3;Relais poste
-66;A207;2025;7;Relais poste
-67;A207;2015;59;Relais poste
-67;A207;2020;73;Relais poste
-67;A207;2021;70;Relais poste
-67;A207;2025;79;Relais poste
-68;A207;2015;56;Relais poste
-68;A207;2020;59;Relais poste
-68;A207;2021;60;Relais poste
-68;A207;2025;59;Relais poste
-69;A207;2015;40;Relais poste
-69;A207;2020;88;Relais poste
-69;A207;2021;83;Relais poste
-69;A207;2025;86;Relais poste
-70;A207;2015;15;Relais poste
-70;A207;2020;13;Relais poste
-70;A207;2021;14;Relais poste
-70;A207;2025;18;Relais poste
-71;A207;2015;40;Relais poste
-71;A207;2020;45;Relais poste
-71;A207;2021;47;Relais poste
-71;A207;2025;45;Relais poste
-72;A207;2015;35;Relais poste
-72;A207;2020;43;Relais poste
-72;A207;2021;45;Relais poste
-72;A207;2025;45;Relais poste
-73;A207;2015;22;Relais poste
-73;A207;2020;34;Relais poste
-73;A207;2021;31;Relais poste
-73;A207;2025;31;Relais poste
-74;A207;2015;23;Relais poste
-74;A207;2020;36;Relais poste
-74;A207;2021;37;Relais poste
-74;A207;2025;35;Relais poste
-75;A207;2015;1;Relais poste
-75;A207;2020;53;Relais poste
-75;A207;2021;60;Relais poste
-75;A207;2025;38;Relais poste
-76;A207;2015;23;Relais poste
-76;A207;2020;35;Relais poste
-76;A207;2021;33;Relais poste
-76;A207;2025;34;Relais poste
-77;A207;2015;12;Relais poste
-77;A207;2020;18;Relais poste
-77;A207;2021;21;Relais poste
-77;A207;2025;28;Relais poste
-78;A207;2015;17;Relais poste
-78;A207;2020;30;Relais poste
-78;A207;2021;31;Relais poste
-78;A207;2025;39;Relais poste
-79;A207;2015;32;Relais poste
-79;A207;2020;41;Relais poste
-79;A207;2021;36;Relais poste
-79;A207;2025;36;Relais poste
-80;A207;2015;16;Relais poste
-80;A207;2020;15;Relais poste
-80;A207;2021;15;Relais poste
-80;A207;2025;13;Relais poste
-81;A207;2015;19;Relais poste
-81;A207;2020;18;Relais poste
-81;A207;2021;18;Relais poste
-81;A207;2025;20;Relais poste
-82;A207;2015;4;Relais poste
-82;A207;2020;10;Relais poste
-82;A207;2021;8;Relais poste
-82;A207;2025;12;Relais poste
-83;A207;2015;8;Relais poste
-83;A207;2020;49;Relais poste
-83;A207;2021;52;Relais poste
-83;A207;2025;52;Relais poste
-84;A207;2015;6;Relais poste
-84;A207;2020;16;Relais poste
-84;A207;2021;15;Relais poste
-84;A207;2025;20;Relais poste
-85;A207;2015;41;Relais poste
-85;A207;2020;51;Relais poste
-85;A207;2021;52;Relais poste
-85;A207;2025;69;Relais poste
-86;A207;2015;26;Relais poste
-86;A207;2020;34;Relais poste
-86;A207;2021;29;Relais poste
-86;A207;2025;43;Relais poste
-87;A207;2015;15;Relais poste
-87;A207;2020;16;Relais poste
-87;A207;2021;13;Relais poste
-87;A207;2025;14;Relais poste
-88;A207;2015;20;Relais poste
-88;A207;2020;19;Relais poste
-88;A207;2021;20;Relais poste
-88;A207;2025;25;Relais poste
-89;A207;2015;34;Relais poste
-89;A207;2020;32;Relais poste
-89;A207;2021;30;Relais poste
-89;A207;2025;23;Relais poste
-90;A207;2015;4;Relais poste
-90;A207;2020;7;Relais poste
-90;A207;2021;7;Relais poste
-90;A207;2025;9;Relais poste
-91;A207;2015;10;Relais poste
-91;A207;2020;21;Relais poste
-91;A207;2021;21;Relais poste
-91;A207;2025;25;Relais poste
-92;A207;2015;4;Relais poste
-92;A207;2020;37;Relais poste
-92;A207;2021;37;Relais poste
-92;A207;2025;38;Relais poste
-93;A207;2015;1;Relais poste
-93;A207;2020;12;Relais poste
-93;A207;2021;15;Relais poste
-93;A207;2025;12;Relais poste
-94;A207;2015;4;Relais poste
-94;A207;2020;17;Relais poste
-94;A207;2021;22;Relais poste
-94;A207;2025;24;Relais poste
-95;A207;2015;4;Relais poste
-95;A207;2020;11;Relais poste
-95;A207;2021;12;Relais poste
-95;A207;2025;21;Relais poste
-01;A208;2015;49;Agence postale communale
-01;A208;2020;55;Agence postale communale
-01;A208;2021;55;Agence postale communale
-01;A208;2025;59;Agence postale communale
-02;A208;2015;70;Agence postale communale
-02;A208;2020;78;Agence postale communale
-02;A208;2021;78;Agence postale communale
-02;A208;2025;88;Agence postale communale
-03;A208;2015;72;Agence postale communale
-03;A208;2020;98;Agence postale communale
-03;A208;2021;98;Agence postale communale
-03;A208;2025;106;Agence postale communale
-04;A208;2015;42;Agence postale communale
-04;A208;2020;46;Agence postale communale
-04;A208;2021;48;Agence postale communale
-04;A208;2025;50;Agence postale communale
-05;A208;2015;46;Agence postale communale
-05;A208;2020;55;Agence postale communale
-05;A208;2021;54;Agence postale communale
-05;A208;2025;55;Agence postale communale
-06;A208;2015;62;Agence postale communale
-06;A208;2020;71;Agence postale communale
-06;A208;2021;71;Agence postale communale
-06;A208;2025;75;Agence postale communale
-07;A208;2015;92;Agence postale communale
-07;A208;2020;106;Agence postale communale
-07;A208;2021;109;Agence postale communale
-07;A208;2025;114;Agence postale communale
-08;A208;2015;34;Agence postale communale
-08;A208;2020;37;Agence postale communale
-08;A208;2021;37;Agence postale communale
-08;A208;2025;43;Agence postale communale
-09;A208;2015;41;Agence postale communale
-09;A208;2020;54;Agence postale communale
-09;A208;2021;54;Agence postale communale
-09;A208;2025;56;Agence postale communale
-10;A208;2015;31;Agence postale communale
-10;A208;2020;36;Agence postale communale
-10;A208;2021;38;Agence postale communale
-10;A208;2025;39;Agence postale communale
-11;A208;2015;105;Agence postale communale
-11;A208;2020;125;Agence postale communale
-11;A208;2021;127;Agence postale communale
-11;A208;2025;137;Agence postale communale
-12;A208;2015;103;Agence postale communale
-12;A208;2020;116;Agence postale communale
-12;A208;2021;116;Agence postale communale
-12;A208;2025;119;Agence postale communale
-13;A208;2015;11;Agence postale communale
-13;A208;2020;21;Agence postale communale
-13;A208;2021;27;Agence postale communale
-13;A208;2025;33;Agence postale communale
-14;A208;2015;57;Agence postale communale
-14;A208;2020;71;Agence postale communale
-14;A208;2021;71;Agence postale communale
-14;A208;2025;80;Agence postale communale
-15;A208;2015;66;Agence postale communale
-15;A208;2020;75;Agence postale communale
-15;A208;2021;75;Agence postale communale
-15;A208;2025;82;Agence postale communale
-16;A208;2015;96;Agence postale communale
-16;A208;2020;102;Agence postale communale
-16;A208;2021;102;Agence postale communale
-16;A208;2025;108;Agence postale communale
-17;A208;2015;113;Agence postale communale
-17;A208;2020;121;Agence postale communale
-17;A208;2021;120;Agence postale communale
-17;A208;2025;131;Agence postale communale
-18;A208;2015;80;Agence postale communale
-18;A208;2020;94;Agence postale communale
-18;A208;2021;94;Agence postale communale
-18;A208;2025;99;Agence postale communale
-19;A208;2015;79;Agence postale communale
-19;A208;2020;95;Agence postale communale
-19;A208;2021;96;Agence postale communale
-19;A208;2025;107;Agence postale communale
-21;A208;2015;78;Agence postale communale
-21;A208;2020;99;Agence postale communale
-21;A208;2021;100;Agence postale communale
-21;A208;2025;107;Agence postale communale
-22;A208;2015;78;Agence postale communale
-22;A208;2020;97;Agence postale communale
-22;A208;2021;98;Agence postale communale
-22;A208;2025;108;Agence postale communale
-23;A208;2015;50;Agence postale communale
-23;A208;2020;56;Agence postale communale
-23;A208;2021;56;Agence postale communale
-23;A208;2025;66;Agence postale communale
-24;A208;2015;117;Agence postale communale
-24;A208;2020;135;Agence postale communale
-24;A208;2021;139;Agence postale communale
-24;A208;2025;147;Agence postale communale
-25;A208;2015;43;Agence postale communale
-25;A208;2020;58;Agence postale communale
-25;A208;2021;59;Agence postale communale
-25;A208;2025;66;Agence postale communale
-26;A208;2015;54;Agence postale communale
-26;A208;2020;70;Agence postale communale
-26;A208;2021;73;Agence postale communale
-26;A208;2025;79;Agence postale communale
-27;A208;2015;38;Agence postale communale
-27;A208;2020;44;Agence postale communale
-27;A208;2021;45;Agence postale communale
-27;A208;2025;55;Agence postale communale
-28;A208;2015;45;Agence postale communale
-28;A208;2020;47;Agence postale communale
-28;A208;2021;47;Agence postale communale
-28;A208;2025;54;Agence postale communale
-29;A208;2015;93;Agence postale communale
-29;A208;2020;103;Agence postale communale
-29;A208;2021;104;Agence postale communale
-29;A208;2025;120;Agence postale communale
-2A;A208;2015;31;Agence postale communale
-2A;A208;2020;31;Agence postale communale
-2A;A208;2021;31;Agence postale communale
-2A;A208;2025;30;Agence postale communale
-2B;A208;2015;32;Agence postale communale
-2B;A208;2020;34;Agence postale communale
-2B;A208;2021;38;Agence postale communale
-2B;A208;2025;43;Agence postale communale
-30;A208;2015;64;Agence postale communale
-30;A208;2020;75;Agence postale communale
-30;A208;2021;75;Agence postale communale
-30;A208;2025;85;Agence postale communale
-31;A208;2015;52;Agence postale communale
-31;A208;2020;59;Agence postale communale
-31;A208;2021;59;Agence postale communale
-31;A208;2025;67;Agence postale communale
-32;A208;2015;32;Agence postale communale
-32;A208;2020;38;Agence postale communale
-32;A208;2021;38;Agence postale communale
-32;A208;2025;38;Agence postale communale
-33;A208;2015;115;Agence postale communale
-33;A208;2020;137;Agence postale communale
-33;A208;2021;141;Agence postale communale
-33;A208;2025;148;Agence postale communale
-34;A208;2015;80;Agence postale communale
-34;A208;2020;99;Agence postale communale
-34;A208;2021;101;Agence postale communale
-34;A208;2025;109;Agence postale communale
-35;A208;2015;78;Agence postale communale
-35;A208;2020;86;Agence postale communale
-35;A208;2021;87;Agence postale communale
-35;A208;2025;87;Agence postale communale
-36;A208;2015;55;Agence postale communale
-36;A208;2020;62;Agence postale communale
-36;A208;2021;62;Agence postale communale
-36;A208;2025;65;Agence postale communale
-37;A208;2015;85;Agence postale communale
-37;A208;2020;98;Agence postale communale
-37;A208;2021;98;Agence postale communale
-37;A208;2025;99;Agence postale communale
-38;A208;2015;115;Agence postale communale
-38;A208;2020;121;Agence postale communale
-38;A208;2021;123;Agence postale communale
-38;A208;2025;119;Agence postale communale
-39;A208;2015;62;Agence postale communale
-39;A208;2020;69;Agence postale communale
-39;A208;2021;70;Agence postale communale
-39;A208;2025;76;Agence postale communale
-40;A208;2015;67;Agence postale communale
-40;A208;2020;74;Agence postale communale
-40;A208;2021;75;Agence postale communale
-40;A208;2025;84;Agence postale communale
-41;A208;2015;52;Agence postale communale
-41;A208;2020;57;Agence postale communale
-41;A208;2021;59;Agence postale communale
-41;A208;2025;62;Agence postale communale
-42;A208;2015;55;Agence postale communale
-42;A208;2020;65;Agence postale communale
-42;A208;2021;68;Agence postale communale
-42;A208;2025;66;Agence postale communale
-43;A208;2015;45;Agence postale communale
-43;A208;2020;53;Agence postale communale
-43;A208;2021;54;Agence postale communale
-43;A208;2025;62;Agence postale communale
-44;A208;2015;48;Agence postale communale
-44;A208;2020;60;Agence postale communale
-44;A208;2021;62;Agence postale communale
-44;A208;2025;73;Agence postale communale
-45;A208;2015;46;Agence postale communale
-45;A208;2020;55;Agence postale communale
-45;A208;2021;57;Agence postale communale
-45;A208;2025;60;Agence postale communale
-46;A208;2015;47;Agence postale communale
-46;A208;2020;57;Agence postale communale
-46;A208;2021;60;Agence postale communale
-46;A208;2025;61;Agence postale communale
-47;A208;2015;70;Agence postale communale
-47;A208;2020;75;Agence postale communale
-47;A208;2021;79;Agence postale communale
-47;A208;2025;89;Agence postale communale
-48;A208;2015;22;Agence postale communale
-48;A208;2020;28;Agence postale communale
-48;A208;2021;31;Agence postale communale
-48;A208;2025;42;Agence postale communale
-49;A208;2015;94;Agence postale communale
-49;A208;2020;95;Agence postale communale
-49;A208;2021;93;Agence postale communale
-49;A208;2025;93;Agence postale communale
-50;A208;2015;40;Agence postale communale
-50;A208;2020;50;Agence postale communale
-50;A208;2021;52;Agence postale communale
-50;A208;2025;53;Agence postale communale
-51;A208;2015;53;Agence postale communale
-51;A208;2020;60;Agence postale communale
-51;A208;2021;60;Agence postale communale
-51;A208;2025;64;Agence postale communale
-52;A208;2015;67;Agence postale communale
-52;A208;2020;74;Agence postale communale
-52;A208;2021;74;Agence postale communale
-52;A208;2025;76;Agence postale communale
-53;A208;2015;50;Agence postale communale
-53;A208;2020;52;Agence postale communale
-53;A208;2021;52;Agence postale communale
-53;A208;2025;60;Agence postale communale
-54;A208;2015;48;Agence postale communale
-54;A208;2020;56;Agence postale communale
-54;A208;2021;56;Agence postale communale
-54;A208;2025;70;Agence postale communale
-55;A208;2015;54;Agence postale communale
-55;A208;2020;67;Agence postale communale
-55;A208;2021;67;Agence postale communale
-55;A208;2025;70;Agence postale communale
-56;A208;2015;63;Agence postale communale
-56;A208;2020;80;Agence postale communale
-56;A208;2021;80;Agence postale communale
-56;A208;2025;92;Agence postale communale
-57;A208;2015;68;Agence postale communale
-57;A208;2020;90;Agence postale communale
-57;A208;2021;91;Agence postale communale
-57;A208;2025;106;Agence postale communale
-58;A208;2015;72;Agence postale communale
-58;A208;2020;79;Agence postale communale
-58;A208;2021;81;Agence postale communale
-58;A208;2025;86;Agence postale communale
-59;A208;2015;53;Agence postale communale
-59;A208;2020;82;Agence postale communale
-59;A208;2021;88;Agence postale communale
-59;A208;2025;118;Agence postale communale
-60;A208;2015;61;Agence postale communale
-60;A208;2020;74;Agence postale communale
-60;A208;2021;74;Agence postale communale
-60;A208;2025;79;Agence postale communale
-61;A208;2015;39;Agence postale communale
-61;A208;2020;44;Agence postale communale
-61;A208;2021;44;Agence postale communale
-61;A208;2025;45;Agence postale communale
-62;A208;2015;38;Agence postale communale
-62;A208;2020;73;Agence postale communale
-62;A208;2021;76;Agence postale communale
-62;A208;2025;86;Agence postale communale
-63;A208;2015;91;Agence postale communale
-63;A208;2020;101;Agence postale communale
-63;A208;2021;102;Agence postale communale
-63;A208;2025;107;Agence postale communale
-64;A208;2015;45;Agence postale communale
-64;A208;2020;57;Agence postale communale
-64;A208;2021;58;Agence postale communale
-64;A208;2025;64;Agence postale communale
-65;A208;2015;32;Agence postale communale
-65;A208;2020;44;Agence postale communale
-65;A208;2021;45;Agence postale communale
-65;A208;2025;46;Agence postale communale
-66;A208;2015;59;Agence postale communale
-66;A208;2020;65;Agence postale communale
-66;A208;2021;66;Agence postale communale
-66;A208;2025;74;Agence postale communale
-67;A208;2015;46;Agence postale communale
-67;A208;2020;55;Agence postale communale
-67;A208;2021;57;Agence postale communale
-67;A208;2025;57;Agence postale communale
-68;A208;2015;41;Agence postale communale
-68;A208;2020;48;Agence postale communale
-68;A208;2021;48;Agence postale communale
-68;A208;2025;51;Agence postale communale
-69;A208;2015;56;Agence postale communale
-69;A208;2020;68;Agence postale communale
-69;A208;2021;73;Agence postale communale
-69;A208;2025;72;Agence postale communale
-70;A208;2015;58;Agence postale communale
-70;A208;2020;73;Agence postale communale
-70;A208;2021;73;Agence postale communale
-70;A208;2025;78;Agence postale communale
-71;A208;2015;92;Agence postale communale
-71;A208;2020;105;Agence postale communale
-71;A208;2021;106;Agence postale communale
-71;A208;2025;121;Agence postale communale
-72;A208;2015;108;Agence postale communale
-72;A208;2020;115;Agence postale communale
-72;A208;2021;117;Agence postale communale
-72;A208;2025;126;Agence postale communale
-73;A208;2015;56;Agence postale communale
-73;A208;2020;67;Agence postale communale
-73;A208;2021;68;Agence postale communale
-73;A208;2025;68;Agence postale communale
-74;A208;2015;41;Agence postale communale
-74;A208;2020;56;Agence postale communale
-74;A208;2021;56;Agence postale communale
-74;A208;2025;59;Agence postale communale
-75;A208;2015;0;Agence postale communale
-75;A208;2020;0;Agence postale communale
-75;A208;2021;0;Agence postale communale
-75;A208;2025;0;Agence postale communale
-76;A208;2015;63;Agence postale communale
-76;A208;2020;70;Agence postale communale
-76;A208;2021;70;Agence postale communale
-76;A208;2025;82;Agence postale communale
-77;A208;2015;47;Agence postale communale
-77;A208;2020;67;Agence postale communale
-77;A208;2021;71;Agence postale communale
-77;A208;2025;87;Agence postale communale
-78;A208;2015;34;Agence postale communale
-78;A208;2020;44;Agence postale communale
-78;A208;2021;44;Agence postale communale
-78;A208;2025;54;Agence postale communale
-79;A208;2015;47;Agence postale communale
-79;A208;2020;51;Agence postale communale
-79;A208;2021;51;Agence postale communale
-79;A208;2025;54;Agence postale communale
-80;A208;2015;67;Agence postale communale
-80;A208;2020;74;Agence postale communale
-80;A208;2021;76;Agence postale communale
-80;A208;2025;92;Agence postale communale
-81;A208;2015;37;Agence postale communale
-81;A208;2020;45;Agence postale communale
-81;A208;2021;46;Agence postale communale
-81;A208;2025;49;Agence postale communale
-82;A208;2015;34;Agence postale communale
-82;A208;2020;44;Agence postale communale
-82;A208;2021;44;Agence postale communale
-82;A208;2025;44;Agence postale communale
-83;A208;2015;21;Agence postale communale
-83;A208;2020;34;Agence postale communale
-83;A208;2021;36;Agence postale communale
-83;A208;2025;50;Agence postale communale
-84;A208;2015;24;Agence postale communale
-84;A208;2020;38;Agence postale communale
-84;A208;2021;38;Agence postale communale
-84;A208;2025;46;Agence postale communale
-85;A208;2015;79;Agence postale communale
-85;A208;2020;86;Agence postale communale
-85;A208;2021;88;Agence postale communale
-85;A208;2025;89;Agence postale communale
-86;A208;2015;75;Agence postale communale
-86;A208;2020;87;Agence postale communale
-86;A208;2021;87;Agence postale communale
-86;A208;2025;96;Agence postale communale
-87;A208;2015;68;Agence postale communale
-87;A208;2020;77;Agence postale communale
-87;A208;2021;79;Agence postale communale
-87;A208;2025;82;Agence postale communale
-88;A208;2015;43;Agence postale communale
-88;A208;2020;67;Agence postale communale
-88;A208;2021;68;Agence postale communale
-88;A208;2025;71;Agence postale communale
-89;A208;2015;96;Agence postale communale
-89;A208;2020;115;Agence postale communale
-89;A208;2021;117;Agence postale communale
-89;A208;2025;124;Agence postale communale
-90;A208;2015;6;Agence postale communale
-90;A208;2020;8;Agence postale communale
-90;A208;2021;8;Agence postale communale
-90;A208;2025;10;Agence postale communale
-91;A208;2015;26;Agence postale communale
-91;A208;2020;35;Agence postale communale
-91;A208;2021;35;Agence postale communale
-91;A208;2025;36;Agence postale communale
-92;A208;2015;3;Agence postale communale
-92;A208;2020;6;Agence postale communale
-92;A208;2021;6;Agence postale communale
-92;A208;2025;9;Agence postale communale
-93;A208;2015;3;Agence postale communale
-93;A208;2020;4;Agence postale communale
-93;A208;2021;3;Agence postale communale
-93;A208;2025;3;Agence postale communale
-94;A208;2015;5;Agence postale communale
-94;A208;2020;9;Agence postale communale
-94;A208;2021;9;Agence postale communale
-94;A208;2025;10;Agence postale communale
-95;A208;2015;15;Agence postale communale
-95;A208;2020;23;Agence postale communale
-95;A208;2021;25;Agence postale communale
-95;A208;2025;27;Agence postale communale
+01;A104;2015;46;National Gendarmerie
+01;A104;2020;42;National Gendarmerie
+01;A104;2021;42;National Gendarmerie
+01;A104;2025;45;National Gendarmerie
+02;A104;2015;39;National Gendarmerie
+02;A104;2020;37;National Gendarmerie
+02;A104;2021;37;National Gendarmerie
+02;A104;2025;40;National Gendarmerie
+03;A104;2015;29;National Gendarmerie
+03;A104;2020;26;National Gendarmerie
+03;A104;2021;26;National Gendarmerie
+03;A104;2025;30;National Gendarmerie
+04;A104;2015;29;National Gendarmerie
+04;A104;2020;28;National Gendarmerie
+04;A104;2021;28;National Gendarmerie
+04;A104;2025;33;National Gendarmerie
+05;A104;2015;22;National Gendarmerie
+05;A104;2020;20;National Gendarmerie
+05;A104;2021;20;National Gendarmerie
+05;A104;2025;26;National Gendarmerie
+06;A104;2015;39;National Gendarmerie
+06;A104;2020;37;National Gendarmerie
+06;A104;2021;37;National Gendarmerie
+06;A104;2025;44;National Gendarmerie
+07;A104;2015;35;National Gendarmerie
+07;A104;2020;30;National Gendarmerie
+07;A104;2021;30;National Gendarmerie
+07;A104;2025;31;National Gendarmerie
+08;A104;2015;35;National Gendarmerie
+08;A104;2020;31;National Gendarmerie
+08;A104;2021;31;National Gendarmerie
+08;A104;2025;31;National Gendarmerie
+09;A104;2015;19;National Gendarmerie
+09;A104;2020;19;National Gendarmerie
+09;A104;2021;19;National Gendarmerie
+09;A104;2025;24;National Gendarmerie
+10;A104;2015;27;National Gendarmerie
+10;A104;2020;24;National Gendarmerie
+10;A104;2021;24;National Gendarmerie
+10;A104;2025;25;National Gendarmerie
+11;A104;2015;33;National Gendarmerie
+11;A104;2020;32;National Gendarmerie
+11;A104;2021;31;National Gendarmerie
+11;A104;2025;34;National Gendarmerie
+12;A104;2015;43;National Gendarmerie
+12;A104;2020;40;National Gendarmerie
+12;A104;2021;40;National Gendarmerie
+12;A104;2025;41;National Gendarmerie
+13;A104;2015;33;National Gendarmerie
+13;A104;2020;33;National Gendarmerie
+13;A104;2021;33;National Gendarmerie
+13;A104;2025;40;National Gendarmerie
+14;A104;2015;40;National Gendarmerie
+14;A104;2020;35;National Gendarmerie
+14;A104;2021;35;National Gendarmerie
+14;A104;2025;46;National Gendarmerie
+15;A104;2015;26;National Gendarmerie
+15;A104;2020;26;National Gendarmerie
+15;A104;2021;26;National Gendarmerie
+15;A104;2025;28;National Gendarmerie
+16;A104;2015;28;National Gendarmerie
+16;A104;2020;27;National Gendarmerie
+16;A104;2021;27;National Gendarmerie
+16;A104;2025;27;National Gendarmerie
+17;A104;2015;39;National Gendarmerie
+17;A104;2020;38;National Gendarmerie
+17;A104;2021;38;National Gendarmerie
+17;A104;2025;47;National Gendarmerie
+18;A104;2015;26;National Gendarmerie
+18;A104;2020;26;National Gendarmerie
+18;A104;2021;26;National Gendarmerie
+18;A104;2025;27;National Gendarmerie
+19;A104;2015;29;National Gendarmerie
+19;A104;2020;28;National Gendarmerie
+19;A104;2021;28;National Gendarmerie
+19;A104;2025;31;National Gendarmerie
+21;A104;2015;36;National Gendarmerie
+21;A104;2020;30;National Gendarmerie
+21;A104;2021;30;National Gendarmerie
+21;A104;2025;34;National Gendarmerie
+22;A104;2015;44;National Gendarmerie
+22;A104;2020;38;National Gendarmerie
+22;A104;2021;38;National Gendarmerie
+22;A104;2025;44;National Gendarmerie
+23;A104;2015;25;National Gendarmerie
+23;A104;2020;24;National Gendarmerie
+23;A104;2021;24;National Gendarmerie
+23;A104;2025;25;National Gendarmerie
+24;A104;2015;49;National Gendarmerie
+24;A104;2020;45;National Gendarmerie
+24;A104;2021;45;National Gendarmerie
+24;A104;2025;47;National Gendarmerie
+25;A104;2015;34;National Gendarmerie
+25;A104;2020;33;National Gendarmerie
+25;A104;2021;33;National Gendarmerie
+25;A104;2025;37;National Gendarmerie
+26;A104;2015;36;National Gendarmerie
+26;A104;2020;36;National Gendarmerie
+26;A104;2021;35;National Gendarmerie
+26;A104;2025;39;National Gendarmerie
+27;A104;2015;35;National Gendarmerie
+27;A104;2020;33;National Gendarmerie
+27;A104;2021;33;National Gendarmerie
+27;A104;2025;37;National Gendarmerie
+28;A104;2015;26;National Gendarmerie
+28;A104;2020;26;National Gendarmerie
+28;A104;2021;26;National Gendarmerie
+28;A104;2025;27;National Gendarmerie
+29;A104;2015;45;National Gendarmerie
+29;A104;2020;44;National Gendarmerie
+29;A104;2021;44;National Gendarmerie
+29;A104;2025;53;National Gendarmerie
+2A;A104;2015;21;National Gendarmerie
+2A;A104;2020;17;National Gendarmerie
+2A;A104;2021;17;National Gendarmerie
+2A;A104;2025;21;National Gendarmerie
+2B;A104;2015;22;National Gendarmerie
+2B;A104;2020;20;National Gendarmerie
+2B;A104;2021;19;National Gendarmerie
+2B;A104;2025;23;National Gendarmerie
+30;A104;2015;45;National Gendarmerie
+30;A104;2020;42;National Gendarmerie
+30;A104;2021;42;National Gendarmerie
+30;A104;2025;44;National Gendarmerie
+31;A104;2015;52;National Gendarmerie
+31;A104;2020;51;National Gendarmerie
+31;A104;2021;51;National Gendarmerie
+31;A104;2025;54;National Gendarmerie
+32;A104;2015;27;National Gendarmerie
+32;A104;2020;26;National Gendarmerie
+32;A104;2021;26;National Gendarmerie
+32;A104;2025;26;National Gendarmerie
+33;A104;2015;61;National Gendarmerie
+33;A104;2020;57;National Gendarmerie
+33;A104;2021;57;National Gendarmerie
+33;A104;2025;67;National Gendarmerie
+34;A104;2015;42;National Gendarmerie
+34;A104;2020;38;National Gendarmerie
+34;A104;2021;38;National Gendarmerie
+34;A104;2025;46;National Gendarmerie
+35;A104;2015;41;National Gendarmerie
+35;A104;2020;36;National Gendarmerie
+35;A104;2021;35;National Gendarmerie
+35;A104;2025;39;National Gendarmerie
+36;A104;2015;22;National Gendarmerie
+36;A104;2020;22;National Gendarmerie
+36;A104;2021;22;National Gendarmerie
+36;A104;2025;25;National Gendarmerie
+37;A104;2015;30;National Gendarmerie
+37;A104;2020;29;National Gendarmerie
+37;A104;2021;29;National Gendarmerie
+37;A104;2025;32;National Gendarmerie
+38;A104;2015;59;National Gendarmerie
+38;A104;2020;56;National Gendarmerie
+38;A104;2021;56;National Gendarmerie
+38;A104;2025;71;National Gendarmerie
+39;A104;2015;31;National Gendarmerie
+39;A104;2020;28;National Gendarmerie
+39;A104;2021;28;National Gendarmerie
+39;A104;2025;30;National Gendarmerie
+40;A104;2015;36;National Gendarmerie
+40;A104;2020;33;National Gendarmerie
+40;A104;2021;33;National Gendarmerie
+40;A104;2025;36;National Gendarmerie
+41;A104;2015;23;National Gendarmerie
+41;A104;2020;23;National Gendarmerie
+41;A104;2021;23;National Gendarmerie
+41;A104;2025;26;National Gendarmerie
+42;A104;2015;31;National Gendarmerie
+42;A104;2020;30;National Gendarmerie
+42;A104;2021;30;National Gendarmerie
+42;A104;2025;33;National Gendarmerie
+43;A104;2015;33;National Gendarmerie
+43;A104;2020;29;National Gendarmerie
+43;A104;2021;28;National Gendarmerie
+43;A104;2025;30;National Gendarmerie
+44;A104;2015;48;National Gendarmerie
+44;A104;2020;44;National Gendarmerie
+44;A104;2021;44;National Gendarmerie
+44;A104;2025;51;National Gendarmerie
+45;A104;2015;27;National Gendarmerie
+45;A104;2020;27;National Gendarmerie
+45;A104;2021;27;National Gendarmerie
+45;A104;2025;33;National Gendarmerie
+46;A104;2015;26;National Gendarmerie
+46;A104;2020;23;National Gendarmerie
+46;A104;2021;23;National Gendarmerie
+46;A104;2025;27;National Gendarmerie
+47;A104;2015;35;National Gendarmerie
+47;A104;2020;33;National Gendarmerie
+47;A104;2021;33;National Gendarmerie
+47;A104;2025;37;National Gendarmerie
+48;A104;2015;25;National Gendarmerie
+48;A104;2020;24;National Gendarmerie
+48;A104;2021;24;National Gendarmerie
+48;A104;2025;25;National Gendarmerie
+49;A104;2015;38;National Gendarmerie
+49;A104;2020;37;National Gendarmerie
+49;A104;2021;37;National Gendarmerie
+49;A104;2025;41;National Gendarmerie
+50;A104;2015;44;National Gendarmerie
+50;A104;2020;41;National Gendarmerie
+50;A104;2021;40;National Gendarmerie
+50;A104;2025;45;National Gendarmerie
+51;A104;2015;38;National Gendarmerie
+51;A104;2020;36;National Gendarmerie
+51;A104;2021;36;National Gendarmerie
+51;A104;2025;41;National Gendarmerie
+52;A104;2015;25;National Gendarmerie
+52;A104;2020;23;National Gendarmerie
+52;A104;2021;23;National Gendarmerie
+52;A104;2025;27;National Gendarmerie
+53;A104;2015;24;National Gendarmerie
+53;A104;2020;24;National Gendarmerie
+53;A104;2021;24;National Gendarmerie
+53;A104;2025;25;National Gendarmerie
+54;A104;2015;33;National Gendarmerie
+54;A104;2020;30;National Gendarmerie
+54;A104;2021;30;National Gendarmerie
+54;A104;2025;33;National Gendarmerie
+55;A104;2015;25;National Gendarmerie
+55;A104;2020;21;National Gendarmerie
+55;A104;2021;21;National Gendarmerie
+55;A104;2025;23;National Gendarmerie
+56;A104;2015;37;National Gendarmerie
+56;A104;2020;36;National Gendarmerie
+56;A104;2021;36;National Gendarmerie
+56;A104;2025;46;National Gendarmerie
+57;A104;2015;46;National Gendarmerie
+57;A104;2020;44;National Gendarmerie
+57;A104;2021;45;National Gendarmerie
+57;A104;2025;49;National Gendarmerie
+58;A104;2015;28;National Gendarmerie
+58;A104;2020;27;National Gendarmerie
+58;A104;2021;27;National Gendarmerie
+58;A104;2025;30;National Gendarmerie
+59;A104;2015;53;National Gendarmerie
+59;A104;2020;48;National Gendarmerie
+59;A104;2021;48;National Gendarmerie
+59;A104;2025;54;National Gendarmerie
+60;A104;2015;43;National Gendarmerie
+60;A104;2020;42;National Gendarmerie
+60;A104;2021;41;National Gendarmerie
+60;A104;2025;45;National Gendarmerie
+61;A104;2015;35;National Gendarmerie
+61;A104;2020;29;National Gendarmerie
+61;A104;2021;29;National Gendarmerie
+61;A104;2025;31;National Gendarmerie
+62;A104;2015;50;National Gendarmerie
+62;A104;2020;45;National Gendarmerie
+62;A104;2021;45;National Gendarmerie
+62;A104;2025;54;National Gendarmerie
+63;A104;2015;49;National Gendarmerie
+63;A104;2020;47;National Gendarmerie
+63;A104;2021;47;National Gendarmerie
+63;A104;2025;53;National Gendarmerie
+64;A104;2015;42;National Gendarmerie
+64;A104;2020;40;National Gendarmerie
+64;A104;2021;40;National Gendarmerie
+64;A104;2025;46;National Gendarmerie
+65;A104;2015;21;National Gendarmerie
+65;A104;2020;19;National Gendarmerie
+65;A104;2021;19;National Gendarmerie
+65;A104;2025;24;National Gendarmerie
+66;A104;2015;33;National Gendarmerie
+66;A104;2020;31;National Gendarmerie
+66;A104;2021;31;National Gendarmerie
+66;A104;2025;33;National Gendarmerie
+67;A104;2015;40;National Gendarmerie
+67;A104;2020;38;National Gendarmerie
+67;A104;2021;38;National Gendarmerie
+67;A104;2025;46;National Gendarmerie
+68;A104;2015;37;National Gendarmerie
+68;A104;2020;37;National Gendarmerie
+68;A104;2021;36;National Gendarmerie
+68;A104;2025;39;National Gendarmerie
+69;A104;2015;35;National Gendarmerie
+69;A104;2020;34;National Gendarmerie
+69;A104;2021;34;National Gendarmerie
+69;A104;2025;37;National Gendarmerie
+70;A104;2015;27;National Gendarmerie
+70;A104;2020;26;National Gendarmerie
+70;A104;2021;26;National Gendarmerie
+70;A104;2025;27;National Gendarmerie
+71;A104;2015;44;National Gendarmerie
+71;A104;2020;41;National Gendarmerie
+71;A104;2021;41;National Gendarmerie
+71;A104;2025;44;National Gendarmerie
+72;A104;2015;38;National Gendarmerie
+72;A104;2020;36;National Gendarmerie
+72;A104;2021;36;National Gendarmerie
+72;A104;2025;40;National Gendarmerie
+73;A104;2015;31;National Gendarmerie
+73;A104;2020;28;National Gendarmerie
+73;A104;2021;28;National Gendarmerie
+73;A104;2025;41;National Gendarmerie
+74;A104;2015;37;National Gendarmerie
+74;A104;2020;34;National Gendarmerie
+74;A104;2021;34;National Gendarmerie
+74;A104;2025;45;National Gendarmerie
+75;A104;2015;1;National Gendarmerie
+75;A104;2020;0;National Gendarmerie
+75;A104;2021;0;National Gendarmerie
+75;A104;2025;1;National Gendarmerie
+76;A104;2015;47;National Gendarmerie
+76;A104;2020;43;National Gendarmerie
+76;A104;2021;43;National Gendarmerie
+76;A104;2025;45;National Gendarmerie
+77;A104;2015;32;National Gendarmerie
+77;A104;2020;29;National Gendarmerie
+77;A104;2021;29;National Gendarmerie
+77;A104;2025;34;National Gendarmerie
+78;A104;2015;21;National Gendarmerie
+78;A104;2020;21;National Gendarmerie
+78;A104;2021;20;National Gendarmerie
+78;A104;2025;24;National Gendarmerie
+79;A104;2015;28;National Gendarmerie
+79;A104;2020;27;National Gendarmerie
+79;A104;2021;27;National Gendarmerie
+79;A104;2025;29;National Gendarmerie
+80;A104;2015;38;National Gendarmerie
+80;A104;2020;36;National Gendarmerie
+80;A104;2021;36;National Gendarmerie
+80;A104;2025;42;National Gendarmerie
+81;A104;2015;33;National Gendarmerie
+81;A104;2020;31;National Gendarmerie
+81;A104;2021;31;National Gendarmerie
+81;A104;2025;33;National Gendarmerie
+82;A104;2015;23;National Gendarmerie
+82;A104;2020;21;National Gendarmerie
+82;A104;2021;21;National Gendarmerie
+82;A104;2025;23;National Gendarmerie
+83;A104;2015;32;National Gendarmerie
+83;A104;2020;32;National Gendarmerie
+83;A104;2021;32;National Gendarmerie
+83;A104;2025;37;National Gendarmerie
+84;A104;2015;25;National Gendarmerie
+84;A104;2020;22;National Gendarmerie
+84;A104;2021;23;National Gendarmerie
+84;A104;2025;26;National Gendarmerie
+85;A104;2015;30;National Gendarmerie
+85;A104;2020;30;National Gendarmerie
+85;A104;2021;30;National Gendarmerie
+85;A104;2025;37;National Gendarmerie
+86;A104;2015;30;National Gendarmerie
+86;A104;2020;25;National Gendarmerie
+86;A104;2021;25;National Gendarmerie
+86;A104;2025;27;National Gendarmerie
+87;A104;2015;26;National Gendarmerie
+87;A104;2020;24;National Gendarmerie
+87;A104;2021;24;National Gendarmerie
+87;A104;2025;28;National Gendarmerie
+88;A104;2015;33;National Gendarmerie
+88;A104;2020;30;National Gendarmerie
+88;A104;2021;30;National Gendarmerie
+88;A104;2025;32;National Gendarmerie
+89;A104;2015;33;National Gendarmerie
+89;A104;2020;33;National Gendarmerie
+89;A104;2021;33;National Gendarmerie
+89;A104;2025;34;National Gendarmerie
+90;A104;2015;8;National Gendarmerie
+90;A104;2020;8;National Gendarmerie
+90;A104;2021;8;National Gendarmerie
+90;A104;2025;9;National Gendarmerie
+91;A104;2015;25;National Gendarmerie
+91;A104;2020;25;National Gendarmerie
+91;A104;2021;25;National Gendarmerie
+91;A104;2025;24;National Gendarmerie
+92;A104;2015;1;National Gendarmerie
+92;A104;2020;0;National Gendarmerie
+92;A104;2021;0;National Gendarmerie
+92;A104;2025;1;National Gendarmerie
+93;A104;2015;1;National Gendarmerie
+93;A104;2020;0;National Gendarmerie
+93;A104;2021;0;National Gendarmerie
+93;A104;2025;0;National Gendarmerie
+94;A104;2015;1;National Gendarmerie
+94;A104;2020;0;National Gendarmerie
+94;A104;2021;0;National Gendarmerie
+94;A104;2025;0;National Gendarmerie
+95;A104;2015;18;National Gendarmerie
+95;A104;2020;17;National Gendarmerie
+95;A104;2021;17;National Gendarmerie
+95;A104;2025;20;National Gendarmerie
+01;A10G;2015;35;Public Finances
+01;A10G;2020;24;Public Finances
+01;A10G;2021;24;Public Finances
+01;A10G;2025;16;Public Finances
+02;A10G;2015;36;Public Finances
+02;A10G;2020;29;Public Finances
+02;A10G;2021;28;Public Finances
+02;A10G;2025;12;Public Finances
+03;A10G;2015;22;Public Finances
+03;A10G;2020;16;Public Finances
+03;A10G;2021;16;Public Finances
+03;A10G;2025;9;Public Finances
+04;A10G;2015;18;Public Finances
+04;A10G;2020;15;Public Finances
+04;A10G;2021;14;Public Finances
+04;A10G;2025;10;Public Finances
+05;A10G;2015;16;Public Finances
+05;A10G;2020;13;Public Finances
+05;A10G;2021;12;Public Finances
+05;A10G;2025;5;Public Finances
+06;A10G;2015;36;Public Finances
+06;A10G;2020;31;Public Finances
+06;A10G;2021;30;Public Finances
+06;A10G;2025;19;Public Finances
+07;A10G;2015;29;Public Finances
+07;A10G;2020;18;Public Finances
+07;A10G;2021;19;Public Finances
+07;A10G;2025;9;Public Finances
+08;A10G;2015;22;Public Finances
+08;A10G;2020;21;Public Finances
+08;A10G;2021;21;Public Finances
+08;A10G;2025;11;Public Finances
+09;A10G;2015;18;Public Finances
+09;A10G;2020;14;Public Finances
+09;A10G;2021;14;Public Finances
+09;A10G;2025;6;Public Finances
+10;A10G;2015;19;Public Finances
+10;A10G;2020;15;Public Finances
+10;A10G;2021;14;Public Finances
+10;A10G;2025;8;Public Finances
+11;A10G;2015;25;Public Finances
+11;A10G;2020;15;Public Finances
+11;A10G;2021;15;Public Finances
+11;A10G;2025;5;Public Finances
+12;A10G;2015;29;Public Finances
+12;A10G;2020;25;Public Finances
+12;A10G;2021;25;Public Finances
+12;A10G;2025;10;Public Finances
+13;A10G;2015;46;Public Finances
+13;A10G;2020;42;Public Finances
+13;A10G;2021;42;Public Finances
+13;A10G;2025;27;Public Finances
+14;A10G;2015;37;Public Finances
+14;A10G;2020;28;Public Finances
+14;A10G;2021;27;Public Finances
+14;A10G;2025;19;Public Finances
+15;A10G;2015;20;Public Finances
+15;A10G;2020;16;Public Finances
+15;A10G;2021;16;Public Finances
+15;A10G;2025;10;Public Finances
+16;A10G;2015;28;Public Finances
+16;A10G;2020;22;Public Finances
+16;A10G;2021;21;Public Finances
+16;A10G;2025;11;Public Finances
+17;A10G;2015;34;Public Finances
+17;A10G;2020;27;Public Finances
+17;A10G;2021;25;Public Finances
+17;A10G;2025;15;Public Finances
+18;A10G;2015;22;Public Finances
+18;A10G;2020;18;Public Finances
+18;A10G;2021;18;Public Finances
+18;A10G;2025;13;Public Finances
+19;A10G;2015;30;Public Finances
+19;A10G;2020;28;Public Finances
+19;A10G;2021;28;Public Finances
+19;A10G;2025;13;Public Finances
+21;A10G;2015;37;Public Finances
+21;A10G;2020;28;Public Finances
+21;A10G;2021;29;Public Finances
+21;A10G;2025;18;Public Finances
+22;A10G;2015;36;Public Finances
+22;A10G;2020;30;Public Finances
+22;A10G;2021;30;Public Finances
+22;A10G;2025;16;Public Finances
+23;A10G;2015;19;Public Finances
+23;A10G;2020;13;Public Finances
+23;A10G;2021;12;Public Finances
+23;A10G;2025;4;Public Finances
+24;A10G;2015;24;Public Finances
+24;A10G;2020;20;Public Finances
+24;A10G;2021;20;Public Finances
+24;A10G;2025;8;Public Finances
+25;A10G;2015;33;Public Finances
+25;A10G;2020;23;Public Finances
+25;A10G;2021;23;Public Finances
+25;A10G;2025;14;Public Finances
+26;A10G;2015;31;Public Finances
+26;A10G;2020;21;Public Finances
+26;A10G;2021;21;Public Finances
+26;A10G;2025;11;Public Finances
+27;A10G;2015;34;Public Finances
+27;A10G;2020;23;Public Finances
+27;A10G;2021;23;Public Finances
+27;A10G;2025;10;Public Finances
+28;A10G;2015;23;Public Finances
+28;A10G;2020;13;Public Finances
+28;A10G;2021;12;Public Finances
+28;A10G;2025;6;Public Finances
+29;A10G;2015;41;Public Finances
+29;A10G;2020;29;Public Finances
+29;A10G;2021;29;Public Finances
+29;A10G;2025;14;Public Finances
+2A;A10G;2015;14;Public Finances
+2A;A10G;2020;11;Public Finances
+2A;A10G;2021;11;Public Finances
+2A;A10G;2025;6;Public Finances
+2B;A10G;2015;16;Public Finances
+2B;A10G;2020;16;Public Finances
+2B;A10G;2021;16;Public Finances
+2B;A10G;2025;10;Public Finances
+30;A10G;2015;32;Public Finances
+30;A10G;2020;26;Public Finances
+30;A10G;2021;26;Public Finances
+30;A10G;2025;12;Public Finances
+31;A10G;2015;44;Public Finances
+31;A10G;2020;38;Public Finances
+31;A10G;2021;37;Public Finances
+31;A10G;2025;24;Public Finances
+32;A10G;2015;24;Public Finances
+32;A10G;2020;19;Public Finances
+32;A10G;2021;18;Public Finances
+32;A10G;2025;10;Public Finances
+33;A10G;2015;56;Public Finances
+33;A10G;2020;43;Public Finances
+33;A10G;2021;43;Public Finances
+33;A10G;2025;33;Public Finances
+34;A10G;2015;35;Public Finances
+34;A10G;2020;29;Public Finances
+34;A10G;2021;29;Public Finances
+34;A10G;2025;19;Public Finances
+35;A10G;2015;39;Public Finances
+35;A10G;2020;33;Public Finances
+35;A10G;2021;32;Public Finances
+35;A10G;2025;21;Public Finances
+36;A10G;2015;11;Public Finances
+36;A10G;2020;9;Public Finances
+36;A10G;2021;9;Public Finances
+36;A10G;2025;8;Public Finances
+37;A10G;2015;28;Public Finances
+37;A10G;2020;22;Public Finances
+37;A10G;2021;21;Public Finances
+37;A10G;2025;8;Public Finances
+38;A10G;2015;56;Public Finances
+38;A10G;2020;44;Public Finances
+38;A10G;2021;46;Public Finances
+38;A10G;2025;22;Public Finances
+39;A10G;2015;22;Public Finances
+39;A10G;2020;18;Public Finances
+39;A10G;2021;16;Public Finances
+39;A10G;2025;8;Public Finances
+40;A10G;2015;25;Public Finances
+40;A10G;2020;23;Public Finances
+40;A10G;2021;23;Public Finances
+40;A10G;2025;9;Public Finances
+41;A10G;2015;19;Public Finances
+41;A10G;2020;14;Public Finances
+41;A10G;2021;12;Public Finances
+41;A10G;2025;6;Public Finances
+42;A10G;2015;32;Public Finances
+42;A10G;2020;18;Public Finances
+42;A10G;2021;18;Public Finances
+42;A10G;2025;10;Public Finances
+43;A10G;2015;23;Public Finances
+43;A10G;2020;19;Public Finances
+43;A10G;2021;18;Public Finances
+43;A10G;2025;9;Public Finances
+44;A10G;2015;38;Public Finances
+44;A10G;2020;31;Public Finances
+44;A10G;2021;31;Public Finances
+44;A10G;2025;19;Public Finances
+45;A10G;2015;28;Public Finances
+45;A10G;2020;20;Public Finances
+45;A10G;2021;20;Public Finances
+45;A10G;2025;11;Public Finances
+46;A10G;2015;21;Public Finances
+46;A10G;2020;13;Public Finances
+46;A10G;2021;13;Public Finances
+46;A10G;2025;5;Public Finances
+47;A10G;2015;22;Public Finances
+47;A10G;2020;15;Public Finances
+47;A10G;2021;15;Public Finances
+47;A10G;2025;10;Public Finances
+48;A10G;2015;14;Public Finances
+48;A10G;2020;9;Public Finances
+48;A10G;2021;9;Public Finances
+48;A10G;2025;6;Public Finances
+49;A10G;2015;35;Public Finances
+49;A10G;2020;23;Public Finances
+49;A10G;2021;18;Public Finances
+49;A10G;2025;12;Public Finances
+50;A10G;2015;33;Public Finances
+50;A10G;2020;23;Public Finances
+50;A10G;2021;22;Public Finances
+50;A10G;2025;9;Public Finances
+51;A10G;2015;27;Public Finances
+51;A10G;2020;19;Public Finances
+51;A10G;2021;18;Public Finances
+51;A10G;2025;12;Public Finances
+52;A10G;2015;20;Public Finances
+52;A10G;2020;15;Public Finances
+52;A10G;2021;14;Public Finances
+52;A10G;2025;4;Public Finances
+53;A10G;2015;15;Public Finances
+53;A10G;2020;10;Public Finances
+53;A10G;2021;10;Public Finances
+53;A10G;2025;4;Public Finances
+54;A10G;2015;29;Public Finances
+54;A10G;2020;24;Public Finances
+54;A10G;2021;24;Public Finances
+54;A10G;2025;11;Public Finances
+55;A10G;2015;21;Public Finances
+55;A10G;2020;11;Public Finances
+55;A10G;2021;11;Public Finances
+55;A10G;2025;6;Public Finances
+56;A10G;2015;31;Public Finances
+56;A10G;2020;25;Public Finances
+56;A10G;2021;25;Public Finances
+56;A10G;2025;14;Public Finances
+57;A10G;2015;48;Public Finances
+57;A10G;2020;36;Public Finances
+57;A10G;2021;34;Public Finances
+57;A10G;2025;16;Public Finances
+58;A10G;2015;27;Public Finances
+58;A10G;2020;15;Public Finances
+58;A10G;2021;15;Public Finances
+58;A10G;2025;8;Public Finances
+59;A10G;2015;101;Public Finances
+59;A10G;2020;91;Public Finances
+59;A10G;2021;90;Public Finances
+59;A10G;2025;36;Public Finances
+60;A10G;2015;37;Public Finances
+60;A10G;2020;27;Public Finances
+60;A10G;2021;26;Public Finances
+60;A10G;2025;8;Public Finances
+61;A10G;2015;22;Public Finances
+61;A10G;2020;13;Public Finances
+61;A10G;2021;12;Public Finances
+61;A10G;2025;7;Public Finances
+62;A10G;2015;60;Public Finances
+62;A10G;2020;48;Public Finances
+62;A10G;2021;49;Public Finances
+62;A10G;2025;19;Public Finances
+63;A10G;2015;38;Public Finances
+63;A10G;2020;31;Public Finances
+63;A10G;2021;31;Public Finances
+63;A10G;2025;12;Public Finances
+64;A10G;2015;39;Public Finances
+64;A10G;2020;36;Public Finances
+64;A10G;2021;36;Public Finances
+64;A10G;2025;26;Public Finances
+65;A10G;2015;24;Public Finances
+65;A10G;2020;18;Public Finances
+65;A10G;2021;17;Public Finances
+65;A10G;2025;8;Public Finances
+66;A10G;2015;25;Public Finances
+66;A10G;2020;22;Public Finances
+66;A10G;2021;22;Public Finances
+66;A10G;2025;13;Public Finances
+67;A10G;2015;49;Public Finances
+67;A10G;2020;37;Public Finances
+67;A10G;2021;37;Public Finances
+67;A10G;2025;20;Public Finances
+68;A10G;2015;30;Public Finances
+68;A10G;2020;25;Public Finances
+68;A10G;2021;26;Public Finances
+68;A10G;2025;14;Public Finances
+69;A10G;2015;47;Public Finances
+69;A10G;2020;36;Public Finances
+69;A10G;2021;36;Public Finances
+69;A10G;2025;22;Public Finances
+70;A10G;2015;18;Public Finances
+70;A10G;2020;17;Public Finances
+70;A10G;2021;17;Public Finances
+70;A10G;2025;11;Public Finances
+71;A10G;2015;33;Public Finances
+71;A10G;2020;27;Public Finances
+71;A10G;2021;27;Public Finances
+71;A10G;2025;9;Public Finances
+72;A10G;2015;26;Public Finances
+72;A10G;2020;17;Public Finances
+72;A10G;2021;17;Public Finances
+72;A10G;2025;13;Public Finances
+73;A10G;2015;32;Public Finances
+73;A10G;2020;28;Public Finances
+73;A10G;2021;28;Public Finances
+73;A10G;2025;12;Public Finances
+74;A10G;2015;32;Public Finances
+74;A10G;2020;29;Public Finances
+74;A10G;2021;29;Public Finances
+74;A10G;2025;17;Public Finances
+75;A10G;2015;29;Public Finances
+75;A10G;2020;29;Public Finances
+75;A10G;2021;29;Public Finances
+75;A10G;2025;23;Public Finances
+76;A10G;2015;63;Public Finances
+76;A10G;2020;52;Public Finances
+76;A10G;2021;52;Public Finances
+76;A10G;2025;27;Public Finances
+77;A10G;2015;39;Public Finances
+77;A10G;2020;29;Public Finances
+77;A10G;2021;28;Public Finances
+77;A10G;2025;21;Public Finances
+78;A10G;2015;36;Public Finances
+78;A10G;2020;27;Public Finances
+78;A10G;2021;26;Public Finances
+78;A10G;2025;13;Public Finances
+79;A10G;2015;29;Public Finances
+79;A10G;2020;13;Public Finances
+79;A10G;2021;13;Public Finances
+79;A10G;2025;9;Public Finances
+80;A10G;2015;37;Public Finances
+80;A10G;2020;28;Public Finances
+80;A10G;2021;28;Public Finances
+80;A10G;2025;14;Public Finances
+81;A10G;2015;26;Public Finances
+81;A10G;2020;20;Public Finances
+81;A10G;2021;20;Public Finances
+81;A10G;2025;12;Public Finances
+82;A10G;2015;22;Public Finances
+82;A10G;2020;20;Public Finances
+82;A10G;2021;20;Public Finances
+82;A10G;2025;13;Public Finances
+83;A10G;2015;41;Public Finances
+83;A10G;2020;36;Public Finances
+83;A10G;2021;34;Public Finances
+83;A10G;2025;20;Public Finances
+84;A10G;2015;26;Public Finances
+84;A10G;2020;20;Public Finances
+84;A10G;2021;19;Public Finances
+84;A10G;2025;12;Public Finances
+85;A10G;2015;29;Public Finances
+85;A10G;2020;26;Public Finances
+85;A10G;2021;25;Public Finances
+85;A10G;2025;13;Public Finances
+86;A10G;2015;32;Public Finances
+86;A10G;2020;23;Public Finances
+86;A10G;2021;22;Public Finances
+86;A10G;2025;16;Public Finances
+87;A10G;2015;24;Public Finances
+87;A10G;2020;20;Public Finances
+87;A10G;2021;19;Public Finances
+87;A10G;2025;10;Public Finances
+88;A10G;2015;32;Public Finances
+88;A10G;2020;23;Public Finances
+88;A10G;2021;21;Public Finances
+88;A10G;2025;14;Public Finances
+89;A10G;2015;27;Public Finances
+89;A10G;2020;17;Public Finances
+89;A10G;2021;17;Public Finances
+89;A10G;2025;10;Public Finances
+90;A10G;2015;8;Public Finances
+90;A10G;2020;5;Public Finances
+90;A10G;2021;4;Public Finances
+90;A10G;2025;5;Public Finances
+91;A10G;2015;40;Public Finances
+91;A10G;2020;27;Public Finances
+91;A10G;2021;27;Public Finances
+91;A10G;2025;21;Public Finances
+92;A10G;2015;39;Public Finances
+92;A10G;2020;30;Public Finances
+92;A10G;2021;30;Public Finances
+92;A10G;2025;19;Public Finances
+93;A10G;2015;46;Public Finances
+93;A10G;2020;45;Public Finances
+93;A10G;2021;43;Public Finances
+93;A10G;2025;37;Public Finances
+94;A10G;2015;30;Public Finances
+94;A10G;2020;23;Public Finances
+94;A10G;2021;22;Public Finances
+94;A10G;2025;18;Public Finances
+95;A10G;2015;33;Public Finances
+95;A10G;2020;25;Public Finances
+95;A10G;2021;24;Public Finances
+95;A10G;2025;14;Public Finances
+01;A206;2015;90;Post Office
+01;A206;2020;66;Post Office
+01;A206;2021;65;Post Office
+01;A206;2025;57;Post Office
+02;A206;2015;93;Post Office
+02;A206;2020;84;Post Office
+02;A206;2021;84;Post Office
+02;A206;2025;77;Post Office
+03;A206;2015;88;Post Office
+03;A206;2020;60;Post Office
+03;A206;2021;59;Post Office
+03;A206;2025;54;Post Office
+04;A206;2015;53;Post Office
+04;A206;2020;46;Post Office
+04;A206;2021;45;Post Office
+04;A206;2025;42;Post Office
+05;A206;2015;42;Post Office
+05;A206;2020;31;Post Office
+05;A206;2021;31;Post Office
+05;A206;2025;29;Post Office
+06;A206;2015;134;Post Office
+06;A206;2020;107;Post Office
+06;A206;2021;102;Post Office
+06;A206;2025;87;Post Office
+07;A206;2015;72;Post Office
+07;A206;2020;55;Post Office
+07;A206;2021;49;Post Office
+07;A206;2025;40;Post Office
+08;A206;2015;55;Post Office
+08;A206;2020;43;Post Office
+08;A206;2021;43;Post Office
+08;A206;2025;38;Post Office
+09;A206;2015;57;Post Office
+09;A206;2020;44;Post Office
+09;A206;2021;43;Post Office
+09;A206;2025;39;Post Office
+10;A206;2015;44;Post Office
+10;A206;2020;36;Post Office
+10;A206;2021;36;Post Office
+10;A206;2025;34;Post Office
+11;A206;2015;117;Post Office
+11;A206;2020;96;Post Office
+11;A206;2021;95;Post Office
+11;A206;2025;82;Post Office
+12;A206;2015;70;Post Office
+12;A206;2020;52;Post Office
+12;A206;2021;51;Post Office
+12;A206;2025;50;Post Office
+13;A206;2015;211;Post Office
+13;A206;2020;177;Post Office
+13;A206;2021;175;Post Office
+13;A206;2025;158;Post Office
+14;A206;2015;108;Post Office
+14;A206;2020;90;Post Office
+14;A206;2021;89;Post Office
+14;A206;2025;71;Post Office
+15;A206;2015;37;Post Office
+15;A206;2020;30;Post Office
+15;A206;2021;30;Post Office
+15;A206;2025;27;Post Office
+16;A206;2015;71;Post Office
+16;A206;2020;59;Post Office
+16;A206;2021;59;Post Office
+16;A206;2025;48;Post Office
+17;A206;2015;109;Post Office
+17;A206;2020;96;Post Office
+17;A206;2021;95;Post Office
+17;A206;2025;81;Post Office
+18;A206;2015;66;Post Office
+18;A206;2020;52;Post Office
+18;A206;2021;52;Post Office
+18;A206;2025;46;Post Office
+19;A206;2015;74;Post Office
+19;A206;2020;58;Post Office
+19;A206;2021;58;Post Office
+19;A206;2025;43;Post Office
+21;A206;2015;82;Post Office
+21;A206;2020;53;Post Office
+21;A206;2021;51;Post Office
+21;A206;2025;44;Post Office
+22;A206;2015;122;Post Office
+22;A206;2020;96;Post Office
+22;A206;2021;95;Post Office
+22;A206;2025;79;Post Office
+23;A206;2015;61;Post Office
+23;A206;2020;48;Post Office
+23;A206;2021;48;Post Office
+23;A206;2025;38;Post Office
+24;A206;2015;108;Post Office
+24;A206;2020;86;Post Office
+24;A206;2021;82;Post Office
+24;A206;2025;73;Post Office
+25;A206;2015;87;Post Office
+25;A206;2020;63;Post Office
+25;A206;2021;60;Post Office
+25;A206;2025;51;Post Office
+26;A206;2015;93;Post Office
+26;A206;2020;68;Post Office
+26;A206;2021;64;Post Office
+26;A206;2025;55;Post Office
+27;A206;2015;88;Post Office
+27;A206;2020;78;Post Office
+27;A206;2021;77;Post Office
+27;A206;2025;68;Post Office
+28;A206;2015;54;Post Office
+28;A206;2020;51;Post Office
+28;A206;2021;51;Post Office
+28;A206;2025;41;Post Office
+29;A206;2015;142;Post Office
+29;A206;2020;113;Post Office
+29;A206;2021;111;Post Office
+29;A206;2025;87;Post Office
+2A;A206;2015;55;Post Office
+2A;A206;2020;54;Post Office
+2A;A206;2021;54;Post Office
+2A;A206;2025;54;Post Office
+2B;A206;2015;69;Post Office
+2B;A206;2020;66;Post Office
+2B;A206;2021;63;Post Office
+2B;A206;2025;57;Post Office
+30;A206;2015;135;Post Office
+30;A206;2020;120;Post Office
+30;A206;2021;120;Post Office
+30;A206;2025;98;Post Office
+31;A206;2015;162;Post Office
+31;A206;2020;144;Post Office
+31;A206;2021;141;Post Office
+31;A206;2025;121;Post Office
+32;A206;2015;48;Post Office
+32;A206;2020;39;Post Office
+32;A206;2021;39;Post Office
+32;A206;2025;37;Post Office
+33;A206;2015;228;Post Office
+33;A206;2020;173;Post Office
+33;A206;2021;169;Post Office
+33;A206;2025;145;Post Office
+34;A206;2015;178;Post Office
+34;A206;2020;151;Post Office
+34;A206;2021;149;Post Office
+34;A206;2025;138;Post Office
+35;A206;2015;127;Post Office
+35;A206;2020;97;Post Office
+35;A206;2021;97;Post Office
+35;A206;2025;85;Post Office
+36;A206;2015;56;Post Office
+36;A206;2020;40;Post Office
+36;A206;2021;40;Post Office
+36;A206;2025;36;Post Office
+37;A206;2015;103;Post Office
+37;A206;2020;68;Post Office
+37;A206;2021;68;Post Office
+37;A206;2025;58;Post Office
+38;A206;2015;147;Post Office
+38;A206;2020;117;Post Office
+38;A206;2021;114;Post Office
+38;A206;2025;97;Post Office
+39;A206;2015;46;Post Office
+39;A206;2020;34;Post Office
+39;A206;2021;33;Post Office
+39;A206;2025;29;Post Office
+40;A206;2015;81;Post Office
+40;A206;2020;65;Post Office
+40;A206;2021;64;Post Office
+40;A206;2025;55;Post Office
+41;A206;2015;61;Post Office
+41;A206;2020;54;Post Office
+41;A206;2021;54;Post Office
+41;A206;2025;47;Post Office
+42;A206;2015;107;Post Office
+42;A206;2020;83;Post Office
+42;A206;2021;82;Post Office
+42;A206;2025;71;Post Office
+43;A206;2015;57;Post Office
+43;A206;2020;46;Post Office
+43;A206;2021;46;Post Office
+43;A206;2025;38;Post Office
+44;A206;2015;177;Post Office
+44;A206;2020;139;Post Office
+44;A206;2021;135;Post Office
+44;A206;2025;102;Post Office
+45;A206;2015;82;Post Office
+45;A206;2020;63;Post Office
+45;A206;2021;63;Post Office
+45;A206;2025;51;Post Office
+46;A206;2015;47;Post Office
+46;A206;2020;38;Post Office
+46;A206;2021;37;Post Office
+46;A206;2025;36;Post Office
+47;A206;2015;66;Post Office
+47;A206;2020;54;Post Office
+47;A206;2021;50;Post Office
+47;A206;2025;37;Post Office
+48;A206;2015;42;Post Office
+48;A206;2020;37;Post Office
+48;A206;2021;34;Post Office
+48;A206;2025;25;Post Office
+49;A206;2015;98;Post Office
+49;A206;2020;84;Post Office
+49;A206;2021;82;Post Office
+49;A206;2025;71;Post Office
+50;A206;2015;77;Post Office
+50;A206;2020;67;Post Office
+50;A206;2021;65;Post Office
+50;A206;2025;58;Post Office
+51;A206;2015;73;Post Office
+51;A206;2020;58;Post Office
+51;A206;2021;55;Post Office
+51;A206;2025;48;Post Office
+52;A206;2015;39;Post Office
+52;A206;2020;28;Post Office
+52;A206;2021;28;Post Office
+52;A206;2025;25;Post Office
+53;A206;2015;42;Post Office
+53;A206;2020;35;Post Office
+53;A206;2021;35;Post Office
+53;A206;2025;28;Post Office
+54;A206;2015;119;Post Office
+54;A206;2020;105;Post Office
+54;A206;2021;103;Post Office
+54;A206;2025;83;Post Office
+55;A206;2015;42;Post Office
+55;A206;2020;29;Post Office
+55;A206;2021;29;Post Office
+55;A206;2025;26;Post Office
+56;A206;2015;123;Post Office
+56;A206;2020;102;Post Office
+56;A206;2021;100;Post Office
+56;A206;2025;79;Post Office
+57;A206;2015;125;Post Office
+57;A206;2020;98;Post Office
+57;A206;2021;94;Post Office
+57;A206;2025;73;Post Office
+58;A206;2015;53;Post Office
+58;A206;2020;44;Post Office
+58;A206;2021;42;Post Office
+58;A206;2025;40;Post Office
+59;A206;2015;324;Post Office
+59;A206;2020;285;Post Office
+59;A206;2021;276;Post Office
+59;A206;2025;241;Post Office
+60;A206;2015;125;Post Office
+60;A206;2020;108;Post Office
+60;A206;2021;106;Post Office
+60;A206;2025;100;Post Office
+61;A206;2015;42;Post Office
+61;A206;2020;35;Post Office
+61;A206;2021;35;Post Office
+61;A206;2025;34;Post Office
+62;A206;2015;212;Post Office
+62;A206;2020;158;Post Office
+62;A206;2021;155;Post Office
+62;A206;2025;142;Post Office
+63;A206;2015;129;Post Office
+63;A206;2020;108;Post Office
+63;A206;2021;107;Post Office
+63;A206;2025;104;Post Office
+64;A206;2015;105;Post Office
+64;A206;2020;86;Post Office
+64;A206;2021;82;Post Office
+64;A206;2025;72;Post Office
+65;A206;2015;62;Post Office
+65;A206;2020;44;Post Office
+65;A206;2021;44;Post Office
+65;A206;2025;41;Post Office
+66;A206;2015;102;Post Office
+66;A206;2020;92;Post Office
+66;A206;2021;92;Post Office
+66;A206;2025;79;Post Office
+67;A206;2015;132;Post Office
+67;A206;2020;102;Post Office
+67;A206;2021;98;Post Office
+67;A206;2025;85;Post Office
+68;A206;2015;91;Post Office
+68;A206;2020;71;Post Office
+68;A206;2021;70;Post Office
+68;A206;2025;60;Post Office
+69;A206;2015;183;Post Office
+69;A206;2020;148;Post Office
+69;A206;2021;142;Post Office
+69;A206;2025;123;Post Office
+70;A206;2015;55;Post Office
+70;A206;2020;36;Post Office
+70;A206;2021;34;Post Office
+70;A206;2025;29;Post Office
+71;A206;2015;102;Post Office
+71;A206;2020;80;Post Office
+71;A206;2021;77;Post Office
+71;A206;2025;64;Post Office
+72;A206;2015;73;Post Office
+72;A206;2020;56;Post Office
+72;A206;2021;54;Post Office
+72;A206;2025;42;Post Office
+73;A206;2015;82;Post Office
+73;A206;2020;62;Post Office
+73;A206;2021;60;Post Office
+73;A206;2025;52;Post Office
+74;A206;2015;107;Post Office
+74;A206;2020;82;Post Office
+74;A206;2021;80;Post Office
+74;A206;2025;75;Post Office
+75;A206;2015;187;Post Office
+75;A206;2020;149;Post Office
+75;A206;2021;139;Post Office
+75;A206;2025;128;Post Office
+76;A206;2015;151;Post Office
+76;A206;2020;132;Post Office
+76;A206;2021;132;Post Office
+76;A206;2025;118;Post Office
+77;A206;2015;182;Post Office
+77;A206;2020;158;Post Office
+77;A206;2021;154;Post Office
+77;A206;2025;131;Post Office
+78;A206;2015;134;Post Office
+78;A206;2020;103;Post Office
+78;A206;2021;102;Post Office
+78;A206;2025;87;Post Office
+79;A206;2015;53;Post Office
+79;A206;2020;45;Post Office
+79;A206;2021;45;Post Office
+79;A206;2025;38;Post Office
+80;A206;2015;87;Post Office
+80;A206;2020;78;Post Office
+80;A206;2021;75;Post Office
+80;A206;2025;63;Post Office
+81;A206;2015;62;Post Office
+81;A206;2020;54;Post Office
+81;A206;2021;52;Post Office
+81;A206;2025;45;Post Office
+82;A206;2015;61;Post Office
+82;A206;2020;47;Post Office
+82;A206;2021;47;Post Office
+82;A206;2025;43;Post Office
+83;A206;2015;165;Post Office
+83;A206;2020;128;Post Office
+83;A206;2021;126;Post Office
+83;A206;2025;107;Post Office
+84;A206;2015;102;Post Office
+84;A206;2020;81;Post Office
+84;A206;2021;80;Post Office
+84;A206;2025;70;Post Office
+85;A206;2015;86;Post Office
+85;A206;2020;63;Post Office
+85;A206;2021;62;Post Office
+85;A206;2025;47;Post Office
+86;A206;2015;89;Post Office
+86;A206;2020;68;Post Office
+86;A206;2021;65;Post Office
+86;A206;2025;45;Post Office
+87;A206;2015;75;Post Office
+87;A206;2020;62;Post Office
+87;A206;2021;60;Post Office
+87;A206;2025;53;Post Office
+88;A206;2015;76;Post Office
+88;A206;2020;51;Post Office
+88;A206;2021;49;Post Office
+88;A206;2025;43;Post Office
+89;A206;2015;55;Post Office
+89;A206;2020;37;Post Office
+89;A206;2021;35;Post Office
+89;A206;2025;29;Post Office
+90;A206;2015;21;Post Office
+90;A206;2020;15;Post Office
+90;A206;2021;14;Post Office
+90;A206;2025;12;Post Office
+91;A206;2015;115;Post Office
+91;A206;2020;96;Post Office
+91;A206;2021;95;Post Office
+91;A206;2025;91;Post Office
+92;A206;2015;102;Post Office
+92;A206;2020;81;Post Office
+92;A206;2021;80;Post Office
+92;A206;2025;74;Post Office
+93;A206;2015;98;Post Office
+93;A206;2020;93;Post Office
+93;A206;2021;91;Post Office
+93;A206;2025;91;Post Office
+94;A206;2015;96;Post Office
+94;A206;2020;80;Post Office
+94;A206;2021;81;Post Office
+94;A206;2025;74;Post Office
+95;A206;2015;119;Post Office
+95;A206;2020;95;Post Office
+95;A206;2021;90;Post Office
+95;A206;2025;78;Post Office
+01;A207;2015;53;Post Office Relay
+01;A207;2020;68;Post Office Relay
+01;A207;2021;62;Post Office Relay
+01;A207;2025;66;Post Office Relay
+02;A207;2015;19;Post Office Relay
+02;A207;2020;11;Post Office Relay
+02;A207;2021;12;Post Office Relay
+02;A207;2025;9;Post Office Relay
+03;A207;2015;22;Post Office Relay
+03;A207;2020;27;Post Office Relay
+03;A207;2021;26;Post Office Relay
+03;A207;2025;20;Post Office Relay
+04;A207;2015;2;Post Office Relay
+04;A207;2020;8;Post Office Relay
+04;A207;2021;9;Post Office Relay
+04;A207;2025;9;Post Office Relay
+05;A207;2015;5;Post Office Relay
+05;A207;2020;6;Post Office Relay
+05;A207;2021;4;Post Office Relay
+05;A207;2025;6;Post Office Relay
+06;A207;2015;7;Post Office Relay
+06;A207;2020;39;Post Office Relay
+06;A207;2021;45;Post Office Relay
+06;A207;2025;60;Post Office Relay
+07;A207;2015;12;Post Office Relay
+07;A207;2020;11;Post Office Relay
+07;A207;2021;13;Post Office Relay
+07;A207;2025;25;Post Office Relay
+08;A207;2015;20;Post Office Relay
+08;A207;2020;27;Post Office Relay
+08;A207;2021;25;Post Office Relay
+08;A207;2025;26;Post Office Relay
+09;A207;2015;3;Post Office Relay
+09;A207;2020;3;Post Office Relay
+09;A207;2021;4;Post Office Relay
+09;A207;2025;5;Post Office Relay
+10;A207;2015;32;Post Office Relay
+10;A207;2020;32;Post Office Relay
+10;A207;2021;31;Post Office Relay
+10;A207;2025;35;Post Office Relay
+11;A207;2015;7;Post Office Relay
+11;A207;2020;5;Post Office Relay
+11;A207;2021;5;Post Office Relay
+11;A207;2025;7;Post Office Relay
+12;A207;2015;21;Post Office Relay
+12;A207;2020;26;Post Office Relay
+12;A207;2021;24;Post Office Relay
+12;A207;2025;28;Post Office Relay
+13;A207;2015;12;Post Office Relay
+13;A207;2020;45;Post Office Relay
+13;A207;2021;52;Post Office Relay
+13;A207;2025;69;Post Office Relay
+14;A207;2015;18;Post Office Relay
+14;A207;2020;26;Post Office Relay
+14;A207;2021;26;Post Office Relay
+14;A207;2025;37;Post Office Relay
+15;A207;2015;28;Post Office Relay
+15;A207;2020;23;Post Office Relay
+15;A207;2021;24;Post Office Relay
+15;A207;2025;23;Post Office Relay
+16;A207;2015;22;Post Office Relay
+16;A207;2020;28;Post Office Relay
+16;A207;2021;27;Post Office Relay
+16;A207;2025;30;Post Office Relay
+17;A207;2015;39;Post Office Relay
+17;A207;2020;42;Post Office Relay
+17;A207;2021;42;Post Office Relay
+17;A207;2025;41;Post Office Relay
+18;A207;2015;8;Post Office Relay
+18;A207;2020;9;Post Office Relay
+18;A207;2021;7;Post Office Relay
+18;A207;2025;10;Post Office Relay
+19;A207;2015;7;Post Office Relay
+19;A207;2020;4;Post Office Relay
+19;A207;2021;4;Post Office Relay
+19;A207;2025;13;Post Office Relay
+21;A207;2015;21;Post Office Relay
+21;A207;2020;28;Post Office Relay
+21;A207;2021;28;Post Office Relay
+21;A207;2025;23;Post Office Relay
+22;A207;2015;22;Post Office Relay
+22;A207;2020;27;Post Office Relay
+22;A207;2021;28;Post Office Relay
+22;A207;2025;33;Post Office Relay
+23;A207;2015;11;Post Office Relay
+23;A207;2020;17;Post Office Relay
+23;A207;2021;17;Post Office Relay
+23;A207;2025;14;Post Office Relay
+24;A207;2015;22;Post Office Relay
+24;A207;2020;21;Post Office Relay
+24;A207;2021;19;Post Office Relay
+24;A207;2025;21;Post Office Relay
+25;A207;2015;25;Post Office Relay
+25;A207;2020;35;Post Office Relay
+25;A207;2021;34;Post Office Relay
+25;A207;2025;37;Post Office Relay
+26;A207;2015;18;Post Office Relay
+26;A207;2020;25;Post Office Relay
+26;A207;2021;26;Post Office Relay
+26;A207;2025;37;Post Office Relay
+27;A207;2015;24;Post Office Relay
+27;A207;2020;26;Post Office Relay
+27;A207;2021;26;Post Office Relay
+27;A207;2025;24;Post Office Relay
+28;A207;2015;19;Post Office Relay
+28;A207;2020;18;Post Office Relay
+28;A207;2021;16;Post Office Relay
+28;A207;2025;20;Post Office Relay
+29;A207;2015;18;Post Office Relay
+29;A207;2020;32;Post Office Relay
+29;A207;2021;32;Post Office Relay
+29;A207;2025;38;Post Office Relay
+2A;A207;2015;1;Post Office Relay
+2A;A207;2020;1;Post Office Relay
+2A;A207;2021;2;Post Office Relay
+2A;A207;2025;4;Post Office Relay
+2B;A207;2015;1;Post Office Relay
+2B;A207;2020;1;Post Office Relay
+2B;A207;2021;1;Post Office Relay
+2B;A207;2025;2;Post Office Relay
+30;A207;2015;14;Post Office Relay
+30;A207;2020;14;Post Office Relay
+30;A207;2021;14;Post Office Relay
+30;A207;2025;28;Post Office Relay
+31;A207;2015;7;Post Office Relay
+31;A207;2020;31;Post Office Relay
+31;A207;2021;36;Post Office Relay
+31;A207;2025;45;Post Office Relay
+32;A207;2015;22;Post Office Relay
+32;A207;2020;22;Post Office Relay
+32;A207;2021;20;Post Office Relay
+32;A207;2025;20;Post Office Relay
+33;A207;2015;53;Post Office Relay
+33;A207;2020;55;Post Office Relay
+33;A207;2021;55;Post Office Relay
+33;A207;2025;68;Post Office Relay
+34;A207;2015;3;Post Office Relay
+34;A207;2020;11;Post Office Relay
+34;A207;2021;12;Post Office Relay
+34;A207;2025;13;Post Office Relay
+35;A207;2015;43;Post Office Relay
+35;A207;2020;67;Post Office Relay
+35;A207;2021;64;Post Office Relay
+35;A207;2025;70;Post Office Relay
+36;A207;2015;14;Post Office Relay
+36;A207;2020;20;Post Office Relay
+36;A207;2021;19;Post Office Relay
+36;A207;2025;18;Post Office Relay
+37;A207;2015;33;Post Office Relay
+37;A207;2020;54;Post Office Relay
+37;A207;2021;54;Post Office Relay
+37;A207;2025;67;Post Office Relay
+38;A207;2015;39;Post Office Relay
+38;A207;2020;67;Post Office Relay
+38;A207;2021;76;Post Office Relay
+38;A207;2025;98;Post Office Relay
+39;A207;2015;24;Post Office Relay
+39;A207;2020;27;Post Office Relay
+39;A207;2021;27;Post Office Relay
+39;A207;2025;27;Post Office Relay
+40;A207;2015;10;Post Office Relay
+40;A207;2020;15;Post Office Relay
+40;A207;2021;16;Post Office Relay
+40;A207;2025;20;Post Office Relay
+41;A207;2015;42;Post Office Relay
+41;A207;2020;43;Post Office Relay
+41;A207;2021;42;Post Office Relay
+41;A207;2025;38;Post Office Relay
+42;A207;2015;28;Post Office Relay
+42;A207;2020;46;Post Office Relay
+42;A207;2021;41;Post Office Relay
+42;A207;2025;46;Post Office Relay
+43;A207;2015;12;Post Office Relay
+43;A207;2020;17;Post Office Relay
+43;A207;2021;16;Post Office Relay
+43;A207;2025;17;Post Office Relay
+44;A207;2015;32;Post Office Relay
+44;A207;2020;61;Post Office Relay
+44;A207;2021;62;Post Office Relay
+44;A207;2025;91;Post Office Relay
+45;A207;2015;26;Post Office Relay
+45;A207;2020;43;Post Office Relay
+45;A207;2021;40;Post Office Relay
+45;A207;2025;44;Post Office Relay
+46;A207;2015;24;Post Office Relay
+46;A207;2020;21;Post Office Relay
+46;A207;2021;15;Post Office Relay
+46;A207;2025;19;Post Office Relay
+47;A207;2015;14;Post Office Relay
+47;A207;2020;19;Post Office Relay
+47;A207;2021;23;Post Office Relay
+47;A207;2025;25;Post Office Relay
+48;A207;2015;10;Post Office Relay
+48;A207;2020;8;Post Office Relay
+48;A207;2021;6;Post Office Relay
+48;A207;2025;8;Post Office Relay
+49;A207;2015;69;Post Office Relay
+49;A207;2020;76;Post Office Relay
+49;A207;2021;75;Post Office Relay
+49;A207;2025;95;Post Office Relay
+50;A207;2015;39;Post Office Relay
+50;A207;2020;41;Post Office Relay
+50;A207;2021;39;Post Office Relay
+50;A207;2025;41;Post Office Relay
+51;A207;2015;27;Post Office Relay
+51;A207;2020;38;Post Office Relay
+51;A207;2021;39;Post Office Relay
+51;A207;2025;36;Post Office Relay
+52;A207;2015;12;Post Office Relay
+52;A207;2020;13;Post Office Relay
+52;A207;2021;13;Post Office Relay
+52;A207;2025;14;Post Office Relay
+53;A207;2015;39;Post Office Relay
+53;A207;2020;43;Post Office Relay
+53;A207;2021;44;Post Office Relay
+53;A207;2025;36;Post Office Relay
+54;A207;2015;16;Post Office Relay
+54;A207;2020;25;Post Office Relay
+54;A207;2021;23;Post Office Relay
+54;A207;2025;27;Post Office Relay
+55;A207;2015;24;Post Office Relay
+55;A207;2020;21;Post Office Relay
+55;A207;2021;21;Post Office Relay
+55;A207;2025;19;Post Office Relay
+56;A207;2015;21;Post Office Relay
+56;A207;2020;23;Post Office Relay
+56;A207;2021;25;Post Office Relay
+56;A207;2025;33;Post Office Relay
+57;A207;2015;44;Post Office Relay
+57;A207;2020;55;Post Office Relay
+57;A207;2021;56;Post Office Relay
+57;A207;2025;53;Post Office Relay
+58;A207;2015;12;Post Office Relay
+58;A207;2020;13;Post Office Relay
+58;A207;2021;12;Post Office Relay
+58;A207;2025;8;Post Office Relay
+59;A207;2015;20;Post Office Relay
+59;A207;2020;34;Post Office Relay
+59;A207;2021;40;Post Office Relay
+59;A207;2025;47;Post Office Relay
+60;A207;2015;28;Post Office Relay
+60;A207;2020;22;Post Office Relay
+60;A207;2021;22;Post Office Relay
+60;A207;2025;24;Post Office Relay
+61;A207;2015;46;Post Office Relay
+61;A207;2020;45;Post Office Relay
+61;A207;2021;46;Post Office Relay
+61;A207;2025;47;Post Office Relay
+62;A207;2015;16;Post Office Relay
+62;A207;2020;33;Post Office Relay
+62;A207;2021;32;Post Office Relay
+62;A207;2025;39;Post Office Relay
+63;A207;2015;27;Post Office Relay
+63;A207;2020;35;Post Office Relay
+63;A207;2021;34;Post Office Relay
+63;A207;2025;35;Post Office Relay
+64;A207;2015;19;Post Office Relay
+64;A207;2020;26;Post Office Relay
+64;A207;2021;32;Post Office Relay
+64;A207;2025;35;Post Office Relay
+65;A207;2015;8;Post Office Relay
+65;A207;2020;13;Post Office Relay
+65;A207;2021;14;Post Office Relay
+65;A207;2025;13;Post Office Relay
+66;A207;2015;3;Post Office Relay
+66;A207;2020;3;Post Office Relay
+66;A207;2021;3;Post Office Relay
+66;A207;2025;7;Post Office Relay
+67;A207;2015;59;Post Office Relay
+67;A207;2020;73;Post Office Relay
+67;A207;2021;70;Post Office Relay
+67;A207;2025;79;Post Office Relay
+68;A207;2015;56;Post Office Relay
+68;A207;2020;59;Post Office Relay
+68;A207;2021;60;Post Office Relay
+68;A207;2025;59;Post Office Relay
+69;A207;2015;40;Post Office Relay
+69;A207;2020;88;Post Office Relay
+69;A207;2021;83;Post Office Relay
+69;A207;2025;86;Post Office Relay
+70;A207;2015;15;Post Office Relay
+70;A207;2020;13;Post Office Relay
+70;A207;2021;14;Post Office Relay
+70;A207;2025;18;Post Office Relay
+71;A207;2015;40;Post Office Relay
+71;A207;2020;45;Post Office Relay
+71;A207;2021;47;Post Office Relay
+71;A207;2025;45;Post Office Relay
+72;A207;2015;35;Post Office Relay
+72;A207;2020;43;Post Office Relay
+72;A207;2021;45;Post Office Relay
+72;A207;2025;45;Post Office Relay
+73;A207;2015;22;Post Office Relay
+73;A207;2020;34;Post Office Relay
+73;A207;2021;31;Post Office Relay
+73;A207;2025;31;Post Office Relay
+74;A207;2015;23;Post Office Relay
+74;A207;2020;36;Post Office Relay
+74;A207;2021;37;Post Office Relay
+74;A207;2025;35;Post Office Relay
+75;A207;2015;1;Post Office Relay
+75;A207;2020;53;Post Office Relay
+75;A207;2021;60;Post Office Relay
+75;A207;2025;38;Post Office Relay
+76;A207;2015;23;Post Office Relay
+76;A207;2020;35;Post Office Relay
+76;A207;2021;33;Post Office Relay
+76;A207;2025;34;Post Office Relay
+77;A207;2015;12;Post Office Relay
+77;A207;2020;18;Post Office Relay
+77;A207;2021;21;Post Office Relay
+77;A207;2025;28;Post Office Relay
+78;A207;2015;17;Post Office Relay
+78;A207;2020;30;Post Office Relay
+78;A207;2021;31;Post Office Relay
+78;A207;2025;39;Post Office Relay
+79;A207;2015;32;Post Office Relay
+79;A207;2020;41;Post Office Relay
+79;A207;2021;36;Post Office Relay
+79;A207;2025;36;Post Office Relay
+80;A207;2015;16;Post Office Relay
+80;A207;2020;15;Post Office Relay
+80;A207;2021;15;Post Office Relay
+80;A207;2025;13;Post Office Relay
+81;A207;2015;19;Post Office Relay
+81;A207;2020;18;Post Office Relay
+81;A207;2021;18;Post Office Relay
+81;A207;2025;20;Post Office Relay
+82;A207;2015;4;Post Office Relay
+82;A207;2020;10;Post Office Relay
+82;A207;2021;8;Post Office Relay
+82;A207;2025;12;Post Office Relay
+83;A207;2015;8;Post Office Relay
+83;A207;2020;49;Post Office Relay
+83;A207;2021;52;Post Office Relay
+83;A207;2025;52;Post Office Relay
+84;A207;2015;6;Post Office Relay
+84;A207;2020;16;Post Office Relay
+84;A207;2021;15;Post Office Relay
+84;A207;2025;20;Post Office Relay
+85;A207;2015;41;Post Office Relay
+85;A207;2020;51;Post Office Relay
+85;A207;2021;52;Post Office Relay
+85;A207;2025;69;Post Office Relay
+86;A207;2015;26;Post Office Relay
+86;A207;2020;34;Post Office Relay
+86;A207;2021;29;Post Office Relay
+86;A207;2025;43;Post Office Relay
+87;A207;2015;15;Post Office Relay
+87;A207;2020;16;Post Office Relay
+87;A207;2021;13;Post Office Relay
+87;A207;2025;14;Post Office Relay
+88;A207;2015;20;Post Office Relay
+88;A207;2020;19;Post Office Relay
+88;A207;2021;20;Post Office Relay
+88;A207;2025;25;Post Office Relay
+89;A207;2015;34;Post Office Relay
+89;A207;2020;32;Post Office Relay
+89;A207;2021;30;Post Office Relay
+89;A207;2025;23;Post Office Relay
+90;A207;2015;4;Post Office Relay
+90;A207;2020;7;Post Office Relay
+90;A207;2021;7;Post Office Relay
+90;A207;2025;9;Post Office Relay
+91;A207;2015;10;Post Office Relay
+91;A207;2020;21;Post Office Relay
+91;A207;2021;21;Post Office Relay
+91;A207;2025;25;Post Office Relay
+92;A207;2015;4;Post Office Relay
+92;A207;2020;37;Post Office Relay
+92;A207;2021;37;Post Office Relay
+92;A207;2025;38;Post Office Relay
+93;A207;2015;1;Post Office Relay
+93;A207;2020;12;Post Office Relay
+93;A207;2021;15;Post Office Relay
+93;A207;2025;12;Post Office Relay
+94;A207;2015;4;Post Office Relay
+94;A207;2020;17;Post Office Relay
+94;A207;2021;22;Post Office Relay
+94;A207;2025;24;Post Office Relay
+95;A207;2015;4;Post Office Relay
+95;A207;2020;11;Post Office Relay
+95;A207;2021;12;Post Office Relay
+95;A207;2025;21;Post Office Relay
+01;A208;2015;49;Municipal Post Office
+01;A208;2020;55;Municipal Post Office
+01;A208;2021;55;Municipal Post Office
+01;A208;2025;59;Municipal Post Office
+02;A208;2015;70;Municipal Post Office
+02;A208;2020;78;Municipal Post Office
+02;A208;2021;78;Municipal Post Office
+02;A208;2025;88;Municipal Post Office
+03;A208;2015;72;Municipal Post Office
+03;A208;2020;98;Municipal Post Office
+03;A208;2021;98;Municipal Post Office
+03;A208;2025;106;Municipal Post Office
+04;A208;2015;42;Municipal Post Office
+04;A208;2020;46;Municipal Post Office
+04;A208;2021;48;Municipal Post Office
+04;A208;2025;50;Municipal Post Office
+05;A208;2015;46;Municipal Post Office
+05;A208;2020;55;Municipal Post Office
+05;A208;2021;54;Municipal Post Office
+05;A208;2025;55;Municipal Post Office
+06;A208;2015;62;Municipal Post Office
+06;A208;2020;71;Municipal Post Office
+06;A208;2021;71;Municipal Post Office
+06;A208;2025;75;Municipal Post Office
+07;A208;2015;92;Municipal Post Office
+07;A208;2020;106;Municipal Post Office
+07;A208;2021;109;Municipal Post Office
+07;A208;2025;114;Municipal Post Office
+08;A208;2015;34;Municipal Post Office
+08;A208;2020;37;Municipal Post Office
+08;A208;2021;37;Municipal Post Office
+08;A208;2025;43;Municipal Post Office
+09;A208;2015;41;Municipal Post Office
+09;A208;2020;54;Municipal Post Office
+09;A208;2021;54;Municipal Post Office
+09;A208;2025;56;Municipal Post Office
+10;A208;2015;31;Municipal Post Office
+10;A208;2020;36;Municipal Post Office
+10;A208;2021;38;Municipal Post Office
+10;A208;2025;39;Municipal Post Office
+11;A208;2015;105;Municipal Post Office
+11;A208;2020;125;Municipal Post Office
+11;A208;2021;127;Municipal Post Office
+11;A208;2025;137;Municipal Post Office
+12;A208;2015;103;Municipal Post Office
+12;A208;2020;116;Municipal Post Office
+12;A208;2021;116;Municipal Post Office
+12;A208;2025;119;Municipal Post Office
+13;A208;2015;11;Municipal Post Office
+13;A208;2020;21;Municipal Post Office
+13;A208;2021;27;Municipal Post Office
+13;A208;2025;33;Municipal Post Office
+14;A208;2015;57;Municipal Post Office
+14;A208;2020;71;Municipal Post Office
+14;A208;2021;71;Municipal Post Office
+14;A208;2025;80;Municipal Post Office
+15;A208;2015;66;Municipal Post Office
+15;A208;2020;75;Municipal Post Office
+15;A208;2021;75;Municipal Post Office
+15;A208;2025;82;Municipal Post Office
+16;A208;2015;96;Municipal Post Office
+16;A208;2020;102;Municipal Post Office
+16;A208;2021;102;Municipal Post Office
+16;A208;2025;108;Municipal Post Office
+17;A208;2015;113;Municipal Post Office
+17;A208;2020;121;Municipal Post Office
+17;A208;2021;120;Municipal Post Office
+17;A208;2025;131;Municipal Post Office
+18;A208;2015;80;Municipal Post Office
+18;A208;2020;94;Municipal Post Office
+18;A208;2021;94;Municipal Post Office
+18;A208;2025;99;Municipal Post Office
+19;A208;2015;79;Municipal Post Office
+19;A208;2020;95;Municipal Post Office
+19;A208;2021;96;Municipal Post Office
+19;A208;2025;107;Municipal Post Office
+21;A208;2015;78;Municipal Post Office
+21;A208;2020;99;Municipal Post Office
+21;A208;2021;100;Municipal Post Office
+21;A208;2025;107;Municipal Post Office
+22;A208;2015;78;Municipal Post Office
+22;A208;2020;97;Municipal Post Office
+22;A208;2021;98;Municipal Post Office
+22;A208;2025;108;Municipal Post Office
+23;A208;2015;50;Municipal Post Office
+23;A208;2020;56;Municipal Post Office
+23;A208;2021;56;Municipal Post Office
+23;A208;2025;66;Municipal Post Office
+24;A208;2015;117;Municipal Post Office
+24;A208;2020;135;Municipal Post Office
+24;A208;2021;139;Municipal Post Office
+24;A208;2025;147;Municipal Post Office
+25;A208;2015;43;Municipal Post Office
+25;A208;2020;58;Municipal Post Office
+25;A208;2021;59;Municipal Post Office
+25;A208;2025;66;Municipal Post Office
+26;A208;2015;54;Municipal Post Office
+26;A208;2020;70;Municipal Post Office
+26;A208;2021;73;Municipal Post Office
+26;A208;2025;79;Municipal Post Office
+27;A208;2015;38;Municipal Post Office
+27;A208;2020;44;Municipal Post Office
+27;A208;2021;45;Municipal Post Office
+27;A208;2025;55;Municipal Post Office
+28;A208;2015;45;Municipal Post Office
+28;A208;2020;47;Municipal Post Office
+28;A208;2021;47;Municipal Post Office
+28;A208;2025;54;Municipal Post Office
+29;A208;2015;93;Municipal Post Office
+29;A208;2020;103;Municipal Post Office
+29;A208;2021;104;Municipal Post Office
+29;A208;2025;120;Municipal Post Office
+2A;A208;2015;31;Municipal Post Office
+2A;A208;2020;31;Municipal Post Office
+2A;A208;2021;31;Municipal Post Office
+2A;A208;2025;30;Municipal Post Office
+2B;A208;2015;32;Municipal Post Office
+2B;A208;2020;34;Municipal Post Office
+2B;A208;2021;38;Municipal Post Office
+2B;A208;2025;43;Municipal Post Office
+30;A208;2015;64;Municipal Post Office
+30;A208;2020;75;Municipal Post Office
+30;A208;2021;75;Municipal Post Office
+30;A208;2025;85;Municipal Post Office
+31;A208;2015;52;Municipal Post Office
+31;A208;2020;59;Municipal Post Office
+31;A208;2021;59;Municipal Post Office
+31;A208;2025;67;Municipal Post Office
+32;A208;2015;32;Municipal Post Office
+32;A208;2020;38;Municipal Post Office
+32;A208;2021;38;Municipal Post Office
+32;A208;2025;38;Municipal Post Office
+33;A208;2015;115;Municipal Post Office
+33;A208;2020;137;Municipal Post Office
+33;A208;2021;141;Municipal Post Office
+33;A208;2025;148;Municipal Post Office
+34;A208;2015;80;Municipal Post Office
+34;A208;2020;99;Municipal Post Office
+34;A208;2021;101;Municipal Post Office
+34;A208;2025;109;Municipal Post Office
+35;A208;2015;78;Municipal Post Office
+35;A208;2020;86;Municipal Post Office
+35;A208;2021;87;Municipal Post Office
+35;A208;2025;87;Municipal Post Office
+36;A208;2015;55;Municipal Post Office
+36;A208;2020;62;Municipal Post Office
+36;A208;2021;62;Municipal Post Office
+36;A208;2025;65;Municipal Post Office
+37;A208;2015;85;Municipal Post Office
+37;A208;2020;98;Municipal Post Office
+37;A208;2021;98;Municipal Post Office
+37;A208;2025;99;Municipal Post Office
+38;A208;2015;115;Municipal Post Office
+38;A208;2020;121;Municipal Post Office
+38;A208;2021;123;Municipal Post Office
+38;A208;2025;119;Municipal Post Office
+39;A208;2015;62;Municipal Post Office
+39;A208;2020;69;Municipal Post Office
+39;A208;2021;70;Municipal Post Office
+39;A208;2025;76;Municipal Post Office
+40;A208;2015;67;Municipal Post Office
+40;A208;2020;74;Municipal Post Office
+40;A208;2021;75;Municipal Post Office
+40;A208;2025;84;Municipal Post Office
+41;A208;2015;52;Municipal Post Office
+41;A208;2020;57;Municipal Post Office
+41;A208;2021;59;Municipal Post Office
+41;A208;2025;62;Municipal Post Office
+42;A208;2015;55;Municipal Post Office
+42;A208;2020;65;Municipal Post Office
+42;A208;2021;68;Municipal Post Office
+42;A208;2025;66;Municipal Post Office
+43;A208;2015;45;Municipal Post Office
+43;A208;2020;53;Municipal Post Office
+43;A208;2021;54;Municipal Post Office
+43;A208;2025;62;Municipal Post Office
+44;A208;2015;48;Municipal Post Office
+44;A208;2020;60;Municipal Post Office
+44;A208;2021;62;Municipal Post Office
+44;A208;2025;73;Municipal Post Office
+45;A208;2015;46;Municipal Post Office
+45;A208;2020;55;Municipal Post Office
+45;A208;2021;57;Municipal Post Office
+45;A208;2025;60;Municipal Post Office
+46;A208;2015;47;Municipal Post Office
+46;A208;2020;57;Municipal Post Office
+46;A208;2021;60;Municipal Post Office
+46;A208;2025;61;Municipal Post Office
+47;A208;2015;70;Municipal Post Office
+47;A208;2020;75;Municipal Post Office
+47;A208;2021;79;Municipal Post Office
+47;A208;2025;89;Municipal Post Office
+48;A208;2015;22;Municipal Post Office
+48;A208;2020;28;Municipal Post Office
+48;A208;2021;31;Municipal Post Office
+48;A208;2025;42;Municipal Post Office
+49;A208;2015;94;Municipal Post Office
+49;A208;2020;95;Municipal Post Office
+49;A208;2021;93;Municipal Post Office
+49;A208;2025;93;Municipal Post Office
+50;A208;2015;40;Municipal Post Office
+50;A208;2020;50;Municipal Post Office
+50;A208;2021;52;Municipal Post Office
+50;A208;2025;53;Municipal Post Office
+51;A208;2015;53;Municipal Post Office
+51;A208;2020;60;Municipal Post Office
+51;A208;2021;60;Municipal Post Office
+51;A208;2025;64;Municipal Post Office
+52;A208;2015;67;Municipal Post Office
+52;A208;2020;74;Municipal Post Office
+52;A208;2021;74;Municipal Post Office
+52;A208;2025;76;Municipal Post Office
+53;A208;2015;50;Municipal Post Office
+53;A208;2020;52;Municipal Post Office
+53;A208;2021;52;Municipal Post Office
+53;A208;2025;60;Municipal Post Office
+54;A208;2015;48;Municipal Post Office
+54;A208;2020;56;Municipal Post Office
+54;A208;2021;56;Municipal Post Office
+54;A208;2025;70;Municipal Post Office
+55;A208;2015;54;Municipal Post Office
+55;A208;2020;67;Municipal Post Office
+55;A208;2021;67;Municipal Post Office
+55;A208;2025;70;Municipal Post Office
+56;A208;2015;63;Municipal Post Office
+56;A208;2020;80;Municipal Post Office
+56;A208;2021;80;Municipal Post Office
+56;A208;2025;92;Municipal Post Office
+57;A208;2015;68;Municipal Post Office
+57;A208;2020;90;Municipal Post Office
+57;A208;2021;91;Municipal Post Office
+57;A208;2025;106;Municipal Post Office
+58;A208;2015;72;Municipal Post Office
+58;A208;2020;79;Municipal Post Office
+58;A208;2021;81;Municipal Post Office
+58;A208;2025;86;Municipal Post Office
+59;A208;2015;53;Municipal Post Office
+59;A208;2020;82;Municipal Post Office
+59;A208;2021;88;Municipal Post Office
+59;A208;2025;118;Municipal Post Office
+60;A208;2015;61;Municipal Post Office
+60;A208;2020;74;Municipal Post Office
+60;A208;2021;74;Municipal Post Office
+60;A208;2025;79;Municipal Post Office
+61;A208;2015;39;Municipal Post Office
+61;A208;2020;44;Municipal Post Office
+61;A208;2021;44;Municipal Post Office
+61;A208;2025;45;Municipal Post Office
+62;A208;2015;38;Municipal Post Office
+62;A208;2020;73;Municipal Post Office
+62;A208;2021;76;Municipal Post Office
+62;A208;2025;86;Municipal Post Office
+63;A208;2015;91;Municipal Post Office
+63;A208;2020;101;Municipal Post Office
+63;A208;2021;102;Municipal Post Office
+63;A208;2025;107;Municipal Post Office
+64;A208;2015;45;Municipal Post Office
+64;A208;2020;57;Municipal Post Office
+64;A208;2021;58;Municipal Post Office
+64;A208;2025;64;Municipal Post Office
+65;A208;2015;32;Municipal Post Office
+65;A208;2020;44;Municipal Post Office
+65;A208;2021;45;Municipal Post Office
+65;A208;2025;46;Municipal Post Office
+66;A208;2015;59;Municipal Post Office
+66;A208;2020;65;Municipal Post Office
+66;A208;2021;66;Municipal Post Office
+66;A208;2025;74;Municipal Post Office
+67;A208;2015;46;Municipal Post Office
+67;A208;2020;55;Municipal Post Office
+67;A208;2021;57;Municipal Post Office
+67;A208;2025;57;Municipal Post Office
+68;A208;2015;41;Municipal Post Office
+68;A208;2020;48;Municipal Post Office
+68;A208;2021;48;Municipal Post Office
+68;A208;2025;51;Municipal Post Office
+69;A208;2015;56;Municipal Post Office
+69;A208;2020;68;Municipal Post Office
+69;A208;2021;73;Municipal Post Office
+69;A208;2025;72;Municipal Post Office
+70;A208;2015;58;Municipal Post Office
+70;A208;2020;73;Municipal Post Office
+70;A208;2021;73;Municipal Post Office
+70;A208;2025;78;Municipal Post Office
+71;A208;2015;92;Municipal Post Office
+71;A208;2020;105;Municipal Post Office
+71;A208;2021;106;Municipal Post Office
+71;A208;2025;121;Municipal Post Office
+72;A208;2015;108;Municipal Post Office
+72;A208;2020;115;Municipal Post Office
+72;A208;2021;117;Municipal Post Office
+72;A208;2025;126;Municipal Post Office
+73;A208;2015;56;Municipal Post Office
+73;A208;2020;67;Municipal Post Office
+73;A208;2021;68;Municipal Post Office
+73;A208;2025;68;Municipal Post Office
+74;A208;2015;41;Municipal Post Office
+74;A208;2020;56;Municipal Post Office
+74;A208;2021;56;Municipal Post Office
+74;A208;2025;59;Municipal Post Office
+75;A208;2015;0;Municipal Post Office
+75;A208;2020;0;Municipal Post Office
+75;A208;2021;0;Municipal Post Office
+75;A208;2025;0;Municipal Post Office
+76;A208;2015;63;Municipal Post Office
+76;A208;2020;70;Municipal Post Office
+76;A208;2021;70;Municipal Post Office
+76;A208;2025;82;Municipal Post Office
+77;A208;2015;47;Municipal Post Office
+77;A208;2020;67;Municipal Post Office
+77;A208;2021;71;Municipal Post Office
+77;A208;2025;87;Municipal Post Office
+78;A208;2015;34;Municipal Post Office
+78;A208;2020;44;Municipal Post Office
+78;A208;2021;44;Municipal Post Office
+78;A208;2025;54;Municipal Post Office
+79;A208;2015;47;Municipal Post Office
+79;A208;2020;51;Municipal Post Office
+79;A208;2021;51;Municipal Post Office
+79;A208;2025;54;Municipal Post Office
+80;A208;2015;67;Municipal Post Office
+80;A208;2020;74;Municipal Post Office
+80;A208;2021;76;Municipal Post Office
+80;A208;2025;92;Municipal Post Office
+81;A208;2015;37;Municipal Post Office
+81;A208;2020;45;Municipal Post Office
+81;A208;2021;46;Municipal Post Office
+81;A208;2025;49;Municipal Post Office
+82;A208;2015;34;Municipal Post Office
+82;A208;2020;44;Municipal Post Office
+82;A208;2021;44;Municipal Post Office
+82;A208;2025;44;Municipal Post Office
+83;A208;2015;21;Municipal Post Office
+83;A208;2020;34;Municipal Post Office
+83;A208;2021;36;Municipal Post Office
+83;A208;2025;50;Municipal Post Office
+84;A208;2015;24;Municipal Post Office
+84;A208;2020;38;Municipal Post Office
+84;A208;2021;38;Municipal Post Office
+84;A208;2025;46;Municipal Post Office
+85;A208;2015;79;Municipal Post Office
+85;A208;2020;86;Municipal Post Office
+85;A208;2021;88;Municipal Post Office
+85;A208;2025;89;Municipal Post Office
+86;A208;2015;75;Municipal Post Office
+86;A208;2020;87;Municipal Post Office
+86;A208;2021;87;Municipal Post Office
+86;A208;2025;96;Municipal Post Office
+87;A208;2015;68;Municipal Post Office
+87;A208;2020;77;Municipal Post Office
+87;A208;2021;79;Municipal Post Office
+87;A208;2025;82;Municipal Post Office
+88;A208;2015;43;Municipal Post Office
+88;A208;2020;67;Municipal Post Office
+88;A208;2021;68;Municipal Post Office
+88;A208;2025;71;Municipal Post Office
+89;A208;2015;96;Municipal Post Office
+89;A208;2020;115;Municipal Post Office
+89;A208;2021;117;Municipal Post Office
+89;A208;2025;124;Municipal Post Office
+90;A208;2015;6;Municipal Post Office
+90;A208;2020;8;Municipal Post Office
+90;A208;2021;8;Municipal Post Office
+90;A208;2025;10;Municipal Post Office
+91;A208;2015;26;Municipal Post Office
+91;A208;2020;35;Municipal Post Office
+91;A208;2021;35;Municipal Post Office
+91;A208;2025;36;Municipal Post Office
+92;A208;2015;3;Municipal Post Office
+92;A208;2020;6;Municipal Post Office
+92;A208;2021;6;Municipal Post Office
+92;A208;2025;9;Municipal Post Office
+93;A208;2015;3;Municipal Post Office
+93;A208;2020;4;Municipal Post Office
+93;A208;2021;3;Municipal Post Office
+93;A208;2025;3;Municipal Post Office
+94;A208;2015;5;Municipal Post Office
+94;A208;2020;9;Municipal Post Office
+94;A208;2021;9;Municipal Post Office
+94;A208;2025;10;Municipal Post Office
+95;A208;2015;15;Municipal Post Office
+95;A208;2020;23;Municipal Post Office
+95;A208;2021;25;Municipal Post Office
+95;A208;2025;27;Municipal Post Office
