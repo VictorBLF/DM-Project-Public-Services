@@ -18,6 +18,7 @@ library(tidyr)
 library(purrr)
 ```
 
+
 # Data import
 
 We can now proceed to the loading of our datasets.
@@ -60,7 +61,7 @@ france_serv<-read_excel("Clean datasets/clean_france_service_dataset.xlsx")
 
 ```{r}
 #| message: false
-# social minima
+# Number of social minima beneficiaries
 RSA  <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "RSA")
 PPA  <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "Prime d'activité")
 AAH  <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "AAH")
@@ -68,11 +69,12 @@ ASS  <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "ASS")
 ASPA <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "ASPA")
 ```
 
+
 # Data cleaning
 
 Now that we have our datasets loaded, we proceed to clean them so we have usable dataframes.
 
-Because the poverty rate files are different from one year to another, we have to proceed case by case
+Because the poverty rate files are different from one year to another, we have to proceed case by case.
 
 ```{r}
 # Poverty rates
@@ -117,8 +119,9 @@ pov23 <- pov23 |>
   rename(dpt_id = 1, `2023` = 2)
 ```
 
+We now join all the annual poverty rates to get a longitudinal dataframe:
+
 ```{r}
-# We join all the annual poverty rates to get a longitudinal dataframe
 pov_tot <- reduce(
   list(pov15, pov16, pov17, pov18, pov19, pov20, pov21, pov23),
   full_join,
@@ -173,6 +176,7 @@ housing<-housing |>
 ```
 
 ```{r}
+# BPE
 codes_ok <- c("A10G", "A104", "A206", "A207", "A208")
 labels <- tibble(
   FACILITY_TYPE = c("A10G", "A104", "A206", "A207", "A208"),
@@ -245,6 +249,7 @@ ASPA<-ASPA |>
 
 ```
 
+
 # Description of the files and other informations
 
 ## Link to our GitHub project:
@@ -277,9 +282,17 @@ https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/336_minima-
 
 ## Description of the sources
 
+The sources used are mainly INSEE
+
 ## Information about each data file
 
-The dataframes obtained after the import and the cleaning are the ones we are going to use for our study. They are the following - `pov_tot`: Poverty rate per department and per year (2015-2023 but without 2022, because the data was not available for this year.) - `unemp_tot`: Unemployment rate per department and per year (2015-2023) - `housing`: Number of social housing units per department and per year (2015-2023) - `AAH`, `ASPA`, `ASS`, `PPA`, `RSA`: Number of beneficiaries of each social minima (respectively Allocation aux adultes handicapés, Allocation de solidarité aux personnes âgées, Allocation de solidarité spécifique, Prime d’activité and Revenu de solidarité active), per department and per year (2015-2023 except for `RSA` and `PPA` that are 2016-2023 because they were combined in a single social minima before 2016) - `france_serv`: Number of France services houses per department and per year (2016-2023). Notice that they were implemented in 2020, so the values before 2020 are all zeros.
+The dataframes obtained after the import and the cleaning are the ones we are going to use for our study. They are the following:
+
+- `pov_tot`: Poverty rate per department and per year (2015-2023 but without 2022, because the data was not available for this year.) 
+- `unemp_tot`: Unemployment rate per department and per year (2015-2023) 
+- `housing`: Number of social housing units per department and per year (2015-2023) 
+- `AAH`, `ASPA`, `ASS`, `PPA`, `RSA`: Number of beneficiaries of each social minima (respectively Allocation aux adultes handicapés, Allocation de solidarité aux personnes âgées, Allocation de solidarité spécifique, Prime d’activité and Revenu de solidarité active), per department and per year (2015-2023 except for `RSA` and `PPA` that are 2016-2023 because they were combined in a single social minima before 2016.) 
+- `france_serv`: Number of France services houses per department and per year (2016-2023). Notice that they were implemented in 2020, so the values before 2020 are all zeros.
 
 We now implement a table for each dataframe, which contains its number of rows and number of columns:
 
@@ -320,6 +333,7 @@ We now implement a table for each dataframe, which contains its number of rows a
 | `r nrow(france_serv)`         | `r ncol(france_serv)`            |
 
 We notice that the number of rows and columns are always the same, because:
+
 - we always study the 96 departments of metropolitan France, so the number of rows is always 96
 - we always study the period 2015-2023 so there are 9 years and a column with the department number
 
