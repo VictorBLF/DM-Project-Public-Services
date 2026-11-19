@@ -68,7 +68,6 @@ ASS  <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "ASS")
 ASPA <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "ASPA")
 ```
 
-
 # Data cleaning
 
 Now that we have our datasets loaded, we proceed to clean them so we have usable dataframes.
@@ -199,13 +198,11 @@ ASPA<-ASPA |>
 
 ```
 
-
 # Description of the files and other informations
 
 ## Link to our GitHub project:
 
-The GitHub page of the project can be found at:
-https://github.com/VictorBLF/DM-Project-Public-Services
+The GitHub page of the project can be found at: https://github.com/VictorBLF/DM-Project-Public-Services
 
 ## Links to the sources used
 
@@ -231,19 +228,49 @@ https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/336_minima-
 
 https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/336_minima-sociaux-rsa-et-prime-d-activite/attachments/rsa_et_prime_d_activite_donnees_departementales_xlsx
 
-
 ## Description of the sources
-
-
 
 ## Information about each data file
 
-The dataframes obtained after the import and the cleaning are the ones we are going to use for our study. They are the following
-- `pov_tot`: Poverty rate per department and per year (2015-2023 but without 2022, because the data was not available for this year.)
-- `unemp_tot`: Unemployment rate per department and per year (2015-2023)
-- `housing`: Number of social housing units per department and per year (2015-2023)
-- `AAH`, `ASPA`, `ASS`, `PPA`, `RSA`: Number of beneficiaries of each social minima, per department and per year (2015-2023 except for `RSA` and `PPA` that are 2016-2023 because they were combined in a single social minima before 2016)
-- `france_serv`: Number of France services houses per department and per year (2016-2023). Notice that they were implemented in 2020, so the values before 2020 are all zeros.
+The dataframes obtained after the import and the cleaning are the ones we are going to use for our study. They are the following - `pov_tot`: Poverty rate per department and per year (2015-2023 but without 2022, because the data was not available for this year.) - `unemp_tot`: Unemployment rate per department and per year (2015-2023) - `housing`: Number of social housing units per department and per year (2015-2023) - `AAH`, `ASPA`, `ASS`, `PPA`, `RSA`: Number of beneficiaries of each social minima (respectively Allocation aux adultes handicapés, Allocation de solidarité aux personnes âgées, Allocation de solidarité spécifique, Prime d’activité and Revenu de solidarité active), per department and per year (2015-2023 except for `RSA` and `PPA` that are 2016-2023 because they were combined in a single social minima before 2016) - `france_serv`: Number of France services houses per department and per year (2016-2023). Notice that they were implemented in 2020, so the values before 2020 are all zeros.
+
+We now implement a table for each dataframe, which contains its number of rows and number of columns:
+
+| Number of rows of pov_tot | Number of columns of pov_tot |
+|---------------------------|------------------------------|
+| `r nrow(pov_tot)`         | `r ncol(pov_tot)`            |
+
+| Number of rows of unemp_tot | Number of columns of unemp_tot |
+|-----------------------------|--------------------------------|
+| `r nrow(unemp_tot)`         | `r ncol(unemp_tot)`            |
+
+| Number of rows of housing | Number of columns of housing |
+|---------------------------|------------------------------|
+| `r nrow(housing)`         | `r ncol(housing)`            |
+
+| Number of rows of AAH | Number of columns of AAH |
+|-----------------------|--------------------------|
+| `r nrow(AAH)`         | `r ncol(AAH)`            |
+
+| Number of rows of ASPA | Number of columns of ASPA |
+|------------------------|---------------------------|
+| `r nrow(ASPA)`         | `r ncol(ASPA)`            |
+
+| Number of rows of ASS | Number of columns of ASS |
+|-----------------------|--------------------------|
+| `r nrow(ASS)`         | `r ncol(ASS)`            |
+
+| Number of rows of PPA | Number of columns of PPA |
+|-----------------------|--------------------------|
+| `r nrow(PPA)`         | `r ncol(PPA)`            |
+
+| Number of rows of RSA | Number of columns of RSA |
+|-----------------------|--------------------------|
+| `r nrow(RSA)`         | `r ncol(RSA)`            |
+
+| Number of rows of france_serv | Number of columns of france_serv |
+|-------------------------------|----------------------------------|
+| `r nrow(france_serv)`         | `r ncol(france_serv)`            |
 
 ## Description of the key variables
 
@@ -255,11 +282,8 @@ The explanatory variables that we are going to use to understand the variations 
 
 We started by importing the datasets that we had in our folders `Clean datasets` or `Raw datasets`. This step is done in the `Data import` section. We sometimes skipped some rows of the datasets that were empty rows of our Excel files.
 
-Then we proceeded to the cleaning of the dataframes, in the `Data cleaning` section.
-Each dataframe had a unique structure, so the cleaning part really was specific to each of them.
-The usual actions we did were to `select` only the columns that were interesting for our study, `slice` out the rows that were not, and then `rename` the columns so they had coherent names.
+Then we proceeded to the cleaning of the dataframes, in the `Data cleaning` section. Each dataframe had a unique structure, so the cleaning part really was specific to each of them. The usual actions we did were to `select` only the columns that were interesting for our study, `slice` out the rows that were not, and then `rename` the columns so they had coherent names.
 
 For the poverty rates, we had to join all the annual dataframes so we could obtain a longitudinal one, where each row was a department and each column a year. The primary key we used to join was the department number (`dpt_id`).
-
 
 ## Research question
