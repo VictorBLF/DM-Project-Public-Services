@@ -18,8 +18,6 @@ library(tidyr)
 library(purrr)
 ```
 
-
-
 # Data import
 
 We can now proceed to the loading of our datasets.
@@ -47,7 +45,6 @@ pov23<-read_excel("Raw datasets/2023_department_poverty_rate.xlsx")
 # Unemployement rate (quarterly for now)
 unemp_quart<-read_excel("Raw datasets/Unemployment_rate_quarter.xlsx",skip=3)
 ```
-
 
 # Data cleaning
 
@@ -134,9 +131,6 @@ unemp_tot <- unemp_quart |>
 
 ```
 
-
-
-
 # Description of the files and other informations
 
 ## Link to our GitHub project:
@@ -145,18 +139,34 @@ https://github.com/VictorBLF/DM-Project-Public-Services
 
 ## Links to the sources used
 
+https://www.insee.fr/fr/information/7671867
 
+https://www.data.gouv.fr/datasets/liste-des-structures-labellisees-france-services
+
+https://www.insee.fr/fr/statistiques/8217537
+
+https://www.insee.fr/fr/outil-interactif/5367857/details/territoires/30_RPC/33_PAU/33J_FigureT1
+
+https://data.caf.fr/explore/dataset/s_sitfam_d_dep/table/?disjunctive.lieures&disjunctive.sitfam_d
+
+https://data.caf.fr/explore/dataset/al_s_type_log_zonegeo_dep/table/
+
+https://www.insee.fr/fr/statistiques/2012804
+
+https://www.statistiques.developpement-durable.gouv.fr/recherche?text=RPLS
+
+https://www.insee.fr/fr/statistiques/8721456
+
+https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/336_minima-sociaux-rsa-et-prime-d-activite/attachments/minima_sociaux_donnees_departementales_par_dispositif_xlsx
+
+https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/336_minima-sociaux-rsa-et-prime-d-activite/attachments/rsa_et_prime_d_activite_donnees_departementales_xlsx
 
 ## Description of the sources
 
-
 ## Information about each data file
-
 
 ## Description of the key variables
 
-
 ## Description of the data cleaning done
-
 
 ## Research question
