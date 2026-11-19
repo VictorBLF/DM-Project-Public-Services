@@ -16,6 +16,7 @@ library(readxl)
 library(dplyr)
 library(tidyr)
 library(purrr)
+library(readr)
 ```
 
 # Data import
@@ -69,7 +70,7 @@ ASPA <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "ASPA"
 ```
 
 ```{r}
-#PBE files 
+#BPE files 
 bpe_evol_raw <- read_csv2("Raw Datasets/DS_BPE_EVOLUTION_2025_data.csv",
                           col_types = cols(.default = col_character()))
 
@@ -191,6 +192,8 @@ labels <- tibble(
   facility_name = c("Public Finances", "National Gendarmerie", "Post Office",
                     "Post Office Relay", "Municipal Post Office")
 )
+
+#evolution dataset, departments 
 bpe_evol <- bpe_evol_raw |>
   filter(GEO_OBJECT == "DEP",
          !startsWith(GEO, "97"),
@@ -200,6 +203,7 @@ bpe_evol <- bpe_evol_raw |>
             year = as.integer(TIME_PERIOD),
             nb = as.numeric(OBS_VALUE))
 
+#We sum to have our data at department level, A120+A121=A10G
 bpe_2021 <- bpe_2021_raw |>
   filter(!startsWith(DEP, "97")) |>
   mutate(NB_EQUIP = as.numeric(NB_EQUIP),
@@ -208,10 +212,14 @@ bpe_2021 <- bpe_2021_raw |>
   group_by(DPT_ID = DEP, FACILITY_TYPE) |>
   summarise(nb = sum(NB_EQUIP), .groups = "drop") |>
   mutate(year = 2021L)
+
+#Puting both data together 
 bpe_long <- bind_rows(bpe_evol, bpe_2021) |>
   complete(DPT_ID, FACILITY_TYPE, year, fill = list(nb = 0)) |>
   left_join(labels, by = "FACILITY_TYPE") |>
   arrange(FACILITY_TYPE, DPT_ID, year)
+
+#Arranging to have 1 column per year
 bpe_clean <- bpe_long |>
   pivot_wider(names_from = year, values_from = nb, names_sort = TRUE) |>
   select(DPT_ID, FACILITY_TYPE, facility_name, everything())
@@ -219,10 +227,14 @@ nrow(bpe_clean)
 n_distinct(bpe_clean$DPT_ID)
 sort(unique(bpe_long$year))
 bpe_clean |> filter(if_any(where(is.numeric), is.na))
+
+#We check the national totals 
 bpe_long |>
   group_by(FACILITY_TYPE, facility_name, year) |>
   summarise(total = sum(nb), .groups = "drop") |>
   pivot_wider(names_from = year, values_from = total, names_sort = TRUE)
+
+#Saving
 write_csv2(bpe_clean, "Clean Datasets/bpe_dep_wide.csv")
 write_csv2(bpe_long, "Clean Datasets/bpe_dep_long.csv")
 rm(bpe_evol, bpe_2021)
