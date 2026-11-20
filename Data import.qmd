@@ -387,6 +387,8 @@ Social minima (DREES). DREES is the statistical service of the Ministry of Healt
 
 BPE (Insee). The "Base permanente des équipements" is an annual geolocated database of facilities and services available to the population (shops, health, education, sports, transport, etc.). We use it to describe the local availability of services.
 
+
+
 ## Information about each data file
 
 The dataframes obtained after the import and the cleaning are the ones we are going to use for our study. They are the following:
@@ -443,7 +445,7 @@ We now implement a table for each dataframe, which contains its number of rows a
 We notice that the number of rows and columns are almost always the same for these dataframes, because:
 
 - we always study the 96 departments of metropolitan France, so the number of rows is always 96
-- we always study the period 2015-2023 (or 2016-2023) so there are 8 or 9 years plus a column with the department number (which makes it 9 or 10 rows)
+- we always study the period 2015-2023 (or 2016-2023) so there are 8 or 9 years plus a column with the department number (which makes it 9 or 10 columns)
 
 | Number of rows of bpe_clean | Number of columns of bpe_clean |
 |-----------------------------|--------------------------------|
@@ -470,9 +472,10 @@ bpe_long |>
 
 ## Description of the key variables
 
-The outcome variables that we are going to study are the unemployment rate and the poverty rate in each department.
-
-The explanatory variables that we are going to use to understand the variations in these two outcome variables are: the number of social housing units, the number of beneficiaries of social minima, the number of France services houses and the number of facilites available in each department.
+Our main target variable is the poverty rate (pov_tot), defined as the share of the population living below 60% of the national median standard of living and expressed in percent (INSEE, Filosofi). 
+The main explanatory variable is the local presence of public services (bpe_clean), measured by the number of public finance offices, post offices, post office relays, municipal post offices and gendarmerie units in each department (INSEE, BPE). 
+We complement the poverty rate with two secondary outcomes: the number of recipients of social minima (RSA, AAH, ASPA, ASS, PPA) at 31 December, which measures precariousness (DREES), and the number of social housing units (housing), which measures the availability of affordable housing (SDES, RPLS). 
+The cumulative number of France Services one-stop shops (france_serv) captures the policy meant to compensate for the closure of other public services (ANCT). Finally, the unemployment rate (unemp_tot), an annual average of quarterly localised rates, and the total population (pop_dpt), used to compute rates per inhabitant, serve as control variables (INSEE).
 
 ## Description of the data cleaning done
 
@@ -481,6 +484,18 @@ We started by importing the datasets that we had in our folders `Clean datasets`
 Then we proceeded to the cleaning of the dataframes, in the `Data cleaning` section. Each dataframe had a unique structure, so the cleaning part really was specific to each of them. The usual actions we did were to `select` only the columns that were interesting for our study, `slice` out the rows that were not, and then `rename` the columns so they had coherent names.
 
 For the poverty rates, we had to join all the annual dataframes so we could obtain a longitudinal one, where each row was a department and each column a year. The primary key we used to join was the department number (`dpt_id`).
+
+For the population, from INSEE’s population estimates (one sheet per year), we kept the total population of each department for 2015 to 2023.
+
+The quarterly unemployment rates were reshaped to long format and averaged over the four quarters of each year to obtain annual rates.
+
+For the social housing, we removed the header rows of the Excel file, reordered the year columns from 2015 to 2023 and converted them to numbers.
+
+About the social minima, in the DREES files, we selected the tables for the RSA, AAH, ASS, ASPA and prime d’activité. For the RSA and the AAH, the DREES provides two values for 2016, before and after a methodological change: we kept the new methodology, consistent with later years. The RSA and prime d’activité series start in 2016, when the prime d’activité replaced part of the former RSA. Corsica, coded 20A and 20B in the DREES files, was recoded 2A and 2B to match the other sources.
+
+For the BPE, we kept department-level rows and five facility types. The 2021 file is at the IRIS level: we summed it by department. The public finance code of the evolution file (A10G) corresponds to two codes in the 2021 file (A120 and A121), which we merged. Missing combinations mean that a department has no facility of that type, so they were set to 0. The national totals (@tbl-bpe-totals) show that the 2021 values lie between the 2020 and 2025 values, which supports the consistency of the two files.
+
+For the graphical representations, we extracted the department layer of IGN’s Admin Express file, kept the metropolitan departments, and joined it to the poverty rates using the department code.
 
 ## Research question
 
