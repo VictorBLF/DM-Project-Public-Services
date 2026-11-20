@@ -34,14 +34,14 @@ here::i_am("Data Analysis Public Services.Rproj")
 ```{r}
 #| message: false
 # Poverty rates, where we don't import the first lines when they are not necessary
-pov15<-read_excel("Raw datasets/2015_department_poverty_rate.xlsx",skip=5)
-pov16<-read_excel("Raw datasets/2016_department_poverty_rate.xlsx",skip=5)
-pov17<-read_excel("Raw datasets/2017_department_poverty_rate.xlsx")
-pov18<-read_excel("Raw datasets/2018_department_poverty_rate.xlsx")
-pov19<-read_excel("Raw datasets/2019_department_poverty_rate.xlsx",skip=5)
-pov20<-read_excel("Raw datasets/2020_department_poverty_rate.xlsx",skip=5)
-pov21<-read_excel("Raw datasets/2021_department_poverty_rate.xlsx")
-pov23<-read_excel("Raw datasets/2023_department_poverty_rate.xlsx")
+pov15<-read_excel("Raw Datasets/2015_department_poverty_rate.xlsx",skip=5)
+pov16<-read_excel("Raw Datasets/2016_department_poverty_rate.xlsx",skip=5)
+pov17<-read_excel("Raw Datasets/2017_department_poverty_rate.xlsx")
+pov18<-read_excel("Raw Datasets/2018_department_poverty_rate.xlsx")
+pov19<-read_excel("Raw Datasets/2019_department_poverty_rate.xlsx",skip=5)
+pov20<-read_excel("Raw Datasets/2020_department_poverty_rate.xlsx",skip=5)
+pov21<-read_excel("Raw Datasets/2021_department_poverty_rate.xlsx")
+pov23<-read_excel("Raw Datasets/2023_department_poverty_rate.xlsx")
 ```
 
 ```{r}
@@ -192,7 +192,8 @@ housing <- housing |>
 
 housing<-housing |>
   select(dpt_id, rev(setdiff(names(housing), "dpt_id"))) |>
-  rename(`2015`=2,`2016`=3,`2017`=4,`2018`=5,`2019`=6,`2020`=7,`2021`=8,`2022`=9,`2023`=10,)
+  rename(`2015`=2,`2016`=3,`2017`=4,`2018`=5,`2019`=6,`2020`=7,`2021`=8,`2022`=9,`2023`=10,)|> 
+  mutate(across(-dpt_id, as.numeric))
 
 ```
 
@@ -354,6 +355,11 @@ BPE:
 
 https://www.insee.fr/fr/statistiques/8217532
 
+
+Admin Express: 
+
+https://www.data.gouv.fr/datasets/admin-express-cog-simplifiee-metropole-drom-saint-martin-saint-barthelemy
+
 ## Description of the sources
 
 Our data come from French public institutions, which publish official statistics under an open licence. Most files are produced by Insee, the "Institut National de la Statistique et des Etudes Economiques", which is responsible for collecting and publishing economic and social statistics. The others come from ministerial statistical services and from the open data platform data.gouv.fr.
@@ -475,7 +481,7 @@ We study the 96 departments of metropolitan France. Municipal data contain too m
 
 Our results should be read as associations rather than causal effects. Departments that lose public services are often those that were already declining, through population loss or economic difficulties. We address this bias by controlling for initial levels and demographic trends, and we discuss it explicitly when interpreting the results.
 
-## Graphic 
+## Graphical Representations
 
 This section focuses on our main target variable, the poverty rate. We first map the poverty rate by department in 2021, using the department boundaries from IGN’s Admin Express COG (simplified version), to show where poverty is concentrated. We then map the change in the poverty rate between 2015 and 2021, in percentage points, to show where poverty increased, decreased or remained stable over the period.
 We use 2021 rather than 2023 because the 2023 Filosofi data rely on a revised methodology and are not directly comparable with earlier years.
@@ -497,18 +503,28 @@ ggplot(map_data) +
 #| echo: false
 #| label: fig-poverty-change-map
 #| fig-cap: "Change in the poverty rate by department between 2015 and 2021 (percentage points). Sources: INSEE Filosofi; IGN Admin Express."
+#| fig-width: 8
+#| fig-height: 6
 
-change_colours <- c(
-  "Strong decrease (< -1.5 pts)" = "#2166ac",
-  "Decrease (-1.5 to -0.5 pts)"  = "#92c5de",
-  "Stable (-0.5 to +0.5 pts)"    = "#bdbdbd",
-  "Increase (> +0.5 pts)"        = "#d6604d"
-)
+change_labels <- c("Strong decrease (< -1.5 pts)",
+                   "Decrease (-1.5 to -0.5 pts)",
+                   "Stable (-0.5 to +0.5 pts)",
+                   "Increase (> +0.5 pts)")
 
-ggplot(map_data) +
+change_colours <- setNames(c("#2166ac", "#92c5de", "#bdbdbd", "#d6604d"),
+                           change_labels)
+
+map_change <- map_data |>
+  mutate(change_class = cut(change,
+                            breaks = c(-Inf, -1.5, -0.5, 0.5, Inf),
+                            labels = change_labels))
+
+ggplot(map_change) +
   geom_sf(aes(fill = change_class), colour = "grey30", linewidth = 0.15) +
   scale_fill_manual(values = change_colours, name = NULL,
-                    na.value = "black") +
-  theme_void()
+                    drop = FALSE, na.value = "black") +
+  theme_void() +
+  theme(legend.position = "right",
+        legend.text = element_text(size = 10))
 ```
 
