@@ -353,7 +353,7 @@ We notice that the number of rows and columns are always the same, because:
 |-----------------------------|--------------------------------|
 | `r nrow(bpe_clean)`         | `r ncol(bpe_clean)`            |
 
-For the file of the BPE, the format is different: 
+For the file of the BPE, the format is different:
 
 - the number of rows is the number of departments times the numbers of facility type that we study
 - 
