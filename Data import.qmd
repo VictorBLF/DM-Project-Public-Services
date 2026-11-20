@@ -48,37 +48,35 @@ pov23<-read_excel("Raw datasets/2023_department_poverty_rate.xlsx")
 #| message: false
 # Total population per department
 pop_dpt <- read_excel("Clean Datasets/pop_departments.xlsx")
-pop_dpt <- pop_dpt |>
-  rename(dpt_id = 1) |>
-  select(dpt_id, as.character(2015:2023))
+
 ```
 
 ```{r}
 #| message: false
 # Unemployement rate (quarterly for now)
-unemp_quart<-read_excel("Raw datasets/Unemployment_rate_quarter.xlsx",skip=3)
+unemp_quart<-read_excel("Raw Datasets/Unemployment_rate_quarter.xlsx",skip=3)
 ```
 
 ```{r}
 #| message: false
 # Number of social housing units
-housing<-read_excel("Raw datasets/Social_housing.xlsx")
+housing<-read_excel("Raw Datasets/Social_housing.xlsx")
 ```
 
 ```{r}
 #| message: false
 # Number of France services houses
-france_serv<-read_excel("Clean datasets/clean_france_service_dataset.xlsx")
+france_serv<-read_excel("Clean Datasets/clean_france_service_dataset.xlsx")
 ```
 
 ```{r}
 #| message: false
 # Number of social minima beneficiaries
-RSA  <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "RSA")
-PPA  <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "Prime d'activité")
-AAH  <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "AAH")
-ASS  <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "ASS")
-ASPA <- read_excel("Clean datasets/minimal_allocations_dpt.xlsx", sheet = "ASPA")
+RSA  <- read_excel("Clean Datasets/minimal_allocations_dpt.xlsx", sheet = "RSA")
+PPA  <- read_excel("Clean Datasets/minimal_allocations_dpt.xlsx", sheet = "Prime d'activité")
+AAH  <- read_excel("Clean Datasets/minimal_allocations_dpt.xlsx", sheet = "AAH")
+ASS  <- read_excel("Clean Datasets/minimal_allocations_dpt.xlsx", sheet = "ASS")
+ASPA <- read_excel("Clean Datasets/minimal_allocations_dpt.xlsx", sheet = "ASPA")
 ```
 
 ```{r}
@@ -159,6 +157,13 @@ pov_tot <- pov_tot |>
 # Now that we have pov_tot, we don't need the annual dataframes
 rm(pov15,pov16,pov17,pov18,pov19,pov20,pov21,pov23)
 ```
+
+```{r}
+pop_dpt <- pop_dpt |>
+  rename(dpt_id = 1) |>
+  select(dpt_id, as.character(2015:2023))
+```
+
 
 ```{r}
 # Unemployment rate
@@ -322,36 +327,40 @@ Poverty rates:
 
 https://www.insee.fr/fr/outil-interactif/5367857/details/territoires/30_RPC/33_PAU/33J_FigureT1
 
+
 Population per department:
 
 https://www.insee.fr/fr/statistiques/8721456
+
 
 Unemployment rate: 
 
 https://www.insee.fr/fr/statistiques/2012804
 
+
 Social housing:
 
 https://www.statistiques.developpement-durable.gouv.fr/recherche?text=RPLS
+
 
 List of France services houses:
 
 https://www.data.gouv.fr/datasets/liste-des-structures-labellisees-france-services
 
+
 Social minima:
 
 https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/336_minima-sociaux-rsa-et-prime-d-activite/attachments/minima_sociaux_donnees_departementales_par_dispositif_xlsx
 
-Social minima:
+
+RSA and prime d'activité:
 
 https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/336_minima-sociaux-rsa-et-prime-d-activite/attachments/rsa_et_prime_d_activite_donnees_departementales_xlsx
+
 
 BPE:
 
 https://www.insee.fr/fr/statistiques/8217537
-
-BPE: 
-
 https://www.insee.fr/fr/statistiques/8217532
 
 ## Description of the sources
@@ -388,6 +397,10 @@ We now implement a table for each dataframe, which contains its number of rows a
 | Number of rows of pov_tot | Number of columns of pov_tot |
 |---------------------------|------------------------------|
 | `r nrow(pov_tot)`         | `r ncol(pov_tot)`            |
+
+| Number of rows of pop_dpt | Number of columns of pop_dpt |
+|---------------------------|------------------------------|
+| `r nrow(pop_dpt)`         | `r ncol(pop_dpt)`            |
 
 | Number of rows of unemp_tot | Number of columns of unemp_tot |
 |-----------------------------|--------------------------------|
@@ -492,6 +505,7 @@ ggplot(map_data) +
   theme_void()
 
 ```
+We notice very different poverty rates according to the different departments. In particular, Seine-Saint-Denis (93) is the department with the highest poverty rate.
 
 ```{r}
 #| echo: false
@@ -511,4 +525,7 @@ ggplot(map_data) +
                     na.value = "black") +
   theme_void()
 ```
-
+We remark that a vast majority of departments have a relatively stable level of poverty.
+For the departments that experiences change in their poverty level, only a very few of them experienced a poverty decrease (and even less a strong decrease: only 3 departments).
+But the number of departments that experienced an increase in their poverty rate is higher.
+At first glance, we see no evident correlation between the poverty rate of a department and its change in poverty (figure 1 vs figure 2).
