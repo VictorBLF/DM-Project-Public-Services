@@ -3,7 +3,6 @@
 .RData
 .Ruserdata
 .DS_Store
-*.gpkg
 *.html
 *_files/
 .RDataTmp
