@@ -17,6 +17,8 @@ library(dplyr)
 library(tidyr)
 library(purrr)
 library(readr)
+library(ggplot2)
+library(sf)
 ```
 
 # Data import
@@ -40,6 +42,16 @@ pov20<-read_excel("Raw datasets/2020_department_poverty_rate.xlsx",skip=5)
 pov21<-read_excel("Raw datasets/2021_department_poverty_rate.xlsx")
 pov23<-read_excel("Raw datasets/2023_department_poverty_rate.xlsx")
 ```
+
+```{r}
+#| message: false
+#Total population per departments for our analysis
+pop_dpt <- read_excel("Clean Datasets/pop_departments.xlsx")
+pop_dpt <- pop_dpt |>
+  rename(dpt_id = 1) |>
+  select(dpt_id, as.character(2015:2023))
+```
+
 
 ```{r}
 #| message: false
@@ -262,6 +274,38 @@ ASPA<-ASPA |>
 
 ```
 
+```{r}
+#| message: false
+# Department boundaries (IGN Admin Express, simplified version)
+ae_file   <- "Raw Datasets/adminexpress-cog-simpl-000-2026.gpkg"
+dep_layer <- grep("^departement$", st_layers(ae_file)$name,
+                  ignore.case = TRUE, value = TRUE)[1]
+dep_raw   <- st_read(ae_file, layer = dep_layer, quiet = TRUE)
+code_col  <- intersect(c("INSEE_DEP", "insee_dep", "code_insee", "CODE_INSEE"),
+                       names(dep_raw))[1]
+
+# Metropolitan departments only, Lambert-93 projection
+dep_geo <- dep_raw |>
+  select(dpt_id = all_of(code_col)) |>
+  filter(dpt_id %in% pov_tot$dpt_id) |>
+  st_transform(2154)
+
+# Join with poverty rates and compute the 2015-2021 change
+map_data <- dep_geo |>
+  left_join(pov_tot |> select(dpt_id, `2015`, `2021`), by = "dpt_id") |>
+  mutate(change = `2021` - `2015`,
+         change_class = cut(change,
+                            breaks = c(-Inf, -1.5, -0.5, 0.5, 1.5, Inf),
+                            labels = c("Strong decrease (< -1.5 pts)",
+                                       "Decrease (-1.5 to -0.5 pts)",
+                                       "Stable (-0.5 to +0.5 pts)",
+                                       "Increase (+0.5 to +1.5 pts)",
+                                       "Strong increase (> +1.5 pts)")))
+
+rm(dep_raw)
+```
+
+
 # Description of the files and other informations
 
 ## Link to our GitHub project:
@@ -269,8 +313,6 @@ ASPA<-ASPA |>
 The GitHub page of the project can be found at: https://github.com/VictorBLF/DM-Project-Public-Services
 
 ## Links to the sources used
-
-https://www.insee.fr/fr/information/7671867
 
 https://www.data.gouv.fr/datasets/liste-des-structures-labellisees-france-services
 
@@ -291,6 +333,8 @@ https://www.insee.fr/fr/statistiques/8721456
 https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/336_minima-sociaux-rsa-et-prime-d-activite/attachments/minima_sociaux_donnees_departementales_par_dispositif_xlsx
 
 https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/336_minima-sociaux-rsa-et-prime-d-activite/attachments/rsa_et_prime_d_activite_donnees_departementales_xlsx
+
+https://www.insee.fr/fr/statistiques/8217532
 
 ## Description of the sources
 
@@ -344,10 +388,10 @@ We now implement a table for each dataframe, which contains its number of rows a
 |-------------------------------|----------------------------------|
 | `r nrow(france_serv)`         | `r ncol(france_serv)`            |
 
-We notice that the number of rows and columns are always the same, because:
+We notice that the number of rows and columns are almost always the same, because:
 
 - we always study the 96 departments of metropolitan France, so the number of rows is always 96
-- we always study the period 2015-2023 so there are 9 years and a column with the department number
+- we always study the period 2015-2023 (or 2016-2023) so there are 8 or 9 years and a column with the department number
 
 | Number of rows of bpe_clean | Number of columns of bpe_clean |
 |-----------------------------|--------------------------------|
@@ -356,7 +400,7 @@ We notice that the number of rows and columns are always the same, because:
 For the file of the BPE, the format is different:
 
 - the number of rows is the number of departments times the numbers of facility type that we study
-- 
+- the columns are the department code, the facility code, the facility name, and one column per year (2015, 2020, 2021, 2025).
 
 ```{r}
 #| echo: false 
@@ -386,14 +430,50 @@ For the poverty rates, we had to join all the annual dataframes so we could obta
 
 ## Research question
 
-Since the mid-2010s, the physical presence of public services across French territories has been deeply reorganised. Post offices have been closed or converted into lighter forms of service: municipal post offices run by town halls, and post office relays located in local shops. Between 2015 and 2025, the number of full post offices in metropolitan France fell by about a third, while relays and municipal post offices became more numerous. The network of public finance offices was restructured even more sharply, in particular with the “nouveau réseau de proximité” launched in 2019, which merged or closed many local tax and treasury offices. In parallel, the “France Services” one-stop shops were rolled out from 2020, partly to compensate for this retreat by gathering several administrations in a single place.
+Since the mid-2010s, the physical presence of public services across French territories has been reorganised. Post offices have been closed or converted into lighter forms of service: municipal post offices run by town halls, and post office relays located in local shops. Between 2015 and 2025, the number of full post offices in metropolitan France fell by about a third, while relays and municipal post offices became more numerous. The network of public finance offices was restructured even more sharply, in particular with the “nouveau réseau de proximité” launched in 2019, which merged or closed many local tax and treasury offices. In parallel, the “France Services” one-stop shops were rolled out from 2020, partly to compensate for this retreat by gathering several administrations in a single place.
 
-We ask whether departments where the local presence of public services declined more strongly experienced a different evolution of poverty, precariousness and housing difficulties than other departments. Our main target variable is the monetary poverty rate (INSEE, Filosofi). We complement it with three groups of indicators. Precariousness is measured by the number of recipients of minimum social benefits (RSA, AAH, minimum old-age pension ASPA, ASS) and of the in-work benefit (prime d’activité). Housing difficulties are measured by the number of households receiving housing benefits (APL, ALF, ALS) and by the size of the social housing stock. Finally, the share of benefit recipients living in single-parent families gives an insight into the most vulnerable households.
+We ask whether departments where the local presence of public services declined more strongly experienced a different evolution of poverty, precariousness and access to housing than other departments. Our main target variable is the monetary poverty rate (INSEE, Filosofi). We complement it with two groups of indicators. Precariousness is measured by the number of recipients of minimum social benefits (RSA, AAH, minimum old-age pension ASPA, ASS) and of the in-work benefit (prime d’activité), relative to population. Access to housing is measured by the size of the social housing stock per inhabitant, which reflects the availability of affordable housing for low-income households.
 
 We also explore, indirectly, one possible mechanism. When public services move further away or become less complete, people may claim fewer of the benefits they are entitled to, because procedures become harder to carry out without a nearby office (non take-up). No open data measure non take-up at the departmental level, so we cannot test this mechanism directly. However, if it is at work, departments losing more services should show a weaker increase in the number of benefit recipients than their evolution of poverty and unemployment would suggest. We therefore compare the evolution of benefit recipients with that of poverty, keeping in mind that this comparison only provides suggestive evidence.
 
-We study the 96 departments of metropolitan France. Municipal data contain too many gaps because of statistical confidentiality, whereas departmental series are complete. Since departments are a small number of entities, we use a longitudinal design: each department is followed over time, and the analysis relies on changes within departments rather than on cross-sectional comparisons only. Public services are measured by the number of public finance offices, post offices, post office relays, municipal post offices and gendarmerie units per inhabitant, from INSEE’s Permanent Facilities Database (BPE). Since these harmonised counts are available for 2015, 2020, 2021 and 2025, we compare changes over 2015–2020 and 2015–2021, the periods for which all our outcome variables are also observed, and use 2025 to describe the later acceleration of closures. Outcomes are related to these changes over the same periods, with a one-year lag as a robustness check, controlling for unemployment and population.
+We study the 96 departments of metropolitan France. Municipal data contain too many gaps because of statistical confidentiality, whereas departmental series are complete. Since departments are a small number of entities, we do a longitudinal analysis: each department is followed over time, and the analysis relies on changes within departments rather than on cross-sectional comparisons only. Public services are measured by the number of public finance offices, post offices, post office relays, municipal post offices and gendarmerie units per inhabitant, from INSEE’s Permanent Facilities Database (BPE). Since these harmonised counts are available for 2015, 2020, 2021 and 2025, we compare changes over 2015–2020 and 2015–2021, the periods for which all our outcome variables are also observed, and use 2025 to describe the later acceleration of closures. Outcomes are related to these changes over the same periods, with a one-year lag as a robustness check, controlling for unemployment and population.
 
 Our results should be read as associations rather than causal effects. Departments that lose public services are often those that were already declining, through population loss or economic difficulties. We address this bias by controlling for initial levels and demographic trends, and we discuss it explicitly when interpreting the results.
 
-\
+## Graphic 
+
+This section focuses on our main target variable, the poverty rate. We first map the poverty rate by department in 2021, using the department boundaries from IGN’s Admin Express COG (simplified version), to show where poverty is concentrated. We then map the change in the poverty rate between 2015 and 2021, in percentage points, to show where poverty increased, decreased or remained stable over the period.
+We use 2021 rather than 2023 because the 2023 Filosofi data rely on a revised methodology and are not directly comparable with earlier years.
+
+```{r}
+#| echo: false
+#| label: fig-poverty-map
+#| fig-cap: "Poverty rate by department in 2021 (%). Sources: INSEE Filosofi; IGN Admin Express."
+
+ggplot(map_data) +
+  geom_sf(aes(fill = `2021`), colour = "white", linewidth = 0.2) +
+  scale_fill_gradient(low = "#fde0dd", high = "#7a0177",
+                      name = "Poverty rate (%)") +
+  theme_void()
+
+```
+
+```{r}
+#| echo: false
+#| label: fig-poverty-change-map
+#| fig-cap: "Change in the poverty rate by department between 2015 and 2021 (percentage points). Sources: INSEE Filosofi; IGN Admin Express."
+
+change_colours <- c(
+  "Strong decrease (< -1.5 pts)" = "#2166ac",
+  "Decrease (-1.5 to -0.5 pts)"  = "#92c5de",
+  "Stable (-0.5 to +0.5 pts)"    = "#bdbdbd",
+  "Increase (> +0.5 pts)"        = "#d6604d"
+)
+
+ggplot(map_data) +
+  geom_sf(aes(fill = change_class), colour = "grey30", linewidth = 0.15) +
+  scale_fill_manual(values = change_colours, name = NULL,
+                    na.value = "black") +
+  theme_void()
+```
+
