@@ -1,6 +1,6 @@
 ---
 title: "Data import and cleaning"
-author: "Paul R, Victor B"
+authors: "Paul ROUSSEAU, Victor BUE-LE FLOCH"
 format: html
 editor: visual
 ---
@@ -11,6 +11,7 @@ We start by importing the packages we will need to load and clean our datasets.
 
 ```{r}
 #| message: false
+#| warning: false
 library(here)
 library(readxl)
 library(dplyr)
@@ -45,13 +46,12 @@ pov23<-read_excel("Raw datasets/2023_department_poverty_rate.xlsx")
 
 ```{r}
 #| message: false
-#Total population per departments for our analysis
+# Total population per department
 pop_dpt <- read_excel("Clean Datasets/pop_departments.xlsx")
 pop_dpt <- pop_dpt |>
   rename(dpt_id = 1) |>
   select(dpt_id, as.character(2015:2023))
 ```
-
 
 ```{r}
 #| message: false
@@ -305,40 +305,72 @@ map_data <- dep_geo |>
 rm(dep_raw)
 ```
 
-
 # Description of the files and other informations
 
 ## Link to our GitHub project:
 
-The GitHub page of the project can be found at: https://github.com/VictorBLF/DM-Project-Public-Services
+The GitHub page of the project can be found at:
+
+https://github.com/VictorBLF/DM-Project-Public-Services
 
 ## Links to the sources used
 
-https://www.data.gouv.fr/datasets/liste-des-structures-labellisees-france-services
+We list the sources in the same order that we loaded the data files in.
+Each link directs to a page where we can download the data files (either in a csv or a xlsx format).
 
-https://www.insee.fr/fr/statistiques/8217537
+Poverty rates:
 
 https://www.insee.fr/fr/outil-interactif/5367857/details/territoires/30_RPC/33_PAU/33J_FigureT1
 
-https://data.caf.fr/explore/dataset/s_sitfam_d_dep/table/?disjunctive.lieures&disjunctive.sitfam_d
-
-https://data.caf.fr/explore/dataset/al_s_type_log_zonegeo_dep/table/
-
-https://www.insee.fr/fr/statistiques/2012804
-
-https://www.statistiques.developpement-durable.gouv.fr/recherche?text=RPLS
+Population per department:
 
 https://www.insee.fr/fr/statistiques/8721456
 
+Unemployment rate: 
+
+https://www.insee.fr/fr/statistiques/2012804
+
+Social housing:
+
+https://www.statistiques.developpement-durable.gouv.fr/recherche?text=RPLS
+
+List of France services houses:
+
+https://www.data.gouv.fr/datasets/liste-des-structures-labellisees-france-services
+
+Social minima:
+
 https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/336_minima-sociaux-rsa-et-prime-d-activite/attachments/minima_sociaux_donnees_departementales_par_dispositif_xlsx
 
+Social minima:
+
 https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/336_minima-sociaux-rsa-et-prime-d-activite/attachments/rsa_et_prime_d_activite_donnees_departementales_xlsx
+
+BPE:
+
+https://www.insee.fr/fr/statistiques/8217537
+
+BPE: 
 
 https://www.insee.fr/fr/statistiques/8217532
 
 ## Description of the sources
 
-The sources used are mainly INSEE
+Our data come from French public institutions, which publish official statistics under an open licence. Most files are produced by Insee, the "Institut National de la Statistique et des Etudes Economiques", which is responsible for collecting and publishing economic and social statistics. The others come from ministerial statistical services and from the open data platform data.gouv.fr.
+
+Poverty rates (Insee). Poverty rates by departement come from Filosofi, a dataset built by Insee from tax records and social benefit data (provided by the tax administration and by family, pension and agricultural social security funds). The poverty rate is the share of the population whose standard of living is below 60% of the national median standard of living. It is expressed as a percentage.
+
+Population per departement (Insee). Annual population estimates by departement, based on the population census and updated with demographic data. We use them to compute per-capita indicators and to compare departements of very different sizes.
+
+Unemployment rate (Insee). Local unemployment rates by departement, based on the International Labour Organization definition. They combine the Labour Force Survey with administrative sources and are published quarterly.
+
+Social housing (SDES, RPLS). The RPLS (Répertoire des logements locatifs des bailleurs sociaux) is an annual inventory of social rental housing, managed by the statistical service of the Ministry of Ecological Transition (SDES). It records housing owned by social landlords, so it measures the supply of social housing in each departement.
+
+France Services structures (data.gouv.fr). A list of the “France Services” houses, one-stop shops that give residents access to several public services (tax, social benefits, employment, etc.) in one place. It gives the location of each structure and lets us measure access to public services.
+
+Social minima (DREES). DREES is the statistical service of the Ministry of Health and Solidarity. We use two files on social minima by departement: one by benefit scheme, and one specifically on RSA (the minimum income benefit) and the “prime d’activité” (an in-work benefit). They show how many households depend on these benefits in each area.
+
+BPE (Insee). The "Base permanente des équipements" is an annual geolocated database of facilities and services available to the population (shops, health, education, sports, transport, etc.). We use it to describe the local availability of services.
 
 ## Information about each data file
 
@@ -349,6 +381,7 @@ The dataframes obtained after the import and the cleaning are the ones we are go
 - `housing`: Number of social housing units per department and per year (2015-2023)
 - `AAH`, `ASPA`, `ASS`, `PPA`, `RSA`: Number of beneficiaries of each social minima (respectively Allocation aux adultes handicapés, Allocation de solidarité aux personnes âgées, Allocation de solidarité spécifique, Prime d’activité and Revenu de solidarité active), per department and per year (2015-2023 except for `RSA` and `PPA` that are 2016-2023 because they were combined in a single social minima before 2016.)
 - `france_serv`: Number of France services houses per department and per year (2016-2023). Notice that they were implemented in 2020, so the values before 2020 are all zeros.
+- `bpe_clean`: Number of structures of each facility type present in each department in the years 2015, 2020, 2021, 2025 (the BPE was not available for every year). The facility types we are interested in are: National Gendarmerie (A104), Public Finances (A10G), Post office (A206), Post office relay (A207), Municipal post office (A208).
 
 We now implement a table for each dataframe, which contains its number of rows and number of columns:
 
@@ -388,10 +421,10 @@ We now implement a table for each dataframe, which contains its number of rows a
 |-------------------------------|----------------------------------|
 | `r nrow(france_serv)`         | `r ncol(france_serv)`            |
 
-We notice that the number of rows and columns are almost always the same, because:
+We notice that the number of rows and columns are almost always the same for these dataframes, because:
 
 - we always study the 96 departments of metropolitan France, so the number of rows is always 96
-- we always study the period 2015-2023 (or 2016-2023) so there are 8 or 9 years and a column with the department number
+- we always study the period 2015-2023 (or 2016-2023) so there are 8 or 9 years plus a column with the department number (which makes it 9 or 10 rows)
 
 | Number of rows of bpe_clean | Number of columns of bpe_clean |
 |-----------------------------|--------------------------------|
@@ -401,6 +434,8 @@ For the file of the BPE, the format is different:
 
 - the number of rows is the number of departments times the numbers of facility type that we study
 - the columns are the department code, the facility code, the facility name, and one column per year (2015, 2020, 2021, 2025).
+
+We can also sum up the `clean_bpe` by representing the total number of structures for each facility type at the national level:
 
 ```{r}
 #| echo: false 
@@ -418,7 +453,7 @@ bpe_long |>
 
 The outcome variables that we are going to study are the unemployment rate and the poverty rate in each department.
 
-The explanatory variables that we are going to use to understand the variations in these two outcome variables are: the number of social housing units, the number of beneficiaries of social minima, and the number of France services houses.
+The explanatory variables that we are going to use to understand the variations in these two outcome variables are: the number of social housing units, the number of beneficiaries of social minima, the number of France services houses and the number of facilites available in each department.
 
 ## Description of the data cleaning done
 
